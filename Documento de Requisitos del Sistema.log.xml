@@ -2,7 +2,16 @@
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
@@ -11,21 +20,48 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0017] Entorno tecnológico actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
 <rem:owner>SEC-0014</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0016] Descripción de procesos de negocio actuales)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0015] Descripción de actores de negocio actuales)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0012] Fortalezas de la situación actual)]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0008] Introducción al dominio del problema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0018</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -37,26 +73,26 @@
 <rem:description><![CDATA[Añadido hijo nº2 ([SEC-0013] Debilidades de la situación actual)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0016</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0009] Glosario de términos del dominio del problema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0010</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:owner>SEC-0019</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
@@ -74,43 +110,7 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0010</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0008</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0012</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0018</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0019</rem:owner><rem:date>
+<rem:owner>SEC-0021</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
@@ -136,78 +136,6 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0023] Descripción de actores de negocio a implantar)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0009</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0024</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0010</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0017] Entorno tecnológico actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0020</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0008] Introducción al dominio del problema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0021</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0020</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0022] Modelos de proyecto de negocio a implantar)]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>C</rem:type>
 <rem:owner>SEC-0013</rem:owner><rem:date>
 <rem:year>2021</rem:year>
@@ -217,53 +145,17 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0015</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0014</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0015] Descripción de actores de negocio actuales)]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0010</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0011] Pros y contras de la situación actual)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0011</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0014</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:owner>SEC-0008</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
@@ -280,6 +172,15 @@
 <rem:description><![CDATA[Añadido hijo nº2 ([SEC-0019] Descripción del entorno de software actual)]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0022] Modelos de proyecto de negocio a implantar)]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>C</rem:type>
 <rem:owner>SEC-0023</rem:owner><rem:date>
 <rem:year>2021</rem:year>
@@ -289,8 +190,125 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0023] Descripción de actores de negocio a implantar)]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>C</rem:type>
-<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0009] Glosario de términos del dominio del problema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0012] Fortalezas de la situación actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0011] Pros y contras de la situación actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0016] Descripción de procesos de negocio actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0002] Alcance del proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
@@ -317,57 +335,12 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:owner>ORG-0001</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Objetivos del proyectoç] -> [Objetivos del proyecto]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0006] Objetivos del proyecto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0002] Alcance del proyecto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [STK-0006]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -377,33 +350,6 @@
 <rem:day>18</rem:day>
 </rem:date>
 <rem:description><![CDATA[Añadida organización desarrolladora [ORG-0002] IR-G2-ADT-04]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>ORG-0002</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -425,12 +371,21 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:owner>SEC-0006</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Objetivos del proyectoç] -> [Objetivos del proyecto]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -451,15 +406,6 @@
 <rem:description><![CDATA[Añadido hijo nº2 ([SEC-0003] Participantes en el proyecto)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0004</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0003</rem:owner><rem:date>
 <rem:year>2021</rem:year>
@@ -467,6 +413,15 @@
 <rem:day>18</rem:day>
 </rem:date>
 <rem:description><![CDATA[Añadido hijo nº1 ([SEC-0004] Organizaciones participantes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0006] Objetivos del proyecto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -478,40 +433,139 @@
 <rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
+<rem:type>C</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ORG-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
 <rem:owner>GLO-0003</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [[ANA-0001] Director] -> [[ANA-0001] Director de proyecto]]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Oberti es una asociación de integración social que se encuentra en Utrera, Sevilla. Su objetivo es el de apoyar lúdicamente a los niños para garantizar su crecimiento academico.] -> [Oberti es una asociación de integración social que se encuentra en Utrera, Sevilla. Su objetivo es el de apoyar lúdicamente a los niños para garantizar su crecimiento academico. ldsfjkahñsadklfoñs]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0003] jhgjmh)]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [STK-0006]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([STK-0005] Paco)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [STK-0006]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
 <rem:owner>STK-0005</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>20</rem:day>
+<rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Paco] -> [Paco Santiago Sosa]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0001] Oberti]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Telephone] actualizada [PD] -> [663 45 23 50]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0001] ALCANCE_PROY)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0002</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0003] Director)]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0001]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -532,6 +586,69 @@
 <rem:description><![CDATA[Eliminado hijo nº1 ([GLO-0003] Director)]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0003] jhgjmh)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Role] actualizada [] -> [Director]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsCustomer] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Paco] -> [Paco Santiago Sosa]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Oberti es una asociación de integración social que se encuentra en Utrera, Sevilla. Su objetivo es el de apoyar lúdicamente a los niños para garantizar su crecimiento academico. ldsfjkahñsadklfoñs] -> [Oberti es una asociación de integración social que se encuentra en Utrera, Sevilla. Su objetivo es el de apoyar lúdicamente a los niños para garantizar su crecimiento academico. ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [ADSFASDFAFD]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [STK-0006]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2021</rem:year>
@@ -541,22 +658,40 @@
 <rem:description><![CDATA[Eliminado el objeto [GLO-0003] Director con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0003</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [[ANA-001] Director] -> [[ANA-0001] Director]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [ORG-0003]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0001]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0003</rem:owner><rem:date>
+<rem:owner>STK-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0001]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -574,16 +709,7 @@
 <rem:month>10</rem:month>
 <rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0003</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [STK-0006]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -592,7 +718,25 @@
 <rem:month>10</rem:month>
 <rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [STK-0006]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [MET-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0002] OBJETIVOS)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0003] Director)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -616,133 +760,16 @@ El objetivo de nuestro cliente es informatizar los distintos procesos que realiz
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0015</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0003] [ANA-001] Director)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [MET-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [ORG-0003]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>STK-0005</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Role] actualizada [] -> [Director]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0002</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [ADSFASDFAFD]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Oberti es una asociación de integración social que se encuentra en Utrera, Sevilla. Su objetivo es el de apoyar lúdicamente a los niños para garantizar su crecimiento academico. ldsfjkahñsadklfoñs] -> [Oberti es una asociación de integración social que se encuentra en Utrera, Sevilla. Su objetivo es el de apoyar lúdicamente a los niños para garantizar su crecimiento academico. ]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>SEC-0004</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [STK-0006]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>STK-0005</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0001] Oberti]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0001] ALCANCE_PROY)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>ORG-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Telephone] actualizada [PD] -> [663 45 23 50]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0002] OBJETIVOS)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0005</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([STK-0005] Paco)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>STK-0005</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsCustomer] actualizada [false] -> [true]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([ORG-0002] IR-G2-ADT-04)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:owner>STK-0002</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
@@ -751,57 +778,12 @@ El objetivo de nuestro cliente es informatizar los distintos procesos que realiz
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>STK-0005</rem:owner><rem:date>
+<rem:owner>STK-0001</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0002</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [STK-0006]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Oberti es una asociación de integración social que se encuentra en Utrera, Sevilla. Su objetivo es el de apoyar lúdicamente a los niños para garantizar su crecimiento academico.] -> [Oberti es una asociación de integración social que se encuentra en Utrera, Sevilla. Su objetivo es el de apoyar lúdicamente a los niños para garantizar su crecimiento academico. ldsfjkahñsadklfoñs]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0005</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([STK-0004] Juan Jesús Martín Hernández)]]></rem:description>
+<rem:description><![CDATA[Clonado a partir de [STK-0006] María José Ruiz Vázquez del proyecto C:\Users\marta\OneDrive - UNIVERSIDAD DE SEVILLA\uni\SOFTWARE\2021-22\IR\System Requirements Document.rem]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -814,21 +796,12 @@ El objetivo de nuestro cliente es informatizar los distintos procesos que realiz
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:owner>STK-0002</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([STK-0002] Álvaro Gómez Nieto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>STK-0003</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Role] actualizada [PD] -> [Ingeniera de Requisitos]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] IR-G2-ADT-04]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -840,13 +813,13 @@ El objetivo de nuestro cliente es informatizar los distintos procesos que realiz
 <rem:description><![CDATA[Propiedad [IsDeveloper] actualizada [false] -> [true]]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>STK-0001</rem:owner><rem:date>
+<rem:type>U</rem:type>
+<rem:owner>STK-0003</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [STK-0006] María José Ruiz Vázquez del proyecto C:\Users\marta\OneDrive - UNIVERSIDAD DE SEVILLA\uni\SOFTWARE\2021-22\IR\System Requirements Document.rem]]></rem:description>
+<rem:description><![CDATA[Propiedad [Role] actualizada [PD] -> [Ingeniera de Requisitos]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -859,12 +832,75 @@ El objetivo de nuestro cliente es informatizar los distintos procesos que realiz
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:owner>STK-0001</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([STK-0001] María José Ruiz Vázquez)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] IR-G2-ADT-04]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] IR-G2-ADT-04]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsDeveloper] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([ORG-0001] Oberti)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Role] actualizada [PD] -> [Ingeniero de Requisitos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0027</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] IR-G2-ADT-04]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([STK-0002] Álvaro Gómez Nieto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -877,30 +913,30 @@ El objetivo de nuestro cliente es informatizar los distintos procesos que realiz
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:owner>ORG-0002</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0024] Descripción de procesos de negocio a implantar)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Address] actualizada [PD] -> [Escuela Técnica Superior de Ingeniería Informática, Av. Reina Mercedes s/n, 41012 Sevilla]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:owner>SEC-0005</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado hijo nº3 ([STK-0002] Álvaro Gómez Nieto)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([STK-0001] María José Ruiz Vázquez)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:owner>STK-0001</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [IsDeveloper] actualizada [false] -> [true]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Role] actualizada [PD] -> [Ingeniera de Requisitos]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -913,6 +949,24 @@ El objetivo de nuestro cliente es informatizar los distintos procesos que realiz
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsDeveloper] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº3 ([STK-0002] Álvaro Gómez Nieto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
 <rem:owner>ORG-0001</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
@@ -921,8 +975,53 @@ El objetivo de nuestro cliente es informatizar los distintos procesos que realiz
 <rem:description><![CDATA[Propiedad [Address] actualizada [PD] -> [Avenida Curro Guillén, 64, 41710 Utrera]]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0024] Descripción de procesos de negocio a implantar)]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>C</rem:type>
+<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0025</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([STK-0004] Juan Jesús Martín Hernández)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
 <rem:owner>STK-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Role] actualizada [PD] -> [Ingeniero de Requisitos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0004</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
 <rem:day>18</rem:day>
@@ -939,138 +1038,167 @@ El objetivo de nuestro cliente es informatizar los distintos procesos que realiz
 <rem:description><![CDATA[Añadido hijo nº2 ([STK-0002] Álvaro Gómez Nieto)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0027</rem:owner><rem:date>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº3 ([GLO-0006] [ANA-0004] Familias)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0006] [ANA-0004] Familias)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:owner>GLO-0005</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([ORG-0001] Oberti)]]></rem:description>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([PRG-0005] [ANA-0003] Voluntarios)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [[ANA-0001] Director] -> [[ANA-0001] Director de proyecto]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0003] [ANA-001] Director)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0006] [ANA-0004] Familias)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [asdfasdf] -> [La función del director es controlar la financiación del proyecto, el seguimiento económico, el trato con los padres y la comunicación.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:owner>GLO-0004</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:owner>GLO-0003</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] IR-G2-ADT-04]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Name] actualizada [[ANA-001] Director] -> [[ANA-0001] Director]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:owner>GLO-0004</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([ORG-0002] IR-G2-ADT-04)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Actualmente, hay una pedagoga para reforzar el trabajo con los niños.
+]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>STK-0001</rem:owner><rem:date>
+<rem:owner>GLO-0004</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] IR-G2-ADT-04]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [Dependiendo de las necesidades de los proyectos durante el año, se necesitarán distintos profesionales como psicólogos, pedagogos, etc.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:owner>GLO-0003</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [IsDeveloper] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>STK-0001</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Role] actualizada [PD] -> [Ingeniera de Requisitos]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>STK-0002</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Role] actualizada [PD] -> [Ingeniero de Requisitos]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [El mínimo de horas son 15h, y el director está contratado para 20h semanales.
+]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:owner>GLO-0005</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:owner>GLO-0003</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Role] actualizada [PD] -> [Ingeniero de Requisitos]]]></rem:description>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0001]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>STK-0002</rem:owner><rem:date>
+<rem:owner>SEC-0015</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] IR-G2-ADT-04]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0025</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>STK-0004</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] IR-G2-ADT-04]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>ORG-0002</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Address] actualizada [PD] -> [Escuela Técnica Superior de Ingeniería Informática, Av. Reina Mercedes s/n, 41012 Sevilla]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([GLO-0004] [ANA-0002] Profesional Contratado)]]></rem:description>
 </rem:change>
 </rem:log>
