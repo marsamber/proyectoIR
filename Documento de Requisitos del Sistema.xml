@@ -17,7 +17,7 @@
 <rem:preparedFor organizations = "ORG-0001 "/>
 <rem:preparedBy organizations = "ORG-0002 "/>
 <rem:section oid="SEC-0001">
-<rem:name>Introducción</rem:name>
+<rem:name>Introducciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -56,7 +56,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Oberti es una asociación de integración social que se encuentra en Utrera, Sevilla. Su objetivo es el de apoyar lúdicamente a los niños para garantizar su crecimiento academico. </rem:text>
+<rem:text>Oberti es una asociaciï¿½n de integraciï¿½n social que se encuentra en Utrera, Sevilla. Su objetivo es el de apoyar lï¿½dicamente a los niï¿½os para garantizar su crecimiento academico. </rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0003">
@@ -100,7 +100,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:address>Avenida Curro Guillén, 64, 41710 Utrera</rem:address>
+<rem:address>Avenida Curro Guillï¿½n, 64, 41710 Utrera</rem:address>
 <rem:telephone>663 45 23 50</rem:telephone>
 <rem:fax><rem:tbd/></rem:fax>
 </rem:organization>
@@ -117,7 +117,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:address>Escuela Técnica Superior de Ingeniería Informática, Av. Reina Mercedes s/n, 41012 Sevilla</rem:address>
+<rem:address>Escuela Tï¿½cnica Superior de Ingenierï¿½a Informï¿½tica, Av. Reina Mercedes s/n, 41012 Sevilla</rem:address>
 <rem:telephone>954 55 10 00</rem:telephone>
 <rem:fax><rem:tbd/></rem:fax>
 </rem:organization>
@@ -137,7 +137,7 @@
 <rem:level>3</rem:level>
 <rem:number>1.2.2 </rem:number>
 <rem:stakeholder oid="STK-0001">
-<rem:name>María José Ruiz Vázquez</rem:name>
+<rem:name>Marï¿½a Josï¿½ Ruiz Vï¿½zquez</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -153,7 +153,7 @@
 <rem:worksFor organization = "ORG-0002"/>
 </rem:stakeholder>
 <rem:stakeholder oid="STK-0002">
-<rem:name>Álvaro Gómez Nieto</rem:name>
+<rem:name>ï¿½lvaro Gï¿½mez Nieto</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -185,7 +185,7 @@
 <rem:worksFor organization = "ORG-0002"/>
 </rem:stakeholder>
 <rem:stakeholder oid="STK-0004">
-<rem:name>Juan Jesús Martín Hernández</rem:name>
+<rem:name>Juan Jesï¿½s Martï¿½n Hernï¿½ndez</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -244,12 +244,12 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>El objetivo del proyecto de Oberti es desarrollar un sistema de información que satisfaga las necesidades actuales de la asociación.<br/><br/>El objetivo de nuestro cliente es informatizar los distintos procesos que realizan, como pueden ser autorizaciones para excursiones de los niños, formularios para registrar a los niños y formularios sociales para los padres. También tener una aplicación para organizar la programación de actividades de distintas áreas, como son la educativa, familiar, de voluntariado y de gestión, e incluir también los objetivos que se buscan con esas actividades.</rem:text>
+<rem:text>El objetivo del proyecto de Oberti es desarrollar un sistema de informaciï¿½n que satisfaga las necesidades actuales de la asociaciï¿½n.<br/><br/>El objetivo de nuestro cliente es informatizar los distintos procesos que realizan, como pueden ser autorizaciones para excursiones de los niï¿½os, formularios para registrar a los niï¿½os y formularios sociales para los padres. Tambiï¿½n tener una aplicaciï¿½n para organizar la programaciï¿½n de actividades de distintas ï¿½reas, como son la educativa, familiar, de voluntariado y de gestiï¿½n, e incluir tambiï¿½n los objetivos que se buscan con esas actividades.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0007">
-<rem:name>Información sobre el dominio del problema</rem:name>
+<rem:name>Informaciï¿½n sobre el dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -263,7 +263,7 @@
 <rem:level>1</rem:level>
 <rem:number>2 </rem:number>
 <rem:section oid="SEC-0008">
-<rem:name>Introducción al dominio del problema</rem:name>
+<rem:name>Introducciï¿½n al dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -278,7 +278,7 @@
 <rem:number>2.1 </rem:number>
 </rem:section>
 <rem:section oid="SEC-0009">
-<rem:name>Glosario de términos del dominio del problema</rem:name>
+<rem:name>Glosario de tï¿½rminos del dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -294,7 +294,7 @@
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0010">
-<rem:name>Descripción de la situación actual</rem:name>
+<rem:name>Descripciï¿½n de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -308,7 +308,7 @@
 <rem:level>1</rem:level>
 <rem:number>3 </rem:number>
 <rem:section oid="SEC-0011">
-<rem:name>Pros y contras de la situación actual</rem:name>
+<rem:name>Pros y contras de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -322,7 +322,7 @@
 <rem:level>2</rem:level>
 <rem:number>3.1 </rem:number>
 <rem:section oid="SEC-0012">
-<rem:name>Fortalezas de la situación actual</rem:name>
+<rem:name>Fortalezas de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -337,7 +337,7 @@
 <rem:number>3.1.1 </rem:number>
 </rem:section>
 <rem:section oid="SEC-0013">
-<rem:name>Debilidades de la situación actual</rem:name>
+<rem:name>Debilidades de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -367,7 +367,7 @@
 <rem:level>2</rem:level>
 <rem:number>3.2 </rem:number>
 <rem:section oid="SEC-0015">
-<rem:name>Descripción de actores de negocio actuales</rem:name>
+<rem:name>Descripciï¿½n de actores de negocio actuales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -391,8 +391,8 @@
 <rem:day>20</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>El mínimo de horas son 15h, y el director está contratado para 20h semanales.<br/></rem:comments>
-<rem:text>La función del director es controlar la financiación del proyecto, el seguimiento económico, el trato con los padres y la comunicación.</rem:text>
+<rem:comments>El mï¿½nimo de horas son 15h, y el director estï¿½ contratado para 20h semanales.<br/></rem:comments>
+<rem:text>La funciï¿½n del director es controlar la financiaciï¿½n del proyecto, el seguimiento econï¿½mico, el trato con los padres y la comunicaciï¿½n.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0004">
 <rem:name>[ANA-0002] Profesional Contratado</rem:name>
@@ -405,8 +405,8 @@
 <rem:day>20</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Actualmente, hay una pedagoga para reforzar el trabajo con los niños.<br/></rem:comments>
-<rem:text>Dependiendo de las necesidades de los proyectos durante el año, se necesitarán distintos profesionales como psicólogos, pedagogos, etc.</rem:text>
+<rem:comments>Actualmente, hay una pedagoga para reforzar el trabajo con los niï¿½os.<br/></rem:comments>
+<rem:text>Dependiendo de las necesidades de los proyectos durante el aï¿½o, se necesitarï¿½n distintos profesionales como psicï¿½logos, pedagogos, etc.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0005">
 <rem:name>[ANA-0003] Voluntarios</rem:name>
@@ -420,7 +420,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Actualmente cuentan con 20 voluntarios.</rem:comments>
-<rem:text>Trabajan con los niños a modo de tutores sin remuneración.</rem:text>
+<rem:text>Trabajan con los niï¿½os a modo de tutores sin remuneraciï¿½n.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0006">
 <rem:name>[ANA-0004] Familias</rem:name>
@@ -438,7 +438,7 @@
 </rem:glossaryItem>
 </rem:section>
 <rem:section oid="SEC-0016">
-<rem:name>Descripción de procesos de negocio actuales</rem:name>
+<rem:name>Descripciï¿½n de procesos de negocio actuales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -454,7 +454,7 @@
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0017">
-<rem:name>Entorno tecnológico actual</rem:name>
+<rem:name>Entorno tecnolï¿½gico actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -468,7 +468,7 @@
 <rem:level>2</rem:level>
 <rem:number>3.3 </rem:number>
 <rem:section oid="SEC-0018">
-<rem:name>Descripción del entorno de hardware actual</rem:name>
+<rem:name>Descripciï¿½n del entorno de hardware actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -493,11 +493,11 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Oberti cuenta con material informático que ofrecce a los niños, como son ordenadores y tablets. También están preparando un proyecto para llegar a un acuerdo con Dell, que les proporcionará más material para informatizar un poco más la asociación.<br/></rem:text>
+<rem:text>Oberti cuenta con material informï¿½tico que ofrecce a los niï¿½os, como son ordenadores y tablets. Tambiï¿½n estï¿½n preparando un proyecto para llegar a un acuerdo con Dell, que les proporcionarï¿½ mï¿½s material para informatizar un poco mï¿½s la asociaciï¿½n.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0019">
-<rem:name>Descripción del entorno de software actual</rem:name>
+<rem:name>Descripciï¿½n del entorno de software actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -522,7 +522,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Cuenta con una página web, en la que ofrecen información sobre ellos, sobre las actividades que realizan, sobre cómo colaborar con ellos, etc. Cuentan también con redes sociales como Facebook e Instagram, y para realizar las tareas de contabilidad, utilizan Excel.<br/></rem:text>
+<rem:text>Cuenta con una pï¿½gina web, en la que ofrecen informaciï¿½n sobre ellos, sobre las actividades que realizan, sobre cï¿½mo colaborar con ellos, etc. Cuentan tambiï¿½n con redes sociales como Facebook e Instagram, y para realizar las tareas de contabilidad, utilizan Excel.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -571,7 +571,7 @@
 <rem:level>2</rem:level>
 <rem:number>4.2 </rem:number>
 <rem:section oid="SEC-0023">
-<rem:name>Descripción de actores de negocio a implantar</rem:name>
+<rem:name>Descripciï¿½n de actores de negocio a implantar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -586,7 +586,7 @@
 <rem:number>4.2.1 </rem:number>
 </rem:section>
 <rem:section oid="SEC-0024">
-<rem:name>Descripción de procesos de negocio a implantar</rem:name>
+<rem:name>Descripciï¿½n de procesos de negocio a implantar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -618,7 +618,7 @@
 <rem:number>A </rem:number>
 </rem:appendix>
 <rem:appendix oid="SEC-0026">
-<rem:name>Documentación relevante</rem:name>
+<rem:name>Documentaciï¿½n relevante</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -633,7 +633,7 @@
 <rem:number>B </rem:number>
 </rem:appendix>
 <rem:appendix oid="SEC-0027">
-<rem:name>Glosario de acrónimos y abreviaturas</rem:name>
+<rem:name>Glosario de acrï¿½nimos y abreviaturas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -649,7 +649,7 @@
 </rem:appendix>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
-<rem:name>Documento de Análisis del Sistema</rem:name>
+<rem:name>Documento de Anï¿½lisis del Sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -733,8 +733,8 @@
 <rem:description>Integer numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0004">
-<rem:name>Natural</rem:name>
+<rem:predefinedValueType oid="PVT-0005">
+<rem:name>String</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -745,7 +745,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Natural numbers</rem:description>
+<rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0005">
@@ -796,16 +796,16 @@
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
 <rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
+<rem:name>pendiente de anï¿½lisis</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de anï¿½lisis</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
+<rem:name>pendiente de realizaciï¿½n</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
@@ -820,7 +820,7 @@
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:name>en proceso de negociaciï¿½n</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
@@ -829,10 +829,10 @@
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:name>en proceso de negociaciï¿½n</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>eliminado</rem:name>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
@@ -840,13 +840,13 @@
 <rem:defectTypeValue oid = "DTV-0001">
 <rem:name>PD</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnologï¿½a actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
@@ -858,61 +858,61 @@
 <rem:defectTypeValue oid = "DTV-0004">
 <rem:name>Incomprensibilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algï¿½n lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
+<rem:name>Incompleciï¿½n</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberï¿½ hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organizaciï¿½n incorrecta</rem:name>
 <rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+<![CDATA[El requisito o requisitos no estï¿½n organizados correctamente segï¿½n la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:name>Dependiente del diseï¿½o</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseï¿½o del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0015">
 <rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+<![CDATA[El requisito o requisitos no estï¿½n expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
 <rem:name>No rastreabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
+<rem:name>Imprecisiï¿½n</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numï¿½ricas siempre que sea posible con el nivel adecuado de precisiï¿½n]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
 <rem:name>No implementabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen mï¿½s de una interpretaciï¿½n posible]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:name>Organizaciï¿½n incorrecta</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+<![CDATA[El requisito o requisitos no estï¿½n organizados correctamente segï¿½n la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0008">
 <rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma mï¿½s concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
@@ -933,10 +933,10 @@
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+<![CDATA[El requisito o requisitos no estï¿½n trazados hacia sus orï¿½genes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0010">
@@ -949,25 +949,25 @@
 <rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
+<rem:name>quedarï¿½a bien</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
 </rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
@@ -975,17 +975,17 @@
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcciï¿½n</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
+<rem:name>en construcciï¿½n</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
+<rem:name>pendiente de verificaciï¿½n</rem:name>
 </rem:statusValue>
 <rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
+<rem:name>continï¿½a</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
@@ -1000,7 +1000,7 @@
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
+<rem:name>aï¿½o(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0009">
 <rem:name>hora(s)</rem:name>
@@ -1012,22 +1012,22 @@
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
+<rem:name>dï¿½a(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
+<rem:name>dï¿½cima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
+<rem:name>centï¿½sima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0011">
 <rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
