@@ -381,7 +381,7 @@
 <rem:level>3</rem:level>
 <rem:number>3.2.1 </rem:number>
 <rem:glossaryItem oid="GLO-0003">
-<rem:name>[ANA-0001] Director de proyecto</rem:name>
+<rem:name>[ANA-0001] Director de proyecto o coordinador</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -451,6 +451,104 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.2.2 </rem:number>
+<rem:glossaryItem oid="GLO-0009">
+<rem:name>[PNA-0001] Plan de voluntariado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El voluntario en cuestión firma un contrato al inicio del año por la ley del menor.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        A través del certificado digital, se recibe un certificado de delitos sexuales que debe ser negativo.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Si es negativo, el voluntario propone ideas para una programación inicial del curso que se revisa a mitad del<br/>        curso y al final.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        En las revisiones el voluntario le transmite al coordinador cómo van y una formación específica de trabajo.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Una vez terminado, el coordinador revisa el trimestre con el voluntario y viene un especialista del tema a darle<br/>        un curso como agradecimiento para que éste se vaya capacitando.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0010">
+<rem:name>[PNA-0002] Planificación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador tiene en Excel una plantilla con una especie de programa para el año.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Éste va revisando y mira en la planificación los objetivos que ha alcanzado de una semana en concreto. Tiene un<br/>        grado de cumplimiento establecido y tareas que debe hacer.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Al final del año ve si ha cumplido el objetivo final que se propuso y lo compureba de manera analógica.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0011">
+<rem:name>[PNA-0003] Realización de los informes sociales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se reune con los padres del proyecto una vez al trimestre.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Recaba datos sobre cómo se incrementa su renta, cómo están comiendo, qué acceso tienen al vestuario, etc.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Esos datos los rellenan los padres en papel y después el coordinador los pasa a un Word.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0012">
+<rem:name>[PNA-0004] Autorizaciones para salidas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador coge una plantilla que tiene hecha en Word y la modifica para la salida en cuestión.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Imprime las autorizaciones y se las da a cada niño para que las firmen sus familias.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Si los niños traen las autorizaciones firmadas:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                Pueden asistir a la salida.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>        Si no la traen firmada porque se les ha olvidado:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                El coordinador les pide un mensaje de WhatsApp de los padres diciendo que autorizan a su<br/>                hijo y ya más adelante les pedirá la firma. De esta forma podrán asistir a la salida.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0013">
+<rem:name>[PNA-0005] Base de datos de los niños</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>El coordinador tiene un informe detallado por familia pero también tiene una base de datos de los niños en la que guarda por ejemplo el proceso educativo de éste. Si ve que el niño tiene problemas en su avance educativo<br/>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se pone en contacto con orientación (el departamento psicológico del colegio).<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        El departamento le pasa informes sobre si lo han evaluado, si el niño tiene alguna discapacidad, si tiene alguna<br/>        dificultad en el aprendizaje, etc.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Toda esa información el coordinador la va guardando a mano.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0014">
+<rem:name>[PNA-0006] Control de gastos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador tiene un Excel donde tiene apuntado el presupuesto por concepto para todo el año.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Cuando realiza algún gasto, lo mete en el Excel para ir controlándolos.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Finalmente justifica todas esas facturas para mandárselas a sus financiadores.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0015">
+<rem:name>[PNA-0007] Donaciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        Se tiene una plataforma (Amigos de Oberti) donde la gente puede ir haciendo donaciones.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        La gente interesada se inscribe en un formulario.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        El coordinador pasa a tener las cuentas de los inscritos.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Éste va lanzando los boletines de cobro todos los meses y luego los va revisando uno a uno puesto que muchos<br/>        acaban denegados, o se los devuelven o vienen con recargo.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+</rem:glossaryItem>
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0017">
@@ -664,7 +762,7 @@
 </rem:time>
 <rem:place>Organización Oberti, Utrera, Sevilla</rem:place>
 <rem:results>Primer contacto en persona con el cliente.<br/>Tras revisar el documento de requisitos, preguntamos cuestiones generales sobre la jerarquía de la empresa, las actividades realizadas, cómo se realizan las gestiones de la organización, la informatización de ésta, posibles mejoras y las donaciones.<br/>Como resultado, empezamos a trabajar en la elicitación de requisitos.</rem:results>
-	<rem:attenders stakeholders = "STK-0002 STK-0004 STK-0005 STK-0001 "/>
+	<rem:attenders stakeholders = "STK-0001 STK-0002 STK-0004 STK-0005 "/>
 </rem:meeting>
 </rem:appendix>
 <rem:appendix oid="SEC-0026">
@@ -845,32 +943,32 @@
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verificado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
-</rem:conflictStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
@@ -881,16 +979,16 @@
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
-<rem:name>PD</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
@@ -899,10 +997,22 @@
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0001">
@@ -917,10 +1027,40 @@
 <![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0004">
@@ -929,10 +1069,16 @@
 <![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0010">
@@ -947,56 +1093,11 @@
 <![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
@@ -1004,47 +1105,50 @@
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
-</rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0003">
-<rem:name>media</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
-</rem:statusValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
+</rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
-</rem:terminationValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
@@ -1052,41 +1156,35 @@
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0009">
 <rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
 <rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
