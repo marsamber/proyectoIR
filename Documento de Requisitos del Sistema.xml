@@ -44,19 +44,19 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>1.1 </rem:number>
-<rem:paragraph oid="PRG-0001">
-<rem:name>ALCANCE_PROY</rem:name>
+<rem:paragraph oid="PRG-0035">
+<rem:name>Alcance del Proyecto</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>18</rem:day>
+<rem:day>24</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Oberti es una <rem:ref oid="GLO-0025">asociación</rem:ref> de integración social que se encuentra en Utrera, Sevilla. Su objetivo es el de apoyar lúdicamente a los niños para garantizar su crecimiento academico. </rem:text>
+<rem:text>Oberti es una <rem:ref oid="GLO-0025">Asociación</rem:ref> de Integración social que nace de la iniciativa de la Fundación Aldaba. Esta lleva en funcionamiento más de 10 años. Tiene destinadas 30 familias que se encuentran en <rem:ref oid="GLO-0024">exclusión social</rem:ref>, su objetivo es mejorar las distintas áreas que componen este núcleo familiar, como  el educativo y el familiar.<br/><br/>En el área familiar:<br/>    1.Mejorar el acceso a los bienes de primera necesidad<br/>    2.Incrementar la calidad nutricional <br/>    3.Reducir la violencia intrafamiliar <br/><br/>En el área educativa:<br/>    1.Lograr promoción académica de los niños<br/>    2.Realizar actividades de ocio y tiempo libre para la socialización<br/>    3.Salidas extraordinarias fuera del curso académico para reforzar el trabajo del curso<br/><br/>La instalaciones con las que cuenta esta <rem:ref oid="GLO-0025">asociación</rem:ref> se compone de un local dividido en distintas salas  por edad educativa donde los niños realizan sus deberes o fichas complementarias, los padres asisten a cursos 1 vez por semana y  sus puestas están abiertas desde las 16:30 hasta las 19:30  donde se les proporciona la merienda y el apoyo educativo adecuado a su nivel.<br/><br/>Las familias cuentan con el apoyo de distintos profesionales como(psicólogos, pedagogos, nutricionistas, etc.) si cualquier miembro de la familia lo necesitase.<br/><br/>En la actualidad la <rem:ref oid="GLO-0025">asociación</rem:ref> realizan todas sus gestiones de forma manual y solo cuenta con una pagina web donde se da a conocer y redes sociales como Facebook e Instagram. Por lo que estas herramientas no son suficientes para agilizar el trabajo que conlleva toda la actividad de esta <rem:ref oid="GLO-0025">asociación</rem:ref>.<br/><br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0003">
@@ -919,6 +919,258 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>4.1 </rem:number>
+<rem:objective oid="OBJ-0001">
+<rem:name>Registro de Destinatario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita registrar a cada destinatario, para  llevar un control de los niños</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0002">
+<rem:name>Listado de niños</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita visualizar un listado de todos los niños, para obtener toda la información de estos</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0003">
+<rem:name>Registro Social</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita registrar la <rem:ref oid="GLO-0031">situación social</rem:ref> de cada familiar, para  llevar un control de la unidad familiar</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0004">
+<rem:name>Listado de familias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita visualizar un listado de todas las familias, para obtener toda la información de estos</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0005">
+<rem:name>Estadisticas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita visualizar las estadísticas con los datos  sociales de cada familia, para visualizar el progreso de las familias por meses</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0006">
+<rem:name>Registro de objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita registrar los objetivos anuales, para  llevar un control de toda la programación</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0007">
+<rem:name>Listado de objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita visualizar un listado con los objetivos anuales, para  llevar registro de los mismo</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0008">
+<rem:name>Filtrar por áreas de objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita filtrar los objetivos anuales de una determinada área , para  tener acceder a objetivos mas concretos</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0009">
+<rem:name>Registro de subvenciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita Registrar la entidades y aportación   que me subvencionan el proyecto de Oberti en ese año, para llevar el control de ellas</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0010">
+<rem:name>Listados de subvenciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita visualizar las entidades y aportación  que me subvencionan el proyecto de Oberti en ese año, para obtener adquirir la información de forma mas rápida</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0011">
+<rem:name>Registro de voluntarios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita Registrar a los voluntarios que me ayudan con lo0s niños, para controlar con cuantos integrantes cuento</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0013">
+<rem:name>Listado de voluntarios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita visualizar una lista con los voluntarios que están activos para saber quien puede prestar su ayuda</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0014">
+<rem:name>Registro de donaciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita registrar las donaciones que recibe la <rem:ref oid="GLO-0025">asociación</rem:ref> por parte de particulares , para llevar el control de cuanto se recauda</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0015">
+<rem:name>Listado de donaciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Como director deseo que el sistema me permita visualizar un listado con las donaciones(Nombre y Cantidad)  para ver toda la información relacionado con esto</rem:description>
+</rem:objective>
 </rem:section>
 <rem:section oid="SEC-0022">
 <rem:name>Modelos de proyecto de negocio a implantar</rem:name>
@@ -948,6 +1200,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>4.2.1 </rem:number>
+<rem:paragraph oid="PRG-0036">
+<rem:name>Actores de negocios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Los actores de negocios son los mismo nombrados en el punto 3.2.1</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0024">
 <rem:name>Descripción de procesos de negocio a implantar</rem:name>
@@ -1176,7 +1442,7 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>A </rem:number>
-<rem:meeting oid="MET-0001">
+<rem:meeting oid="MET-0004">
 <rem:name>Reunión general para presentación</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
@@ -1184,7 +1450,32 @@
 <rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>21</rem:day>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>En esta primera conversacion telefonica presente a mi grupo y el proyecto que teniamos que desarrollar en la asignatura de IR.<br/>El cliente me conto la funcionalidad del proyecto Oberti a grandes rasgos.</rem:comments>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:time>
+<rem:hour>19</rem:hour>
+<rem:minute>0</rem:minute>
+</rem:time>
+<rem:place>Teléfonica</rem:place>
+<rem:results>Primer contacto telefonico con el director de Oberti.<br/>Nos dio la información suficiente para poder presentar esta <rem:ref oid="GLO-0025">Asociación</rem:ref> como futuro cliente de nuestro proyecto.</rem:results>
+	<rem:attenders stakeholders = "STK-0001 "/>
+</rem:meeting>
+<rem:meeting oid="MET-0003">
+<rem:name>Primera visita a Oberti</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
@@ -1194,11 +1485,11 @@
 <rem:day>14</rem:day>
 </rem:date>
 <rem:time>
-<rem:hour>22</rem:hour>
-<rem:minute>1</rem:minute>
+<rem:hour>20</rem:hour>
+<rem:minute>0</rem:minute>
 </rem:time>
-<rem:place>Teléfonica</rem:place>
-<rem:results><rem:tbd/></rem:results>
+<rem:place>Oberti</rem:place>
+<rem:results>Conoci al director de Oberti en persona y me enseño las instalaciones y pudimos afianzar el compromiso para la realización de nuestro proyecto.</rem:results>
 	<rem:attenders stakeholders = "STK-0001 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0002">
@@ -1241,6 +1532,174 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>B </rem:number>
+<rem:graphicFile oid="GRF-0015">
+<rem:name>Planificación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0001.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0016">
+<rem:name>Planificacion</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0002.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0017">
+<rem:name>Planificación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0003.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0018">
+<rem:name>Planificación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0004.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0019">
+<rem:name>Planificación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0005.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0020">
+<rem:name>Planificación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0006.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0021">
+<rem:name>Planificación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0007.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0022">
+<rem:name>Planificación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0008.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0023">
+<rem:name>Inscripcion Niños</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\inscripcion_niños.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0024">
+<rem:name>Inscripción social</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\inscripción_social.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0025">
+<rem:name>Autorización</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\autorización.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0026">
+<rem:name>Contrato Pedagoga</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\CONTRATO-PEDAGOGICO_1.jpg]]></rem:fileName>
+</rem:graphicFile>
 </rem:appendix>
 <rem:appendix oid="SEC-0027">
 <rem:name>Glosario de acrónimos y abreviaturas</rem:name>
@@ -1298,19 +1757,19 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType oid="PVT-0001">
-<rem:name>Enum Literal</rem:name>
+<rem:predefinedValueType oid="PVT-0005">
+<rem:name>String</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2020</rem:year>
+<rem:year>2000</rem:year>
 <rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:day>30</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Enumeration literals</rem:description>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0002">
@@ -1328,8 +1787,8 @@
 <rem:description>Real numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0004">
-<rem:name>Natural</rem:name>
+<rem:predefinedValueType oid="PVT-0006">
+<rem:name>Date</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1339,38 +1798,8 @@
 <rem:day>30</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Natural numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0005">
-<rem:name>String</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Alphanumeric strings</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0003">
-<rem:name>Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Integer numbers</rem:description>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0007">
@@ -1388,8 +1817,8 @@
 <rem:description>Hour:minutes:seconds</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0006">
-<rem:name>Date</rem:name>
+<rem:predefinedValueType oid="PVT-0003">
+<rem:name>Integer</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1399,12 +1828,45 @@
 <rem:day>30</rem:day>
 </rem:date>
 </rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Integer numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Enum Literal</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
 <rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Dates</rem:description>
+<rem:description>Enumeration literals</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0004">
+<rem:name>Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Natural numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
@@ -1414,103 +1876,40 @@
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
-</rem:conflictStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
+</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
-<rem:name>PD</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
 <rem:name>Dependiente del diseño</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
@@ -1519,22 +1918,46 @@
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
 <rem:name>No necesidad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
@@ -1543,10 +1966,40 @@
 <![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0015">
 <rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0008">
@@ -1555,71 +2008,80 @@
 <![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
-</rem:importanceValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
 </rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
+<rem:statusValue oid = "STV-0001">
+<rem:name>PD</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0001">
-<rem:name>PD</rem:name>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
-<rem:terminationValue oid = "TEV-0001">
-<rem:name>PD</rem:name>
-</rem:terminationValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
@@ -1627,26 +2089,23 @@
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
