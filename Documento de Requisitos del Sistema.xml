@@ -17,7 +17,7 @@
 <rem:preparedFor organizations = "ORG-0001 "/>
 <rem:preparedBy organizations = "ORG-0002 "/>
 <rem:section oid="SEC-0001">
-<rem:name>Introducción</rem:name>
+<rem:name>Introducciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -56,7 +56,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Oberti es una <rem:ref oid="GLO-0025">Asociación</rem:ref> de Integración social que nace de la iniciativa de la Fundación Aldaba. Esta lleva en funcionamiento más de 10 años. Tiene destinadas 30 familias que se encuentran en <rem:ref oid="GLO-0024">exclusión social</rem:ref>, su objetivo es mejorar las distintas áreas que componen este núcleo familiar, como  el educativo y el familiar.<br/><br/>En el área familiar:<br/>    1.Mejorar el acceso a los bienes de primera necesidad<br/>    2.Incrementar la calidad nutricional <br/>    3.Reducir la violencia intrafamiliar <br/><br/>En el área educativa:<br/>    1.Lograr promoción académica de los niños<br/>    2.Realizar actividades de ocio y tiempo libre para la socialización<br/>    3.Salidas extraordinarias fuera del curso académico para reforzar el trabajo del curso<br/><br/>La instalaciones con las que cuenta esta <rem:ref oid="GLO-0025">asociación</rem:ref> se compone de un local dividido en distintas salas  por edad educativa donde los niños realizan sus deberes o fichas complementarias, los padres asisten a cursos 1 vez por semana y  sus puestas están abiertas desde las 16:30 hasta las 19:30  donde se les proporciona la merienda y el apoyo educativo adecuado a su nivel.<br/><br/>Las familias cuentan con el apoyo de distintos profesionales como(psicólogos, pedagogos, nutricionistas, etc.) si cualquier miembro de la familia lo necesitase.<br/><br/>En la actualidad la <rem:ref oid="GLO-0025">asociación</rem:ref> realizan todas sus gestiones de forma manual y solo cuenta con una pagina web donde se da a conocer y redes sociales como Facebook e Instagram. Por lo que estas herramientas no son suficientes para agilizar el trabajo que conlleva toda la actividad de esta <rem:ref oid="GLO-0025">asociación</rem:ref>.<br/><br/></rem:text>
+<rem:text>Oberti es una <rem:ref oid="GLO-0025">Asociaciï¿½n</rem:ref> de Integraciï¿½n social que nace de la iniciativa de la Fundaciï¿½n Aldaba. Esta lleva en funcionamiento mï¿½s de 10 aï¿½os. Tiene destinadas 30 familias que se encuentran en <rem:ref oid="GLO-0024">exclusiï¿½n social</rem:ref>, su objetivo es mejorar las distintas ï¿½reas que componen este nï¿½cleo familiar, como  el educativo y el familiar.<br/><br/>En el ï¿½rea familiar:<br/>    1.Mejorar el acceso a los bienes de primera necesidad<br/>    2.Incrementar la calidad nutricional <br/>    3.Reducir la violencia intrafamiliar <br/><br/>En el ï¿½rea educativa:<br/>    1.Lograr promociï¿½n acadï¿½mica de los niï¿½os<br/>    2.Realizar actividades de ocio y tiempo libre para la socializaciï¿½n<br/>    3.Salidas extraordinarias fuera del curso acadï¿½mico para reforzar el trabajo del curso<br/><br/>La instalaciones con las que cuenta esta <rem:ref oid="GLO-0025">asociaciï¿½n</rem:ref> se compone de un local dividido en distintas salas  por edad educativa donde los niï¿½os realizan sus deberes o fichas complementarias, los padres asisten a cursos 1 vez por semana y  sus puestas estï¿½n abiertas desde las 16:30 hasta las 19:30  donde se les proporciona la merienda y el apoyo educativo adecuado a su nivel.<br/><br/>Las familias cuentan con el apoyo de distintos profesionales como(psicï¿½logos, pedagogos, nutricionistas, etc.) si cualquier miembro de la familia lo necesitase.<br/><br/>En la actualidad la <rem:ref oid="GLO-0025">asociaciï¿½n</rem:ref> realizan todas sus gestiones de forma manual y solo cuenta con una pagina web donde se da a conocer y redes sociales como Facebook e Instagram. Por lo que estas herramientas no son suficientes para agilizar el trabajo que conlleva toda la actividad de esta <rem:ref oid="GLO-0025">asociaciï¿½n</rem:ref>.<br/><br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0003">
@@ -100,7 +100,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:address>Avenida Curro Guillén, 64, 41710 Utrera</rem:address>
+<rem:address>Avenida Curro Guillï¿½n, 64, 41710 Utrera</rem:address>
 <rem:telephone>663 45 23 50</rem:telephone>
 <rem:fax><rem:tbd/></rem:fax>
 </rem:organization>
@@ -117,7 +117,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:address>Escuela Técnica Superior de Ingeniería Informática, Av. Reina Mercedes s/n, 41012 Sevilla</rem:address>
+<rem:address>Escuela Tï¿½cnica Superior de Ingenierï¿½a Informï¿½tica, Av. Reina Mercedes s/n, 41012 Sevilla</rem:address>
 <rem:telephone>954 55 10 00</rem:telephone>
 <rem:fax><rem:tbd/></rem:fax>
 </rem:organization>
@@ -137,7 +137,7 @@
 <rem:level>3</rem:level>
 <rem:number>1.2.2 </rem:number>
 <rem:stakeholder oid="STK-0001">
-<rem:name>María José Ruiz Vázquez</rem:name>
+<rem:name>Marï¿½a Josï¿½ Ruiz Vï¿½zquez</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -153,7 +153,7 @@
 <rem:worksFor organization = "ORG-0002"/>
 </rem:stakeholder>
 <rem:stakeholder oid="STK-0002">
-<rem:name>Álvaro Gómez Nieto</rem:name>
+<rem:name>ï¿½lvaro Gï¿½mez Nieto</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -185,7 +185,7 @@
 <rem:worksFor organization = "ORG-0002"/>
 </rem:stakeholder>
 <rem:stakeholder oid="STK-0004">
-<rem:name>Juan Jesús Martín Hernández</rem:name>
+<rem:name>Juan Jesï¿½s Martï¿½n Hernï¿½ndez</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -244,12 +244,12 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>El objetivo del proyecto de Oberti es desarrollar un sistema de información que satisfaga las necesidades actuales de la <rem:ref oid="GLO-0025">asociación</rem:ref>.<br/><br/>El objetivo de nuestro cliente es informatizar los distintos procesos que realizan, como pueden ser autorizaciones para excursiones de los niños, formularios para registrar a los niños y formularios sociales para los padres. También tener una aplicación para organizar la programación de actividades de distintas áreas, como son la educativa, familiar, de voluntariado y de gestión, e incluir también los objetivos que se buscan con esas actividades.</rem:text>
+<rem:text>El objetivo del proyecto de Oberti es desarrollar un sistema de informaciï¿½n que satisfaga las necesidades actuales de la <rem:ref oid="GLO-0025">asociaciï¿½n</rem:ref>.<br/><br/>El objetivo de nuestro cliente es informatizar los distintos procesos que realizan, como pueden ser autorizaciones para excursiones de los niï¿½os, formularios para registrar a los niï¿½os y formularios sociales para los padres. Tambiï¿½n tener una aplicaciï¿½n para organizar la programaciï¿½n de actividades de distintas ï¿½reas, como son la educativa, familiar, de voluntariado y de gestiï¿½n, e incluir tambiï¿½n los objetivos que se buscan con esas actividades.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0007">
-<rem:name>Información sobre el dominio del problema</rem:name>
+<rem:name>Informaciï¿½n sobre el dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -263,7 +263,7 @@
 <rem:level>1</rem:level>
 <rem:number>2 </rem:number>
 <rem:section oid="SEC-0008">
-<rem:name>Introducción al dominio del problema</rem:name>
+<rem:name>Introducciï¿½n al dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -277,7 +277,7 @@
 <rem:level>2</rem:level>
 <rem:number>2.1 </rem:number>
 <rem:paragraph oid="PRG-0023">
-<rem:name>Descripción</rem:name>
+<rem:name>Descripciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -288,11 +288,11 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>La <rem:ref oid="GLO-0025">asociación</rem:ref> cuenta con un espacio aclimatado donde se imparten las clases extraescolares usando como material una pizarra, además de contar con un pequeño número de dispositivos electrónicos (tablets y ordenadores).<br/>El principal problema de Oberti es la gran ausencia de informatización que padecen. Esto queda demostrado en muchos aspectos, el registro de un niño se hace a través de una hoja de inscripción escrita a mano, dónde se recogen los datos necesarios para incluir a la familia en el proyecto. Una vez que son añadidos al proyecto, caso por caso se va rellenando una ficha social de cada familia, dónde se almacena toda la información referente a la familia, ya sea económica o social.<br/>El director hace una programación para todo el año que consta:<br/>-	Presupuesto del que se va a disponer para financiar el proyecto. <br/>-	Los objetivos semanales que se esperan conseguir en los niños. <br/>-	Planifica la recogida de datos de forma mensual de cada familia para así valorar la situación una forma regular.<br/>-	Los objetivos anuales clasificados en distintas áreas(educativa, familiar, voluntariado y gestión).<br/>El director utiliza una herramienta que es muy simple y poco eficaz, ya que lleva toda la gestión de forma manual. El proceso consiste:<br/>Recoge todo el balance que anteriormente va apuntando en un Excel, una vez que tiene toda la información la traspasa (también de forma manual) a un documento oficial. <br/>También recoge la información de cada familia mensualmente y lo escribe todo a mano, para comparar la situación de un mes a otro tiene que ver los campos requeridos uno a uno e ir comparando, por lo que queda bastante claro que existe un riesgo grandísimo de pérdida de datos o de cometer errores. <br/>A la <rem:ref oid="GLO-0025">asociación</rem:ref>, en especial a su director le gustaría que se implementara un pequeño programa para informatizar y almacenar en una base de datos toda la información que recoge manualmente. <br/>Y así poder regular los datos que se recogen mensualmente de la situación general de las familias y que se generen automáticamente las estadísticas, además de que le llegue un aviso de mejora o de empeoramiento cuando una familia esté en una situación más o menos favorable que el mes anterior.<br/></rem:text>
+<rem:text>La <rem:ref oid="GLO-0025">asociaciï¿½n</rem:ref> cuenta con un espacio aclimatado donde se imparten las clases extraescolares usando como material una pizarra, ademï¿½s de contar con un pequeï¿½o nï¿½mero de dispositivos electrï¿½nicos (tablets y ordenadores).<br/>El principal problema de Oberti es la gran ausencia de informatizaciï¿½n que padecen. Esto queda demostrado en muchos aspectos, el registro de un niï¿½o se hace a travï¿½s de una hoja de inscripciï¿½n escrita a mano, dï¿½nde se recogen los datos necesarios para incluir a la familia en el proyecto. Una vez que son aï¿½adidos al proyecto, caso por caso se va rellenando una ficha social de cada familia, dï¿½nde se almacena toda la informaciï¿½n referente a la familia, ya sea econï¿½mica o social.<br/>El director hace una programaciï¿½n para todo el aï¿½o que consta:<br/>-	Presupuesto del que se va a disponer para financiar el proyecto. <br/>-	Los objetivos semanales que se esperan conseguir en los niï¿½os. <br/>-	Planifica la recogida de datos de forma mensual de cada familia para asï¿½ valorar la situaciï¿½n una forma regular.<br/>-	Los objetivos anuales clasificados en distintas ï¿½reas(educativa, familiar, voluntariado y gestiï¿½n).<br/>El director utiliza una herramienta que es muy simple y poco eficaz, ya que lleva toda la gestiï¿½n de forma manual. El proceso consiste:<br/>Recoge todo el balance que anteriormente va apuntando en un Excel, una vez que tiene toda la informaciï¿½n la traspasa (tambiï¿½n de forma manual) a un documento oficial. <br/>Tambiï¿½n recoge la informaciï¿½n de cada familia mensualmente y lo escribe todo a mano, para comparar la situaciï¿½n de un mes a otro tiene que ver los campos requeridos uno a uno e ir comparando, por lo que queda bastante claro que existe un riesgo grandï¿½simo de pï¿½rdida de datos o de cometer errores. <br/>A la <rem:ref oid="GLO-0025">asociaciï¿½n</rem:ref>, en especial a su director le gustarï¿½a que se implementara un pequeï¿½o programa para informatizar y almacenar en una base de datos toda la informaciï¿½n que recoge manualmente. <br/>Y asï¿½ poder regular los datos que se recogen mensualmente de la situaciï¿½n general de las familias y que se generen automï¿½ticamente las estadï¿½sticas, ademï¿½s de que le llegue un aviso de mejora o de empeoramiento cuando una familia estï¿½ en una situaciï¿½n mï¿½s o menos favorable que el mes anterior.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0009">
-<rem:name>Glosario de términos del dominio del problema</rem:name>
+<rem:name>Glosario de tï¿½rminos del dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -306,7 +306,7 @@
 <rem:level>2</rem:level>
 <rem:number>2.2 </rem:number>
 <rem:glossaryItem oid="GLO-0024">
-<rem:name>Exclusión social</rem:name>
+<rem:name>Exclusiï¿½n social</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -317,10 +317,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>escasez crónica de oportunidades y de acceso a servicios básicos de calidad, a los mercados laborales y de crédito, a una infraestructura adecuada y al sistema de justicia.</rem:text>
+<rem:text>escasez crï¿½nica de oportunidades y de acceso a servicios bï¿½sicos de calidad, a los mercados laborales y de crï¿½dito, a una infraestructura adecuada y al sistema de justicia.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0025">
-<rem:name>Asociación</rem:name>
+<rem:name>Asociaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -331,10 +331,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>unión de personas o entidades para un fin común, por ejemplo: asociaciones profesionales, sindicatos, asociaciones comerciales, asociaciones de vecinos, entre otras.</rem:text>
+<rem:text>uniï¿½n de personas o entidades para un fin comï¿½n, por ejemplo: asociaciones profesionales, sindicatos, asociaciones comerciales, asociaciones de vecinos, entre otras.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0026">
-<rem:name>Subvención</rem:name>
+<rem:name>Subvenciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -345,10 +345,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>cantidad de dinero que se concede a una persona, una entidad o una institución como ayuda económica para realizar una obra o para su mantenimiento, especialmente la que se recibe del Estado o de un organismo oficial.</rem:text>
+<rem:text>cantidad de dinero que se concede a una persona, una entidad o una instituciï¿½n como ayuda econï¿½mica para realizar una obra o para su mantenimiento, especialmente la que se recibe del Estado o de un organismo oficial.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0027">
-<rem:name>Donación</rem:name>
+<rem:name>Donaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -362,7 +362,7 @@
 <rem:text>cosa que se da a una persona de forma voluntaria y sin esperar premio ni recompensa alguna, especialmente cuando se trata de algo de valor.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0028">
-<rem:name>Entidad pública</rem:name>
+<rem:name>Entidad pï¿½blica</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -373,7 +373,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>es la organización que desempeña una acción de interés público y forma parte del gobierno nacional o subnacional. En la administración pública moderna, estas instituciones ya no desempeñan solo una función de control, cuentan también con instrumentos de promoción de mejores prácticas.</rem:text>
+<rem:text>es la organizaciï¿½n que desempeï¿½a una acciï¿½n de interï¿½s pï¿½blico y forma parte del gobierno nacional o subnacional. En la administraciï¿½n pï¿½blica moderna, estas instituciones ya no desempeï¿½an solo una funciï¿½n de control, cuentan tambiï¿½n con instrumentos de promociï¿½n de mejores prï¿½cticas.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0029">
 <rem:name>Entidad privada</rem:name>
@@ -387,7 +387,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>es una organización creada con o sin fines de lucro cuya actividad económica consiste en la producción de bienes y servicios de cualquier tipo.</rem:text>
+<rem:text>es una organizaciï¿½n creada con o sin fines de lucro cuya actividad econï¿½mica consiste en la producciï¿½n de bienes y servicios de cualquier tipo.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0030">
 <rem:name>Voluntario</rem:name>
@@ -401,10 +401,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>sujeto que decide prestar un servicio o realizar un trabajo por voluntad propia, sin que esté obligado a hacerlo por motivos legales, contractuales o económicos.<br/>El trabajo que lleva a cabo un <rem:ref oid="GLO-0030">voluntario</rem:ref> se conoce como voluntariado. A través de estas acciones, los individuos deciden brindar un servicio a la comunidad sin esperar nada a cambio: lo hacen por razones éticas, ideológicas o espirituales.</rem:text>
+<rem:text>sujeto que decide prestar un servicio o realizar un trabajo por voluntad propia, sin que estï¿½ obligado a hacerlo por motivos legales, contractuales o econï¿½micos.<br/>El trabajo que lleva a cabo un <rem:ref oid="GLO-0030">voluntario</rem:ref> se conoce como voluntariado. A travï¿½s de estas acciones, los individuos deciden brindar un servicio a la comunidad sin esperar nada a cambio: lo hacen por razones ï¿½ticas, ideolï¿½gicas o espirituales.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0031">
-<rem:name>Situación social</rem:name>
+<rem:name>Situaciï¿½n social</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -415,12 +415,12 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>se vincula a la posición que ocupa una persona en la sociedad. En otras palabras, la idea hace referencia al estado del sujeto respecto al contexto o al entorno.<br/>La <rem:ref oid="GLO-0031">situación social</rem:ref> de una persona, una familia o una comunidad, por lo tanto, depende de diversos factores que inciden en la calidad de vida, la posibilidad de desarrollo, etc. Estos factores forman parte del medio en el cual los sujetos viven.</rem:text>
+<rem:text>se vincula a la posiciï¿½n que ocupa una persona en la sociedad. En otras palabras, la idea hace referencia al estado del sujeto respecto al contexto o al entorno.<br/>La <rem:ref oid="GLO-0031">situaciï¿½n social</rem:ref> de una persona, una familia o una comunidad, por lo tanto, depende de diversos factores que inciden en la calidad de vida, la posibilidad de desarrollo, etc. Estos factores forman parte del medio en el cual los sujetos viven.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0010">
-<rem:name>Descripción de la situación actual</rem:name>
+<rem:name>Descripciï¿½n de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -434,7 +434,7 @@
 <rem:level>1</rem:level>
 <rem:number>3 </rem:number>
 <rem:section oid="SEC-0011">
-<rem:name>Pros y contras de la situación actual</rem:name>
+<rem:name>Pros y contras de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -448,7 +448,7 @@
 <rem:level>2</rem:level>
 <rem:number>3.1 </rem:number>
 <rem:section oid="SEC-0012">
-<rem:name>Fortalezas de la situación actual</rem:name>
+<rem:name>Fortalezas de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -462,7 +462,7 @@
 <rem:level>3</rem:level>
 <rem:number>3.1.1 </rem:number>
 <rem:glossaryItem oid="GLO-0032">
-<rem:name>[FOR-001] Página web</rem:name>
+<rem:name>[FOR-001] Pï¿½gina web</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -473,10 +473,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Oberti cuenta con una buena página web donde se expone información sobre la <rem:ref oid="GLO-0025">asociación</rem:ref> y sobre sus servicios.<br/></rem:text>
+<rem:text>Oberti cuenta con una buena pï¿½gina web donde se expone informaciï¿½n sobre la <rem:ref oid="GLO-0025">asociaciï¿½n</rem:ref> y sobre sus servicios.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0034">
-<rem:name>[FOR-002] Gestión bien organizada</rem:name>
+<rem:name>[FOR-002] Gestiï¿½n bien organizada</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -487,11 +487,11 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Pese a no utilizar algún tipo de software para gestionarla, Oberti posee una buena organización respecto a la documentación, lo que facilita mucho el trabajo.<br/></rem:text>
+<rem:text>Pese a no utilizar algï¿½n tipo de software para gestionarla, Oberti posee una buena organizaciï¿½n respecto a la documentaciï¿½n, lo que facilita mucho el trabajo.<br/></rem:text>
 </rem:glossaryItem>
 </rem:section>
 <rem:section oid="SEC-0013">
-<rem:name>Debilidades de la situación actual</rem:name>
+<rem:name>Debilidades de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -516,7 +516,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>La <rem:ref oid="GLO-0025">asociación</rem:ref>, a parte de la página web y redes sociales, solo utiliza herramientas informáticas como excel para su gestión.</rem:text>
+<rem:text>La <rem:ref oid="GLO-0025">asociaciï¿½n</rem:ref>, a parte de la pï¿½gina web y redes sociales, solo utiliza herramientas informï¿½ticas como excel para su gestiï¿½n.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
@@ -535,7 +535,7 @@
 <rem:level>2</rem:level>
 <rem:number>3.2 </rem:number>
 <rem:section oid="SEC-0015">
-<rem:name>Descripción de actores de negocio actuales</rem:name>
+<rem:name>Descripciï¿½n de actores de negocio actuales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -559,8 +559,8 @@
 <rem:day>20</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>El mínimo de horas son 15h, y el director está contratado para 20h semanales.<br/></rem:comments>
-<rem:text>La función del director es controlar la financiación del proyecto, el seguimiento económico, el trato con los padres y la comunicación.</rem:text>
+<rem:comments>El mï¿½nimo de horas son 15h, y el director estï¿½ contratado para 20h semanales.<br/></rem:comments>
+<rem:text>La funciï¿½n del director es controlar la financiaciï¿½n del proyecto, el seguimiento econï¿½mico, el trato con los padres y la comunicaciï¿½n.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0004">
 <rem:name>[ANA-0002] Profesional Contratado</rem:name>
@@ -573,8 +573,8 @@
 <rem:day>20</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Actualmente, hay una pedagoga para reforzar el trabajo con los niños.<br/></rem:comments>
-<rem:text>Dependiendo de las necesidades de los proyectos durante el año, se necesitarán distintos profesionales como psicólogos, pedagogos, etc.</rem:text>
+<rem:comments>Actualmente, hay una pedagoga para reforzar el trabajo con los niï¿½os.<br/></rem:comments>
+<rem:text>Dependiendo de las necesidades de los proyectos durante el aï¿½o, se necesitarï¿½n distintos profesionales como psicï¿½logos, pedagogos, etc.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0005">
 <rem:name>[ANA-0003] Voluntarios</rem:name>
@@ -588,7 +588,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Actualmente cuentan con 20 voluntarios.</rem:comments>
-<rem:text>Trabajan con los niños a modo de tutores sin remuneración.</rem:text>
+<rem:text>Trabajan con los niï¿½os a modo de tutores sin remuneraciï¿½n.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0006">
 <rem:name>[ANA-0004] Familias</rem:name>
@@ -606,7 +606,7 @@
 </rem:glossaryItem>
 </rem:section>
 <rem:section oid="SEC-0016">
-<rem:name>Descripción de procesos de negocio actuales</rem:name>
+<rem:name>Descripciï¿½n de procesos de negocio actuales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -631,7 +631,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        Una persona acude a la organización porque está interesada en ser <rem:ref oid="GLO-0030">voluntario</rem:ref>.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        A través del certificado digital, se recibe un certificado de delitos sexuales que debe ser negativo.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Si es negativo, el <rem:ref oid="GLO-0030">voluntario</rem:ref> en cuestión firma un contrato al inicio del año por la ley del menor.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        El <rem:ref oid="GLO-0030">voluntario</rem:ref> propone ideas para una programación inicial del curso que se revisa a mitad del<br/>        curso y al final.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        En las revisiones el <rem:ref oid="GLO-0030">voluntario</rem:ref> le transmite al coordinador cómo van y una formación específica de trabajo.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Una vez terminado, el coordinador revisa el trimestre con el <rem:ref oid="GLO-0030">voluntario</rem:ref> y viene un especialista del tema a darle<br/>        un curso como agradecimiento para que éste se vaya capacitando.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        Una persona acude a la organizaciï¿½n porque estï¿½ interesada en ser <rem:ref oid="GLO-0030">voluntario</rem:ref>.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        A travï¿½s del certificado digital, se recibe un certificado de delitos sexuales que debe ser negativo.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Si es negativo, el <rem:ref oid="GLO-0030">voluntario</rem:ref> en cuestiï¿½n firma un contrato al inicio del aï¿½o por la ley del menor.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        El <rem:ref oid="GLO-0030">voluntario</rem:ref> propone ideas para una programaciï¿½n inicial del curso que se revisa a mitad del<br/>        curso y al final.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        En las revisiones el <rem:ref oid="GLO-0030">voluntario</rem:ref> le transmite al coordinador cï¿½mo van y una formaciï¿½n especï¿½fica de trabajo.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Una vez terminado, el coordinador revisa el trimestre con el <rem:ref oid="GLO-0030">voluntario</rem:ref> y viene un especialista del tema a darle<br/>        un curso como agradecimiento para que ï¿½ste se vaya capacitando.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0001">
 <rem:name>Plan de voluntariado</rem:name>
@@ -648,7 +648,7 @@
 <rem:fileName><![CDATA[.\figuras\plan_voluntariado.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0010">
-<rem:name>[PNA-0002] Planificación</rem:name>
+<rem:name>[PNA-0002] Planificaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -659,10 +659,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador tiene en Excel una plantilla con una especie de programa para el año.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Éste va revisando y mira en la planificación los objetivos que ha alcanzado de una semana en concreto. Tiene un<br/>        grado de cumplimiento establecido y tareas que debe hacer.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Al final del año ve si ha cumplido el objetivo final que se propuso y lo comprueba de manera analógica.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador tiene en Excel una plantilla con una especie de programa para el aï¿½o.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        ï¿½ste va revisando y mira en la planificaciï¿½n los objetivos que ha alcanzado de una semana en concreto. Tiene un<br/>        grado de cumplimiento establecido y tareas que debe hacer.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Al final del aï¿½o ve si ha cumplido el objetivo final que se propuso y lo comprueba de manera analï¿½gica.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0002">
-<rem:name>Planificación</rem:name>
+<rem:name>Planificaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -676,7 +676,7 @@
 <rem:fileName><![CDATA[.\figuras\planificacion.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0011">
-<rem:name>[PNA-0003] Realización de los informes sociales</rem:name>
+<rem:name>[PNA-0003] Realizaciï¿½n de los informes sociales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -687,10 +687,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se reune con los padres del proyecto una vez al trimestre.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Recaba datos sobre cómo se incrementa su renta, cómo están comiendo, qué acceso tienen al vestuario, etc.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Esos datos los rellenan los padres en papel y después el coordinador los pasa a un Word.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se reune con los padres del proyecto una vez al trimestre.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Recaba datos sobre cï¿½mo se incrementa su renta, cï¿½mo estï¿½n comiendo, quï¿½ acceso tienen al vestuario, etc.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Esos datos los rellenan los padres en papel y despuï¿½s el coordinador los pasa a un Word.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0003">
-<rem:name>Realización informes sociales</rem:name>
+<rem:name>Realizaciï¿½n informes sociales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -715,7 +715,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador coge una plantilla que tiene hecha en Word y la modifica para la salida en cuestión.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Imprime las autorizaciones y se las da a cada niño para que las firmen sus familias.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Si los niños traen las autorizaciones firmadas:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                Pueden asistir a la salida.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>        Si no la traen firmada porque se les ha olvidado:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                El coordinador les pide un mensaje de WhatsApp de los padres diciendo que autorizan a su<br/>                hijo y ya más adelante les pedirá la firma. De esta forma podrán asistir a la salida.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador coge una plantilla que tiene hecha en Word y la modifica para la salida en cuestiï¿½n.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Imprime las autorizaciones y se las da a cada niï¿½o para que las firmen sus familias.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Si los niï¿½os traen las autorizaciones firmadas:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                Pueden asistir a la salida.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>        Si no la traen firmada porque se les ha olvidado:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                El coordinador les pide un mensaje de WhatsApp de los padres diciendo que autorizan a su<br/>                hijo y ya mï¿½s adelante les pedirï¿½ la firma. De esta forma podrï¿½n asistir a la salida.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0004">
 <rem:name>Autorizaciones para salidas</rem:name>
@@ -732,7 +732,7 @@
 <rem:fileName><![CDATA[.\figuras\autorizaciones.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0013">
-<rem:name>[PNA-0005] Base de datos de los niños</rem:name>
+<rem:name>[PNA-0005] Base de datos de los niï¿½os</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -743,10 +743,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>El coordinador tiene un informe detallado por familia pero también tiene una base de datos de los niños en la que guarda por ejemplo el proceso educativo de éste. Si ve que el niño tiene problemas en su avance educativo<br/>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se pone en contacto con orientación (el departamento psicológico del colegio).<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        El departamento le pasa informes sobre si lo han evaluado, si el niño tiene alguna discapacidad, si tiene alguna<br/>        dificultad en el aprendizaje, etc.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Toda esa información el coordinador la va guardando a mano.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+<rem:text>El coordinador tiene un informe detallado por familia pero tambiï¿½n tiene una base de datos de los niï¿½os en la que guarda por ejemplo el proceso educativo de ï¿½ste. Si ve que el niï¿½o tiene problemas en su avance educativo<br/>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se pone en contacto con orientaciï¿½n (el departamento psicolï¿½gico del colegio).<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        El departamento le pasa informes sobre si lo han evaluado, si el niï¿½o tiene alguna discapacidad, si tiene alguna<br/>        dificultad en el aprendizaje, etc.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Toda esa informaciï¿½n el coordinador la va guardando a mano.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0005">
-<rem:name>Base de datos de los niños</rem:name>
+<rem:name>Base de datos de los niï¿½os</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -757,7 +757,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\bd_niños.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\bd_niï¿½os.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0014">
 <rem:name>[PNA-0006] Control de gastos</rem:name>
@@ -771,7 +771,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador tiene un Excel donde tiene apuntado el presupuesto por concepto para todo el año.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Cuando realiza algún gasto, lo mete en el Excel para ir controlándolos.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Finalmente justifica todas esas facturas para mandárselas a sus financiadores.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador tiene un Excel donde tiene apuntado el presupuesto por concepto para todo el aï¿½o.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Cuando realiza algï¿½n gasto, lo mete en el Excel para ir controlï¿½ndolos.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Finalmente justifica todas esas facturas para mandï¿½rselas a sus financiadores.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0006">
 <rem:name>Control de gastos</rem:name>
@@ -799,7 +799,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Se tiene una plataforma (Amigos de Oberti) donde la gente puede ir haciendo donaciones.<br/>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        La gente interesada se inscribe en un formulario.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        El coordinador pasa a tener las cuentas de los inscritos.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Éste va lanzando los boletines de cobro todos los meses y luego los va revisando uno a uno puesto que muchos<br/>        acaban denegados, o se los devuelven o vienen con recargo.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+<rem:text>Se tiene una plataforma (Amigos de Oberti) donde la gente puede ir haciendo donaciones.<br/>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        La gente interesada se inscribe en un formulario.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        El coordinador pasa a tener las cuentas de los inscritos.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        ï¿½ste va lanzando los boletines de cobro todos los meses y luego los va revisando uno a uno puesto que muchos<br/>        acaban denegados, o se los devuelven o vienen con recargo.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0007">
 <rem:name>Donaciones</rem:name>
@@ -818,7 +818,7 @@
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0017">
-<rem:name>Entorno tecnológico actual</rem:name>
+<rem:name>Entorno tecnolï¿½gico actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -832,7 +832,7 @@
 <rem:level>2</rem:level>
 <rem:number>3.3 </rem:number>
 <rem:section oid="SEC-0018">
-<rem:name>Descripción del entorno de hardware actual</rem:name>
+<rem:name>Descripciï¿½n del entorno de hardware actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -857,11 +857,11 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Oberti cuenta con material informático que ofrecce a los niños, como son ordenadores y tablets. También están preparando un proyecto para llegar a un acuerdo con Dell, que les proporcionará más material para informatizar un poco más la <rem:ref oid="GLO-0025">asociación</rem:ref>.<br/></rem:text>
+<rem:text>Oberti cuenta con material informï¿½tico que ofrecce a los niï¿½os, como son ordenadores y tablets. Tambiï¿½n estï¿½n preparando un proyecto para llegar a un acuerdo con Dell, que les proporcionarï¿½ mï¿½s material para informatizar un poco mï¿½s la <rem:ref oid="GLO-0025">asociaciï¿½n</rem:ref>.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0019">
-<rem:name>Descripción del entorno de software actual</rem:name>
+<rem:name>Descripciï¿½n del entorno de software actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -886,7 +886,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Cuenta con una página web, en la que ofrecen información sobre ellos, sobre las actividades que realizan, sobre cómo colaborar con ellos, etc. Cuentan también con redes sociales como Facebook e Instagram, y para realizar las tareas de contabilidad, utilizan Excel.<br/></rem:text>
+<rem:text>Cuenta con una pï¿½gina web, en la que ofrecen informaciï¿½n sobre ellos, sobre las actividades que realizan, sobre cï¿½mo colaborar con ellos, etc. Cuentan tambiï¿½n con redes sociales como Facebook e Instagram, y para realizar las tareas de contabilidad, utilizan Excel.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -931,10 +931,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Como director deseo que el sistema me permita registrar a cada destinatario, para  llevar un control de los niños.</rem:text>
+<rem:text>Como director deseo que el sistema me permita registrar a cada destinatario, para  llevar un control de los niï¿½os.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0040">
-<rem:name>[HU-0002] Listado de niños</rem:name>
+<rem:name>[HU-0002] Listado de niï¿½os</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -945,7 +945,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Como director deseo que el sistema me permita visualizar un listado de todos los niños, para obtener toda la información de estos.</rem:text>
+<rem:text>Como director deseo que el sistema me permita visualizar un listado de todos los niï¿½os, para obtener toda la informaciï¿½n de ï¿½stos.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0041">
 <rem:name>[HU-0003] Registro Social</rem:name>
@@ -959,7 +959,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Como director deseo que el sistema me permita registrar la <rem:ref oid="GLO-0031">situación social</rem:ref> de cada familiar, para  llevar un control de la unidad familiar.</rem:text>
+<rem:text>Como director deseo que el sistema me permita registrar la <rem:ref oid="GLO-0031">situaciï¿½n social</rem:ref> de cada familiar, para  llevar un control de la unidad familiar.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0042">
 <rem:name>[HU-0004] Listado de familias</rem:name>
@@ -973,10 +973,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Como director deseo que el sistema me permita visualizar un listado de todas las familias, para obtener toda la información de estos.</rem:text>
+<rem:text>Como director deseo que el sistema me permita visualizar un listado de todas las familias, para obtener toda la informaciï¿½n de ï¿½stos.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0043">
-<rem:name>[HU-0005] Estadísticas</rem:name>
+<rem:name>[HU-0005] Estadï¿½sticas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -987,7 +987,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Como director deseo que el sistema me permita visualizar las estadísticas con los datos  sociales de cada familia, para visualizar el progreso de las familias por meses.</rem:text>
+<rem:text>Como director deseo que el sistema me permita visualizar las estadï¿½sticas con los datos  sociales de cada familia, para visualizar el progreso de las familias por meses.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0044">
 <rem:name>[HU-0006] Registro de objetivos</rem:name>
@@ -1001,7 +1001,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Como director deseo que el sistema me permita registrar los objetivos anuales, para  llevar un control de toda la programación.</rem:text>
+<rem:text>Como director deseo que el sistema me permita registrar los objetivos anuales, para  llevar un control de toda la programaciï¿½n.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0045">
 <rem:name>[HU-0007] Listado de objetivos</rem:name>
@@ -1015,10 +1015,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Como director deseo que el sistema me permita visualizar un listado con los objetivos anuales, para  llevar registro de los mismo.</rem:text>
+<rem:text>Como director deseo que el sistema me permita visualizar un listado con los objetivos anuales, para  llevar registro de los mismos.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0046">
-<rem:name>[HU-0008] Filtrar por áreas de objetivos</rem:name>
+<rem:name>[HU-0008] Filtrar por ï¿½reas de objetivos</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1029,7 +1029,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Como director deseo que el sistema me permita Registrar la entidades y aportación que me subvencionan el proyecto de Oberti en ese año, para llevar el control de ellas.</rem:text>
+<rem:text>Como director deseo que el sistema me permita Registrar la entidades y aportaciï¿½n que me subvencionan el proyecto de Oberti en ese aï¿½o, para llevar el control de ellas.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0047">
 <rem:name>[HU-0009] Registro de subvenciones</rem:name>
@@ -1043,7 +1043,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Como director deseo que el sistema me permita Registrar la entidades y aportación que me subvencionan el proyecto de Oberti en ese año, para llevar el control de ellas.</rem:text>
+<rem:text>Como director deseo que el sistema me permita Registrar la entidades y aportaciï¿½n que me subvencionan el proyecto de Oberti en ese aï¿½o, para llevar el control de ellas.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0048">
 <rem:name>[HU-0010] Listados de subvenciones</rem:name>
@@ -1057,7 +1057,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Como director deseo que el sistema me permita visualizar las entidades y aportación que me subvencionan el proyecto de Oberti en ese año, para obtener adquirir la información de forma mas rápida.</rem:text>
+<rem:text>Como director deseo que el sistema me permita visualizar las entidades y aportaciï¿½n que me subvencionan el proyecto de Oberti en ese aï¿½o, para obtener adquirir la informaciï¿½n de forma mas rï¿½pida.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 <rem:section oid="SEC-0022">
@@ -1075,7 +1075,7 @@
 <rem:level>2</rem:level>
 <rem:number>4.2 </rem:number>
 <rem:section oid="SEC-0023">
-<rem:name>Descripción de actores de negocio a implantar</rem:name>
+<rem:name>Descripciï¿½n de actores de negocio a implantar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1104,7 +1104,7 @@
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0024">
-<rem:name>Descripción de procesos de negocio a implantar</rem:name>
+<rem:name>Descripciï¿½n de procesos de negocio a implantar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1118,7 +1118,7 @@
 <rem:level>3</rem:level>
 <rem:number>4.2.2 </rem:number>
 <rem:glossaryItem oid="GLO-0017">
-<rem:name> [PNA-0002] Planificación</rem:name>
+<rem:name>[PNA-0008] Planificaciï¿½n</rem:name>
 <rem:version>
 <rem:major>2</rem:major>
 <rem:minor>0</rem:minor>
@@ -1129,7 +1129,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>       El director dentro del programa contará con un formulario para rellenar objetivos(Titulos,descripción del objetivo,área,fecha, Cumplido o no cumplido).<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>Los objetivos podrán serán filtrados por área, fecha y cumplido o no cumplido.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>    Al final del año o de cada semana este podrá visualizar los onjetivos que se han cumplimentado y podrá sacar estadísticas.<br/>    &lt;/li&gt;<br/><br/>&lt;/ol&gt;</rem:text>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>       El director dentro del programa contarï¿½ con un formulario para rellenar objetivos(Titulos,descripciï¿½n del objetivo,ï¿½rea,fecha, Cumplido o no cumplido).<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>Los objetivos podrï¿½n serï¿½n filtrados por ï¿½rea, fecha y cumplido o no cumplido.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>    Al final del aï¿½o o de cada semana este podrï¿½ visualizar los onjetivos que se han cumplimentado y podrï¿½ sacar estadï¿½sticas.<br/>    &lt;/li&gt;<br/><br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0010">
 <rem:name>PLANIFICACION</rem:name>
@@ -1146,7 +1146,7 @@
 <rem:fileName><![CDATA[.\figuras\planificacion_4.2.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0018">
-<rem:name>[PNA-0003] Realización de los informes sociales</rem:name>
+<rem:name>[PNA-0009] Realizaciï¿½n de los informes sociales</rem:name>
 <rem:version>
 <rem:major>2</rem:major>
 <rem:minor>0</rem:minor>
@@ -1157,7 +1157,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se reúne con los padres del proyecto de forma presencial y rellenan un formulario sobre informe social(cómo se incrementa su renta, cómo están comiendo, qué acceso tienen al vestuario, etc.)<br/>    &lt;/li&gt;<br/><br/>    &lt;li&gt;<br/>      Almacena los datos en la base de datos , que puede acceder de forma directa.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se reï¿½ne con los padres del proyecto de forma presencial y rellenan un formulario sobre informe social(cï¿½mo se incrementa su renta, cï¿½mo estï¿½n comiendo, quï¿½ acceso tienen al vestuario, etc.)<br/>    &lt;/li&gt;<br/><br/>    &lt;li&gt;<br/>      Almacena los datos en la base de datos , que puede acceder de forma directa.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0011">
 <rem:name>INFORMES</rem:name>
@@ -1174,7 +1174,7 @@
 <rem:fileName><![CDATA[.\figuras\informes_sociales_4.2.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0019">
-<rem:name>[PNA-0004] Autorizaciones para salidas</rem:name>
+<rem:name>[PNA-0010] Autorizaciones para salidas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1185,7 +1185,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador coge una plantilla que tiene hecha en Word y la modifica para la salida en cuestión.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Imprime las autorizaciones y se las da a cada niño para que las firmen sus familias.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Si los niños traen las autorizaciones firmadas:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                Pueden asistir a la salida.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>        Si no la traen firmada porque se les ha olvidado:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                El coordinador les pide un mensaje de WhatsApp de los padres diciendo que autorizan a su<br/>                hijo y ya más adelante les pedirá la firma. De esta forma podrán asistir a la salida.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador coge una plantilla que tiene hecha en Word y la modifica para la salida en cuestiï¿½n.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Imprime las autorizaciones y se las da a cada niï¿½o para que las firmen sus familias.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Si los niï¿½os traen las autorizaciones firmadas:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                Pueden asistir a la salida.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>        Si no la traen firmada porque se les ha olvidado:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                El coordinador les pide un mensaje de WhatsApp de los padres diciendo que autorizan a su<br/>                hijo y ya mï¿½s adelante les pedirï¿½ la firma. De esta forma podrï¿½n asistir a la salida.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0012">
 <rem:name>AUTORIZACION</rem:name>
@@ -1202,7 +1202,7 @@
 <rem:fileName><![CDATA[.\figuras\autorizaciones.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0020">
-<rem:name> [PNA-0005] Base de datos de los niños</rem:name>
+<rem:name> [PNA-0011] Base de datos de los niï¿½os</rem:name>
 <rem:version>
 <rem:major>2</rem:major>
 <rem:minor>0</rem:minor>
@@ -1213,7 +1213,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se pone a cargo de los niños que tienen problemas en su centro educativo.<br/>    &lt;/li&gt;<br/><br/>    &lt;li&gt;<br/>    Se inscribe al niño como destinatario del proyecto Oberti y para ello el coordinador tendrá un formulario dentro de su programa y los datos se almacenan en la base datos.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se pone a cargo de los niï¿½os que tienen problemas en su centro educativo.<br/>    &lt;/li&gt;<br/><br/>    &lt;li&gt;<br/>    Se inscribe al niï¿½o como destinatario del proyecto Oberti y para ello el coordinador tendrï¿½ un formulario dentro de su programa y los datos se almacenan en la base datos.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0013">
 <rem:name>BD</rem:name>
@@ -1227,10 +1227,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\figuras\niños_4.2.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\niï¿½os_4.2.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0021">
-<rem:name> [PNA-0006] Control de gastos</rem:name>
+<rem:name> [PNA-0012] Control de gastos</rem:name>
 <rem:version>
 <rem:major>2</rem:major>
 <rem:minor>0</rem:minor>
@@ -1241,7 +1241,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador tiene formulario para el control de los gastos(Concepto,descripción,importe,área)<br/>    &lt;/li&gt;<br/>    &lt;li&gt;Podrá llevar el control de gastos total por área o en todas las áreas, sabiendo su máximo y mínimo.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Esta planificación podrá ser luego enviada a los financiadores<br/>    &lt;/li&gt;<br/><br/>&lt;/ol&gt;</rem:text>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador tiene formulario para el control de los gastos(Concepto,descripciï¿½n,importe,ï¿½rea)<br/>    &lt;/li&gt;<br/>    &lt;li&gt;Podrï¿½ llevar el control de gastos total por ï¿½rea o en todas las ï¿½reas, sabiendo su mï¿½ximo y mï¿½nimo.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Esta planificaciï¿½n podrï¿½ ser luego enviada a los financiadores<br/>    &lt;/li&gt;<br/><br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0014">
 <rem:name>CONTROL_GASTOS</rem:name>
@@ -1275,7 +1275,7 @@
 <rem:level>1</rem:level>
 <rem:number>A </rem:number>
 <rem:meeting oid="MET-0004">
-<rem:name>Reunión general para presentación</rem:name>
+<rem:name>Reuniï¿½n general para presentaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1295,8 +1295,8 @@
 <rem:hour>19</rem:hour>
 <rem:minute>0</rem:minute>
 </rem:time>
-<rem:place>Teléfonica</rem:place>
-<rem:results>Primer contacto telefonico con el director de Oberti.<br/>Nos dio la información suficiente para poder presentar esta <rem:ref oid="GLO-0025">Asociación</rem:ref> como futuro cliente de nuestro proyecto.</rem:results>
+<rem:place>Telï¿½fonica</rem:place>
+<rem:results>Primer contacto telefonico con el director de Oberti.<br/>Nos dio la informaciï¿½n suficiente para poder presentar esta <rem:ref oid="GLO-0025">Asociaciï¿½n</rem:ref> como futuro cliente de nuestro proyecto.</rem:results>
 	<rem:attenders stakeholders = "STK-0001 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0003">
@@ -1321,11 +1321,11 @@
 <rem:minute>0</rem:minute>
 </rem:time>
 <rem:place>Oberti</rem:place>
-<rem:results>Conoci al director de Oberti en persona y me enseño las instalaciones y pudimos afianzar el compromiso para la realización de nuestro proyecto.</rem:results>
+<rem:results>Conoci al director de Oberti en persona y me enseï¿½o las instalaciones y pudimos afianzar el compromiso para la realizaciï¿½n de nuestro proyecto.</rem:results>
 	<rem:attenders stakeholders = "STK-0001 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0002">
-<rem:name>Discusión general de la idea</rem:name>
+<rem:name>Discusiï¿½n general de la idea</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1335,7 +1335,7 @@
 <rem:day>21</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Cuestiones realizadas:<br/><br/>&lt;ol&gt;<br/>    &lt;li&gt;Jerarquía de la empresa, roles&lt;/li&gt;<br/>    &lt;li&gt;Plan de voluntariado&lt;/li&gt;<br/>    &lt;li&gt;Actividades realizadas&lt;/li&gt;<br/>    &lt;li&gt;Planificación&lt;/li&gt;<br/>    &lt;li&gt;Informatización de las instalaciones&lt;/li&gt;<br/>    &lt;li&gt;Posibles mejoras&lt;/li&gt;<br/>    &lt;li&gt;Financiación&lt;/li&gt;<br/>&lt;/ol&gt;<br/><br/>Resumen de las respuestas:<br/><br/>&lt;ol&gt;<br/>    &lt;li&gt;Se encuentran los siguientes roles:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;&lt;strong&gt;Coordinador/a del proyecto (director)&lt;/strong&gt;: Contratado 15-20h a la semana. Se encarga de la<br/>                financiación del proyecto, el seguimiento económico, el funcionamiento general de la organización, el<br/>                trato con los<br/>                padres, etc. Puede ir implementando proyectos en los que van entrando otros profesionales.&lt;/li&gt;<br/>            &lt;li&gt;&lt;strong&gt;Voluntarios&lt;/strong&gt;: Existe un equipo de 20 voluntarios que se encarga de los niños a modo de<br/>                tutores. No tienen<br/>                remuneración.&lt;/li&gt;<br/>            &lt;li&gt;Otros profesionales:<br/>                &lt;ul&gt;<br/>                    &lt;li&gt;&lt;strong&gt;Pedagogos&lt;/strong&gt;: Vienen de refuerzo para niños y padres, ahora tienen por ejemplo<br/>                        contratada a una con<br/>                        dos proyectos (escuela infantil y escuela de padres) de 15h. Cuando se acaba el proyecto, se<br/>                        acaba su contrato.&lt;/li&gt;<br/>                    &lt;li&gt;&lt;strong&gt;Psicólogos&lt;/strong&gt;: El coordinador contrata a un profesional autónomo que viene a dar<br/>                        servicio de<br/>                        consulta psicológica para algunos padres y niños. Viene 8 veces durante el año. Da varias<br/>                        sesiones dobles y trabaja en los casos que el coordinador detecte.&lt;/li&gt;<br/>                &lt;/ul&gt;<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Para el plan de voluntariado los voluntarios deben firmar un contrato de <rem:ref oid="GLO-0030">voluntario</rem:ref> al inicio del año por la ley<br/>        del menor. Es obligatorio tener un certificado de delitos sexuales negativo.&lt;br&gt;Los voluntarios proponen ideas<br/>        para el curso y hay dos revisiones, una a mitad de curso y otra al final. Cuando<br/>        se termina el trimestre, el coordinador lo revisa con los voluntarios y viene un especialista en el tema para<br/>        darles un curso sobre el tema para que ellos también se vayan capacitando.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        A diario se tiene el estudio asistido y los viernes son de ocio y se va al colegio de Los Salesianos, donde<br/>        tienen las instalaciones más grandes. Allí se hace ocio como competición deportiva, Play Station, etc. Mientras<br/>        están los padres haciendo talleres de adultos formativos y de ocio.&lt;br&gt;Hay cuatro salidas en el año: medio<br/>        ambiente, cultural, ocio y de verano (Guadalpark, playa, etc.).<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        La planificación se hace en Excel. El coordinador va marcando objetivos que debe cumplir y los va revisando<br/>        manualmente. También se pone objetivos finales que evalúa a final de año analógicamente.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        La organización cuenta con una página web, Facebook y recientemente ha abierto una cuenta de Instagram para<br/>        llegar a los más jovenes que son los que más participan en el voluntariado.<br/>        Tienen tablets y ordenadores y el coordinador está presentando un proyecto a la empresa Dell para informatizar<br/>        más las instalaciones.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Informes sociales&lt;/strong&gt;: Actualmente el coordinador se reune con los padres una vez al<br/>                trimestre para recabar datos sobre su situación actual. Los padres rellenan a mano el formulario y<br/>                después se pasan a Word. Al coordinador le gustaría informatizar esto de forma que pudiera ir metiendo<br/>                indicadores de la situación de los padres y pudiera visualizar gráficas de cómo van progresando de un<br/>                vistazo. También que le salieran avisos como por ejemplo de que se tiene que reunir con una familia.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Calendario&lt;/strong&gt;: Estaría bien informatizar la planificación de las actividades del centro.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Autorizaciones salidas&lt;/strong&gt;: A día de hoy, coge un Word al que le cambia los datos y lo<br/>                imprime para los niños y ahí recoge la firma de los padres. El coordinador querría que estas<br/>                autorizaciones se<br/>                pudieran firmar a través del móvil.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Base de datos de los niños&lt;/strong&gt;: El coordinador va recopilando datos de los niños tales como<br/>                el avance en su proceso educativo, el cual si va mal hablaría con el departamento de psicología del<br/>                colegio, y toda la formación obtenida la iría guardando a mano sin llegar a pasarla a ordenador, lo que<br/>                dificultaría el trabajo al que viniera detrás. Estaría bien tener un histórico de cada niño para ver<br/>                cómo ha ido evolucionando y que salieran alertas rojas si el niño va a peor. También se podrían poner<br/>                límites a no sobrepasar y que saltaran avisos si no se cumplieran.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Planificación presupuestaria&lt;/strong&gt;: En un Excel tiene el presupuesto para cada concepto y va<br/>                apuntando los gastos y llevando el control de forma manual. Se podría implementar que el programa<br/>                avisara si se va a sobrepasar un presupuesto.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Donaciones&lt;/strong&gt;: Actualmente las personas que quieren hacer donativos se inscriben en un<br/>                forumlario y al tener el coordinador sus cuentas, éste va lanzando boletines de cobro todos los meses y<br/>                tiene que ir uno por uno porque a veces se los deniegan, devuelven o vienen con recargo. Quiere cambiar<br/>                a crowdfunding.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Se financian a través de donativos y financiación pública.<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                El &lt;strong&gt;Ayuntamiento de Utrera&lt;/strong&gt; da 12500 euros anuales.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                El &lt;strong&gt;Instituto Andaluz de la Juventud&lt;/strong&gt; financiará estos últimos tres meses del año.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;La<br/>                    Caixa&lt;/strong&gt; da un año sí y otro no y depende del proyecto que presente cada año.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                Están federados a nivel autonómico y<br/>                nacional y a veces les derivan partidas del &lt;strong&gt;Ministerio de Servicios Sociales&lt;/strong&gt; para<br/>                proyectos concretos,<br/>                este año la previsión es de 4500 euros.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                Todos los grupos de &lt;strong&gt;Los Salesianos&lt;/strong&gt;, incluyendo la Hermandad, van haciendo donativos y<br/>                también campañas<br/>                solidarias, como por ejemplo una media maratón de bici que se hizo, las lleva la organización como<br/>                voluntarios y parte de la cuota de inscripción se dona. Eso serían unos 9500 euros que se reciben a<br/>                final de<br/>                año.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Amigos de Oberti&lt;/strong&gt;. La organización tiene una plataforma a través de la cual se pueden<br/>                hacer donaciones<br/>                pero le gustaría cambiar a crowdfunding.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Donaciones generales de empresas y particulares&lt;/strong&gt;. Van por ejemplo personas allí<br/>                expresamente para hacer<br/>                una <rem:ref oid="GLO-0027">donación</rem:ref>, ya sea monetaria o dulces para cuando los niños se porten bien, por ejemplo.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:comments>
+<rem:comments>Cuestiones realizadas:<br/><br/>&lt;ol&gt;<br/>    &lt;li&gt;Jerarquï¿½a de la empresa, roles&lt;/li&gt;<br/>    &lt;li&gt;Plan de voluntariado&lt;/li&gt;<br/>    &lt;li&gt;Actividades realizadas&lt;/li&gt;<br/>    &lt;li&gt;Planificaciï¿½n&lt;/li&gt;<br/>    &lt;li&gt;Informatizaciï¿½n de las instalaciones&lt;/li&gt;<br/>    &lt;li&gt;Posibles mejoras&lt;/li&gt;<br/>    &lt;li&gt;Financiaciï¿½n&lt;/li&gt;<br/>&lt;/ol&gt;<br/><br/>Resumen de las respuestas:<br/><br/>&lt;ol&gt;<br/>    &lt;li&gt;Se encuentran los siguientes roles:<br/>        &lt;ul&gt;<br/>            &lt;li&gt;&lt;strong&gt;Coordinador/a del proyecto (director)&lt;/strong&gt;: Contratado 15-20h a la semana. Se encarga de la<br/>                financiaciï¿½n del proyecto, el seguimiento econï¿½mico, el funcionamiento general de la organizaciï¿½n, el<br/>                trato con los<br/>                padres, etc. Puede ir implementando proyectos en los que van entrando otros profesionales.&lt;/li&gt;<br/>            &lt;li&gt;&lt;strong&gt;Voluntarios&lt;/strong&gt;: Existe un equipo de 20 voluntarios que se encarga de los niï¿½os a modo de<br/>                tutores. No tienen<br/>                remuneraciï¿½n.&lt;/li&gt;<br/>            &lt;li&gt;Otros profesionales:<br/>                &lt;ul&gt;<br/>                    &lt;li&gt;&lt;strong&gt;Pedagogos&lt;/strong&gt;: Vienen de refuerzo para niï¿½os y padres, ahora tienen por ejemplo<br/>                        contratada a una con<br/>                        dos proyectos (escuela infantil y escuela de padres) de 15h. Cuando se acaba el proyecto, se<br/>                        acaba su contrato.&lt;/li&gt;<br/>                    &lt;li&gt;&lt;strong&gt;Psicï¿½logos&lt;/strong&gt;: El coordinador contrata a un profesional autï¿½nomo que viene a dar<br/>                        servicio de<br/>                        consulta psicolï¿½gica para algunos padres y niï¿½os. Viene 8 veces durante el aï¿½o. Da varias<br/>                        sesiones dobles y trabaja en los casos que el coordinador detecte.&lt;/li&gt;<br/>                &lt;/ul&gt;<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Para el plan de voluntariado los voluntarios deben firmar un contrato de <rem:ref oid="GLO-0030">voluntario</rem:ref> al inicio del aï¿½o por la ley<br/>        del menor. Es obligatorio tener un certificado de delitos sexuales negativo.&lt;br&gt;Los voluntarios proponen ideas<br/>        para el curso y hay dos revisiones, una a mitad de curso y otra al final. Cuando<br/>        se termina el trimestre, el coordinador lo revisa con los voluntarios y viene un especialista en el tema para<br/>        darles un curso sobre el tema para que ellos tambiï¿½n se vayan capacitando.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        A diario se tiene el estudio asistido y los viernes son de ocio y se va al colegio de Los Salesianos, donde<br/>        tienen las instalaciones mï¿½s grandes. Allï¿½ se hace ocio como competiciï¿½n deportiva, Play Station, etc. Mientras<br/>        estï¿½n los padres haciendo talleres de adultos formativos y de ocio.&lt;br&gt;Hay cuatro salidas en el aï¿½o: medio<br/>        ambiente, cultural, ocio y de verano (Guadalpark, playa, etc.).<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        La planificaciï¿½n se hace en Excel. El coordinador va marcando objetivos que debe cumplir y los va revisando<br/>        manualmente. Tambiï¿½n se pone objetivos finales que evalï¿½a a final de aï¿½o analï¿½gicamente.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        La organizaciï¿½n cuenta con una pï¿½gina web, Facebook y recientemente ha abierto una cuenta de Instagram para<br/>        llegar a los mï¿½s jovenes que son los que mï¿½s participan en el voluntariado.<br/>        Tienen tablets y ordenadores y el coordinador estï¿½ presentando un proyecto a la empresa Dell para informatizar<br/>        mï¿½s las instalaciones.<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Informes sociales&lt;/strong&gt;: Actualmente el coordinador se reune con los padres una vez al<br/>                trimestre para recabar datos sobre su situaciï¿½n actual. Los padres rellenan a mano el formulario y<br/>                despuï¿½s se pasan a Word. Al coordinador le gustarï¿½a informatizar esto de forma que pudiera ir metiendo<br/>                indicadores de la situaciï¿½n de los padres y pudiera visualizar grï¿½ficas de cï¿½mo van progresando de un<br/>                vistazo. Tambiï¿½n que le salieran avisos como por ejemplo de que se tiene que reunir con una familia.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Calendario&lt;/strong&gt;: Estarï¿½a bien informatizar la planificaciï¿½n de las actividades del centro.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Autorizaciones salidas&lt;/strong&gt;: A dï¿½a de hoy, coge un Word al que le cambia los datos y lo<br/>                imprime para los niï¿½os y ahï¿½ recoge la firma de los padres. El coordinador querrï¿½a que estas<br/>                autorizaciones se<br/>                pudieran firmar a travï¿½s del mï¿½vil.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Base de datos de los niï¿½os&lt;/strong&gt;: El coordinador va recopilando datos de los niï¿½os tales como<br/>                el avance en su proceso educativo, el cual si va mal hablarï¿½a con el departamento de psicologï¿½a del<br/>                colegio, y toda la formaciï¿½n obtenida la irï¿½a guardando a mano sin llegar a pasarla a ordenador, lo que<br/>                dificultarï¿½a el trabajo al que viniera detrï¿½s. Estarï¿½a bien tener un histï¿½rico de cada niï¿½o para ver<br/>                cï¿½mo ha ido evolucionando y que salieran alertas rojas si el niï¿½o va a peor. Tambiï¿½n se podrï¿½an poner<br/>                lï¿½mites a no sobrepasar y que saltaran avisos si no se cumplieran.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Planificaciï¿½n presupuestaria&lt;/strong&gt;: En un Excel tiene el presupuesto para cada concepto y va<br/>                apuntando los gastos y llevando el control de forma manual. Se podrï¿½a implementar que el programa<br/>                avisara si se va a sobrepasar un presupuesto.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Donaciones&lt;/strong&gt;: Actualmente las personas que quieren hacer donativos se inscriben en un<br/>                forumlario y al tener el coordinador sus cuentas, ï¿½ste va lanzando boletines de cobro todos los meses y<br/>                tiene que ir uno por uno porque a veces se los deniegan, devuelven o vienen con recargo. Quiere cambiar<br/>                a crowdfunding.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;<br/>        Se financian a travï¿½s de donativos y financiaciï¿½n pï¿½blica.<br/>        &lt;ul&gt;<br/>            &lt;li&gt;<br/>                El &lt;strong&gt;Ayuntamiento de Utrera&lt;/strong&gt; da 12500 euros anuales.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                El &lt;strong&gt;Instituto Andaluz de la Juventud&lt;/strong&gt; financiarï¿½ estos ï¿½ltimos tres meses del aï¿½o.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;La<br/>                    Caixa&lt;/strong&gt; da un aï¿½o sï¿½ y otro no y depende del proyecto que presente cada aï¿½o.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                Estï¿½n federados a nivel autonï¿½mico y<br/>                nacional y a veces les derivan partidas del &lt;strong&gt;Ministerio de Servicios Sociales&lt;/strong&gt; para<br/>                proyectos concretos,<br/>                este aï¿½o la previsiï¿½n es de 4500 euros.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                Todos los grupos de &lt;strong&gt;Los Salesianos&lt;/strong&gt;, incluyendo la Hermandad, van haciendo donativos y<br/>                tambiï¿½n campaï¿½as<br/>                solidarias, como por ejemplo una media maratï¿½n de bici que se hizo, las lleva la organizaciï¿½n como<br/>                voluntarios y parte de la cuota de inscripciï¿½n se dona. Eso serï¿½an unos 9500 euros que se reciben a<br/>                final de<br/>                aï¿½o.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Amigos de Oberti&lt;/strong&gt;. La organizaciï¿½n tiene una plataforma a travï¿½s de la cual se pueden<br/>                hacer donaciones<br/>                pero le gustarï¿½a cambiar a crowdfunding.<br/>            &lt;/li&gt;<br/>            &lt;li&gt;<br/>                &lt;strong&gt;Donaciones generales de empresas y particulares&lt;/strong&gt;. Van por ejemplo personas allï¿½<br/>                expresamente para hacer<br/>                una <rem:ref oid="GLO-0027">donaciï¿½n</rem:ref>, ya sea monetaria o dulces para cuando los niï¿½os se porten bien, por ejemplo.<br/>            &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:comments>
 <rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
@@ -1345,13 +1345,13 @@
 <rem:hour>20</rem:hour>
 <rem:minute>0</rem:minute>
 </rem:time>
-<rem:place>Organización Oberti, Utrera, Sevilla</rem:place>
-<rem:results>Primer contacto en persona con el cliente.<br/>Tras revisar el documento de requisitos, preguntamos cuestiones generales sobre la jerarquía de la empresa, las actividades realizadas, cómo se realizan las gestiones de la organización, la informatización de ésta, posibles mejoras y las donaciones.<br/>Como resultado, empezamos a trabajar en la elicitación de requisitos.</rem:results>
+<rem:place>Organizaciï¿½n Oberti, Utrera, Sevilla</rem:place>
+<rem:results>Primer contacto en persona con el cliente.<br/>Tras revisar el documento de requisitos, preguntamos cuestiones generales sobre la jerarquï¿½a de la empresa, las actividades realizadas, cï¿½mo se realizan las gestiones de la organizaciï¿½n, la informatizaciï¿½n de ï¿½sta, posibles mejoras y las donaciones.<br/>Como resultado, empezamos a trabajar en la elicitaciï¿½n de requisitos.</rem:results>
 	<rem:attenders stakeholders = "STK-0001 STK-0005 STK-0004 STK-0002 "/>
 </rem:meeting>
 </rem:appendix>
 <rem:appendix oid="SEC-0026">
-<rem:name>Documentación relevante</rem:name>
+<rem:name>Documentaciï¿½n relevante</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1365,7 +1365,7 @@
 <rem:level>1</rem:level>
 <rem:number>B </rem:number>
 <rem:graphicFile oid="GRF-0015">
-<rem:name>Planificación</rem:name>
+<rem:name>Planificaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1376,7 +1376,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0001.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\Programaciï¿½n Oberti_page-0001.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0016">
 <rem:name>Planificacion</rem:name>
@@ -1390,10 +1390,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0002.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\Programaciï¿½n Oberti_page-0002.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0017">
-<rem:name>Planificación</rem:name>
+<rem:name>Planificaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1404,10 +1404,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0003.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\Programaciï¿½n Oberti_page-0003.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0018">
-<rem:name>Planificación</rem:name>
+<rem:name>Planificaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1418,10 +1418,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0004.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\Programaciï¿½n Oberti_page-0004.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0019">
-<rem:name>Planificación</rem:name>
+<rem:name>Planificaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1432,10 +1432,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0005.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\Programaciï¿½n Oberti_page-0005.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0020">
-<rem:name>Planificación</rem:name>
+<rem:name>Planificaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1446,10 +1446,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0006.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\Programaciï¿½n Oberti_page-0006.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0021">
-<rem:name>Planificación</rem:name>
+<rem:name>Planificaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1460,10 +1460,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0007.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\Programaciï¿½n Oberti_page-0007.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0022">
-<rem:name>Planificación</rem:name>
+<rem:name>Planificaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1474,10 +1474,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0008.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\Programaciï¿½n Oberti_page-0008.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0023">
-<rem:name>Inscripcion Niños</rem:name>
+<rem:name>Inscripcion Niï¿½os</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1488,10 +1488,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\inscripcion_niños.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\inscripcion_niï¿½os.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0024">
-<rem:name>Inscripción social</rem:name>
+<rem:name>Inscripciï¿½n social</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1502,10 +1502,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\inscripción_social.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\inscripciï¿½n_social.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0025">
-<rem:name>Autorización</rem:name>
+<rem:name>Autorizaciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1516,7 +1516,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>[width=70%]</rem:comments>
-<rem:fileName><![CDATA[.\figuras\autorización.jpg]]></rem:fileName>
+<rem:fileName><![CDATA[.\figuras\autorizaciï¿½n.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0026">
 <rem:name>Contrato Pedagoga</rem:name>
@@ -1534,7 +1534,7 @@
 </rem:graphicFile>
 </rem:appendix>
 <rem:appendix oid="SEC-0027">
-<rem:name>Glosario de acrónimos y abreviaturas</rem:name>
+<rem:name>Glosario de acrï¿½nimos y abreviaturas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1563,7 +1563,7 @@
 </rem:paragraph>
 </rem:appendix>
 <rem:appendix oid="SEC-0028">
-<rem:name>Bibliografía</rem:name>
+<rem:name>Bibliografï¿½a</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1577,7 +1577,7 @@
 <rem:level>1</rem:level>
 <rem:number>D </rem:number>
 <rem:paragraph oid="PRG-0038">
-<rem:name>Bibliografía</rem:name>
+<rem:name>Bibliografï¿½a</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1588,12 +1588,12 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Para la definición de términos del glosario se han usado las siguientes páginas:<br/><br/>&lt;ul&gt;<br/>    &lt;li&gt;Definiciones de Google&lt;/li&gt;<br/>    &lt;li&gt;&lt;a<br/>            href=&quot;https://www.iadb.org/es/noticias/articulos/2003-05-29/exclusion-social-causas-y-remedios%2C2004.html&quot;&gt;https://www.iadb.org/es/noticias/articulos/2003-05-29/exclusion-social-causas-y-remedios%2C2004.html&lt;/a&gt;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;https://www.significados.com/asociacion/&quot;&gt;https://www.significados.com/asociacion/&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;a<br/>            href=&quot;https://www.esan.edu.pe/conexion/actualidad/2014/04/10/comunicacion-instituciones-publicas-balance-perspectivas/&quot;&gt;https://www.esan.edu.pe/conexion/actualidad/2014/04/10/comunicacion-instituciones-publicas-balance-perspectivas/&lt;/a&gt;&quot;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;&lt;a<br/>            href=&quot;https://jlcauditors.com/que-es-empresa-privada-ejemplos/&quot;&gt;https://jlcauditors.com/que-es-empresa-privada-ejemplos/&lt;/a&gt;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;shorturl.at/fhsJS&quot;&gt;https://definicion.de/volunt_ario/&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;https://definicion.de/situacion-social/&quot;&gt;https://definicion.de/situacion-social/&lt;/a&gt;&lt;/li&gt;<br/>&lt;/ul&gt;<br/></rem:text>
+<rem:text>Para la definiciï¿½n de tï¿½rminos del glosario se han usado las siguientes pï¿½ginas:<br/><br/>&lt;ul&gt;<br/>    &lt;li&gt;Definiciones de Google&lt;/li&gt;<br/>    &lt;li&gt;&lt;a<br/>            href=&quot;https://www.iadb.org/es/noticias/articulos/2003-05-29/exclusion-social-causas-y-remedios%2C2004.html&quot;&gt;https://www.iadb.org/es/noticias/articulos/2003-05-29/exclusion-social-causas-y-remedios%2C2004.html&lt;/a&gt;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;https://www.significados.com/asociacion/&quot;&gt;https://www.significados.com/asociacion/&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;a<br/>            href=&quot;https://www.esan.edu.pe/conexion/actualidad/2014/04/10/comunicacion-instituciones-publicas-balance-perspectivas/&quot;&gt;https://www.esan.edu.pe/conexion/actualidad/2014/04/10/comunicacion-instituciones-publicas-balance-perspectivas/&lt;/a&gt;&quot;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;&lt;a<br/>            href=&quot;https://jlcauditors.com/que-es-empresa-privada-ejemplos/&quot;&gt;https://jlcauditors.com/que-es-empresa-privada-ejemplos/&lt;/a&gt;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;shorturl.at/fhsJS&quot;&gt;https://definicion.de/volunt_ario/&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;https://definicion.de/situacion-social/&quot;&gt;https://definicion.de/situacion-social/&lt;/a&gt;&lt;/li&gt;<br/>&lt;/ul&gt;<br/></rem:text>
 </rem:paragraph>
 </rem:appendix>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
-<rem:name>Documento de Análisis del Sistema</rem:name>
+<rem:name>Documento de Anï¿½lisis del Sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1655,7 +1655,7 @@
 <rem:date>
 <rem:year>2000</rem:year>
 <rem:month>10</rem:month>
-<rem:day>30</rem:day>
+<rem:day>11</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
@@ -1692,8 +1692,8 @@
 <rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0006">
-<rem:name>Date</rem:name>
+<rem:predefinedValueType oid="PVT-0002">
+<rem:name>Real</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1703,8 +1703,8 @@
 <rem:day>30</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Dates</rem:description>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Real numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0001">
@@ -1740,7 +1740,7 @@
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
 <rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
+<rem:name>pendiente de anï¿½lisis</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
@@ -1749,7 +1749,7 @@
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
+<rem:name>pendiente de realizaciï¿½n</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
@@ -1758,7 +1758,7 @@
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:name>en proceso de negociaciï¿½n</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
@@ -1776,7 +1776,7 @@
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:name>en proceso de negociaciï¿½n</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
@@ -1790,19 +1790,19 @@
 <rem:defectTypeValue oid = "DTV-0007">
 <rem:name>No implementabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnologï¿½a actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0001">
 <rem:name>PD</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseï¿½o del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
+<rem:name>Ambigï¿½edad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen mï¿½s de una interpretaciï¿½n posible]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
@@ -1814,7 +1814,7 @@
 <rem:defectTypeValue oid = "DTV-0004">
 <rem:name>Incomprensibilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algï¿½n lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
@@ -1826,7 +1826,7 @@
 <rem:defectTypeValue oid = "DTV-0008">
 <rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma mï¿½s concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0010">
@@ -1836,27 +1836,27 @@
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
+<rem:name>Incompleciï¿½n</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberï¿½ hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:name>Dependiente del diseï¿½o</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseï¿½o del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0015">
 <rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+<![CDATA[El requisito o requisitos no estï¿½n expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:name>Organizaciï¿½n incorrecta</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+<![CDATA[El requisito o requisitos no estï¿½n organizados correctamente segï¿½n la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
@@ -1871,6 +1871,12 @@
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma mï¿½s concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
 <rem:name>Prioridad no establecida</rem:name>
 <rem:description>
@@ -1878,15 +1884,15 @@
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
+<rem:name>Imprecisiï¿½n</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numï¿½ricas siempre que sea posible con el nivel adecuado de precisiï¿½n]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
 <rem:name>No rastreabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+<![CDATA[El requisito o requisitos no estï¿½n trazados hacia sus orï¿½genes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0002">
@@ -1896,7 +1902,7 @@
 <rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
+<rem:name>quedarï¿½a bien</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
@@ -1914,16 +1920,19 @@
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
+<rem:name>pendiente de verificaciï¿½n</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
+<rem:name>en construcciï¿½n</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
+<rem:name>pendiente de validaciï¿½n</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
@@ -1932,7 +1941,7 @@
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
+<rem:name>continï¿½a</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
@@ -1941,7 +1950,7 @@
 <rem:name>PD</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
+<rem:name>aï¿½o(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
@@ -1953,13 +1962,13 @@
 <rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
+<rem:name>dï¿½cima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
+<rem:name>dï¿½a(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0009">
 <rem:name>hora(s)</rem:name>
@@ -1968,16 +1977,19 @@
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
+<rem:name>centï¿½sima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presiï¿½n</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
+<rem:name>hay presiï¿½n</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
