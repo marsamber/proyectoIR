@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <!DOCTYPE rem:requirementsProject SYSTEM "https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/xml/remus.dtd">
 <rem:requirementsProject xmlns:rem="http://rem.lsi.us.es">
-<rem:name>Documento de Requisitos del Sistema</rem:name>
+<rem:name>Especificacion de Requisitos del Sistema</rem:name>
 <rem:c_requirementsSpecification oid = "CRS-0001">
-<rem:name>Documento de Requisitos del Sistema</rem:name>
+<rem:name>Especificación de Requisitos del Sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -58,6 +58,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:text>Oberti es una <rem:ref oid="GLO-0025">Asociación</rem:ref> de Integración social que nace de la iniciativa de la Fundación Aldaba. Esta lleva en funcionamiento más de 10 años. Tiene destinadas 30 familias que se encuentran en <rem:ref oid="GLO-0024">exclusión social</rem:ref>, su objetivo es mejorar las distintas áreas que componen este núcleo familiar, como  el educativo y el familiar.<br/><br/>En el área familiar:<br/>&lt;ul&gt;<br/>&lt;li&gt;Mejorar el acceso a los bienes de primera necesidad&lt;/li&gt;<br/>&lt;li&gt;Incrementar la calidad nutricional &lt;/li&gt;<br/>&lt;li&gt;Reducir la violencia intrafamiliar &lt;/li&gt;<br/>&lt;/ul&gt;<br/><br/>En el área educativa:<br/>&lt;ul&gt;<br/>&lt;li&gt;Lograr promoción académica de los niños&lt;/li&gt;<br/>&lt;li&gt;Realizar actividades de ocio y tiempo libre para la socialización&lt;/li&gt;<br/>&lt;li&gt;Salidas extraordinarias fuera del curso académico para reforzar el trabajo del curso&lt;/li&gt;<br/>&lt;/ul&gt;<br/>La instalaciones con las que cuenta esta <rem:ref oid="GLO-0025">asociación</rem:ref> se compone de un local dividido en distintas salas  por edad educativa donde los niños realizan sus deberes o fichas complementarias, los padres asisten a cursos 1 vez por semana y sus puestas están abiertas desde las 16:30 hasta las 19:30  donde se les proporciona la merienda y el apoyo educativo adecuado a su nivel.<br/><br/>Las familias cuentan con el apoyo de distintos profesionales como (psicólogos, pedagogos, nutricionistas, etc.) si cualquier miembro de la familia lo necesitase.<br/><br/>En la actualidad la <rem:ref oid="GLO-0025">asociación</rem:ref> realizan todas sus gestiones de forma manual y solo cuenta con una pagina web donde se da a conocer y redes sociales como Facebook e Instagram. Por lo que estas herramientas no son suficientes para agilizar el trabajo que conlleva toda la actividad de esta <rem:ref oid="GLO-0025">asociación</rem:ref>.<br/><br/></rem:text>
 </rem:paragraph>
+<rem:graphicFile oid="GRF-0028">
+<rem:name>Instalaciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]<br/></rem:comments>
+<rem:fileName><![CDATA[.\figuras\WhatsApp_Image_2021-10-24_at_22.13.49.jpeg]]></rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section oid="SEC-0003">
 <rem:name>Participantes en el proyecto</rem:name>
@@ -290,6 +304,76 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:text>La <rem:ref oid="GLO-0025">asociación</rem:ref> cuenta con un espacio aclimatado donde se imparten las clases extraescolares usando como material una pizarra, además de contar con un pequeño número de dispositivos electrónicos (tablets y ordenadores).<br/>El principal problema de Oberti es la gran ausencia de informatización que padecen. Esto queda demostrado en muchos aspectos, el registro de un niño se hace a través de una hoja de inscripción escrita a mano, donde se recogen los datos necesarios para incluir a la familia en el proyecto. Una vez que son añadidos al proyecto, caso por caso se va rellenando una ficha social de cada familia, donde se almacena toda la información referente a la familia, ya sea económica o social.<br/>El director hace una programación para todo el año que consta:<br/>&lt;ul&gt;<br/>&lt;li&gt;Presupuesto del que se va a disponer para financiar el proyecto.&lt;/li&gt; <br/>&lt;li&gt;Los objetivos semanales que se esperan conseguir en los niños. &lt;/li&gt;<br/>&lt;li&gt;Planifica la recogida de datos de forma mensual de cada familia para así valorar la situación una forma regular.&lt;/li&gt;<br/>&lt;li&gt;Los objetivos anuales clasificados en distintas áreas(educativa, familiar, voluntariado y gestión).&lt;/li&gt;<br/>&lt;/ul&gt;<br/>El director utiliza una herramienta que es muy simple y poco eficaz, ya que lleva toda la gestión de forma manual. El proceso consiste:<br/>&lt;ul&gt;<br/>&lt;li&gt;Recoge todo el balance que anteriormente va apuntando en un Excel, una vez que tiene toda la información la traspasa (también de forma manual) a un documento oficial. &lt;/li&gt;<br/>&lt;li&gt;También recoge la información de cada familia mensualmente y lo escribe todo a mano, para comparar la situación de un mes a otro tiene que ver los campos requeridos uno a uno e ir comparando, por lo que queda bastante claro que existe un riesgo grandísimo de pérdida de datos o de cometer errores. &lt;/li&gt;<br/>&lt;/ul&gt;<br/>A la <rem:ref oid="GLO-0025">asociación</rem:ref>, en especial a su director, le gustaría que se implementara un pequeño programa para informatizar y almacenar en una base de datos toda la información que recoge manualmente.<br/>Así se podrían regular los datos que se recogen mensualmente de la situación general de las familias, se generarían automáticamente las estadísticas, además de que le llegaría un aviso de mejora o de empeoramiento cuando una familia esté en una situación más o menos favorable que el mes anterior.<br/></rem:text>
 </rem:paragraph>
+<rem:graphicFile oid="GRF-0029">
+<rem:name>foto1</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]<br/></rem:comments>
+<rem:fileName><![CDATA[.\figuras\WhatsApp_Image_2021-10-24_at_22.13.48.jpeg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0030">
+<rem:name>foto2</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]<br/></rem:comments>
+<rem:fileName><![CDATA[.\figuras\WhatsApp_Image_2021-10-24_at_22.13.48_2.jpeg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0031">
+<rem:name>foto3</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]<br/></rem:comments>
+<rem:fileName><![CDATA[.\figuras\WhatsApp_Image_2021-10-24_at_22.13.48_3.jpeg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0032">
+<rem:name>foto4</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]<br/></rem:comments>
+<rem:fileName><![CDATA[.\figuras\WhatsApp_Image_2021-10-24_at_22.13.48_4.jpeg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0033">
+<rem:name>foto5</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]<br/></rem:comments>
+<rem:fileName><![CDATA[.\figuras\WhatsApp_Image_2021-10-24_at_22.13.49_2.jpeg]]></rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section oid="SEC-0009">
 <rem:name>Glosario de términos del dominio del problema</rem:name>
@@ -305,20 +389,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>2.2 </rem:number>
-<rem:glossaryItem oid="GLO-0024">
-<rem:name>Exclusión social</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>escasez crónica de oportunidades y de acceso a servicios básicos de calidad, a los mercados laborales y de crédito, a una infraestructura adecuada y al sistema de justicia.</rem:text>
-</rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0025">
 <rem:name>Asociación</rem:name>
 <rem:version>
@@ -333,19 +403,19 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:text>unión de personas o entidades para un fin común, por ejemplo: asociaciones profesionales, sindicatos, asociaciones comerciales, asociaciones de vecinos, entre otras.</rem:text>
 </rem:glossaryItem>
-<rem:glossaryItem oid="GLO-0026">
-<rem:name>Subvención</rem:name>
+<rem:glossaryItem oid="GLO-0049">
+<rem:name>Destinatario</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
 <rem:month>10</rem:month>
-<rem:day>23</rem:day>
+<rem:day>27</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>cantidad de dinero que se concede a una persona, una entidad o una institución como ayuda económica para realizar una obra o para su mantenimiento, especialmente la que se recibe del Estado o de un organismo oficial.</rem:text>
+<rem:text>persona a quien se dirige algo.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0027">
 <rem:name>Donación</rem:name>
@@ -361,20 +431,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:text>cosa que se da a una persona de forma voluntaria y sin esperar premio ni recompensa alguna, especialmente cuando se trata de algo de valor.</rem:text>
 </rem:glossaryItem>
-<rem:glossaryItem oid="GLO-0028">
-<rem:name>Entidad pública</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>es la organización que desempeña una acción de interés público y forma parte del gobierno nacional o subnacional. En la administración pública moderna, estas instituciones ya no desempeñan solo una función de control, cuentan también con instrumentos de promoción de mejores prácticas.</rem:text>
-</rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0029">
 <rem:name>Entidad privada</rem:name>
 <rem:version>
@@ -389,8 +445,8 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:text>es una organización creada con o sin fines de lucro cuya actividad económica consiste en la producción de bienes y servicios de cualquier tipo.</rem:text>
 </rem:glossaryItem>
-<rem:glossaryItem oid="GLO-0030">
-<rem:name>Voluntario</rem:name>
+<rem:glossaryItem oid="GLO-0028">
+<rem:name>Entidad pública</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -401,7 +457,21 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>sujeto que decide prestar un servicio o realizar un trabajo por voluntad propia, sin que esté obligado a hacerlo por motivos legales, contractuales o económicos.<br/>El trabajo que lleva a cabo un <rem:ref oid="GLO-0030">voluntario</rem:ref> se conoce como voluntariado. A través de estas acciones, los individuos deciden brindar un servicio a la comunidad sin esperar nada a cambio: lo hacen por razones éticas, ideológicas o espirituales.</rem:text>
+<rem:text>es la organización que desempeña una acción de interés público y forma parte del gobierno nacional o subnacional. En la administración pública moderna, estas instituciones ya no desempeñan solo una función de control, cuentan también con instrumentos de promoción de mejores prácticas.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0024">
+<rem:name>Exclusión social</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>escasez crónica de oportunidades y de acceso a servicios básicos de calidad, a los mercados laborales y de crédito, a una infraestructura adecuada y al sistema de justicia.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0031">
 <rem:name>Situación social</rem:name>
@@ -416,6 +486,34 @@
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
 <rem:text>se vincula a la posición que ocupa una persona en la sociedad. En otras palabras, la idea hace referencia al estado del sujeto respecto al contexto o al entorno.<br/>La <rem:ref oid="GLO-0031">situación social</rem:ref> de una persona, una familia o una comunidad, por lo tanto, depende de diversos factores que inciden en la calidad de vida, la posibilidad de desarrollo, etc. Estos factores forman parte del medio en el cual los sujetos viven.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0026">
+<rem:name>Subvención</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>cantidad de dinero que se concede a una persona, una entidad o una institución como ayuda económica para realizar una obra o para su mantenimiento, especialmente la que se recibe del Estado o de un organismo oficial.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0030">
+<rem:name>Voluntario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>sujeto que decide prestar un servicio o realizar un trabajo por voluntad propia, sin que esté obligado a hacerlo por motivos legales, contractuales o económicos.<br/>El trabajo que lleva a cabo un <rem:ref oid="GLO-0030">voluntario</rem:ref> se conoce como voluntariado. A través de estas acciones, los individuos deciden brindar un servicio a la comunidad sin esperar nada a cambio: lo hacen por razones éticas, ideológicas o espirituales.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
@@ -577,7 +675,7 @@
 <rem:text>Dependiendo de las necesidades de los proyectos durante el año, se necesitarán distintos profesionales como psicólogos, pedagogos, etc.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0005">
-<rem:name>[ANA-0003] Voluntarios</rem:name>
+<rem:name>[ANA-0003] Voluntario</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -591,7 +689,7 @@
 <rem:text>Trabajan con los niños a modo de tutores sin remuneración.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0006">
-<rem:name>[ANA-0004] Familias</rem:name>
+<rem:name>[ANA-0004] Familia</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -620,7 +718,7 @@
 <rem:level>3</rem:level>
 <rem:number>3.2.2 </rem:number>
 <rem:glossaryItem oid="GLO-0009">
-<rem:name>[PNA-0001] Plan de voluntariado</rem:name>
+<rem:name>[PNA-0001] Colaborar como voluntario</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -648,7 +746,7 @@
 <rem:fileName><![CDATA[.\figuras\plan_voluntariado.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0010">
-<rem:name>[PNA-0002] Planificación</rem:name>
+<rem:name>[PNA-0002] Planificar proyecto Oberti</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -676,7 +774,7 @@
 <rem:fileName><![CDATA[.\figuras\planificacion.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0011">
-<rem:name>[PNA-0003] Realización de los informes sociales</rem:name>
+<rem:name>[PNA-0003] Realizar informes sociales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -704,7 +802,7 @@
 <rem:fileName><![CDATA[.\figuras\informes_sociales.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0012">
-<rem:name>[PNA-0004] Autorizaciones para salidas</rem:name>
+<rem:name>[PNA-0004] Autorizar salidas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -732,7 +830,7 @@
 <rem:fileName><![CDATA[.\figuras\autorizaciones.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0013">
-<rem:name>[PNA-0005] Base de datos de los niños</rem:name>
+<rem:name>[PNA-0005] Actualizar información sobre los niños</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -760,7 +858,7 @@
 <rem:fileName><![CDATA[.\figuras\bd_niños.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0014">
-<rem:name>[PNA-0006] Control de gastos</rem:name>
+<rem:name>[PNA-0006] Controlar gastos</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -788,7 +886,7 @@
 <rem:fileName><![CDATA[.\figuras\control_gastos.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0015">
-<rem:name>[PNA-0007] Donaciones</rem:name>
+<rem:name>[PNA-0007] Obtener donaciones</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -888,6 +986,62 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:text>Cuenta con una página web, en la que ofrecen información sobre ellos, sobre las actividades que realizan, sobre cómo colaborar con ellos, etc. Cuentan también con redes sociales como Facebook e Instagram, y para realizar las tareas de contabilidad, utilizan Excel.<br/></rem:text>
 </rem:paragraph>
+<rem:graphicFile oid="GRF-0034">
+<rem:name>Página web</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]<br/></rem:comments>
+<rem:fileName><![CDATA[.\figuras\pagina.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0035">
+<rem:name>Excel</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\figuras\Programación Oberti_page-0008.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0036">
+<rem:name>Instagram</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]<br/></rem:comments>
+<rem:fileName><![CDATA[.\figuras\instagram.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0037">
+<rem:name>Facebook</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]<br/></rem:comments>
+<rem:fileName><![CDATA[.\figuras\faceboook.png]]></rem:fileName>
+</rem:graphicFile>
 </rem:section>
 </rem:section>
 </rem:section>
@@ -931,7 +1085,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Como director deseo que el sistema me permita registrar a cada destinatario, para  llevar un control de los niños.</rem:text>
+<rem:text>Como director deseo que el sistema me permita registrar a cada <rem:ref oid="GLO-0049">destinatario</rem:ref>, para  llevar un control de los niños.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0040">
 <rem:name>[HU-0002] Listado de niños</rem:name>
@@ -1075,7 +1229,7 @@
 <rem:level>2</rem:level>
 <rem:number>4.2 </rem:number>
 <rem:section oid="SEC-0023">
-<rem:name>Descripción de actores de negocio a implantar</rem:name>
+<rem:name>Descripción de actores del negocio a implantar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1100,7 +1254,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Los actores de negocios son los mismo nombrados en el punto 3.2.1</rem:text>
+<rem:text>Los actores del negocio a implantar son los mismos que los nombrados en el punto 3.2.1</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0024">
@@ -1118,7 +1272,7 @@
 <rem:level>3</rem:level>
 <rem:number>4.2.2 </rem:number>
 <rem:glossaryItem oid="GLO-0017">
-<rem:name>[PNA-0008] Planificación</rem:name>
+<rem:name>[PNA-0008] Planificar proyecto Oberti</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1146,7 +1300,7 @@
 <rem:fileName><![CDATA[.\figuras\planificacion_4.2.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0018">
-<rem:name>[PNA-0009] Realización de los informes sociales</rem:name>
+<rem:name>[PNA-0009] Realizar informes sociales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1174,7 +1328,7 @@
 <rem:fileName><![CDATA[.\figuras\informes_sociales_4.2.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0019">
-<rem:name>[PNA-0010] Autorizaciones para salidas</rem:name>
+<rem:name>[PNA-0010] Autorizar salidas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1202,7 +1356,7 @@
 <rem:fileName><![CDATA[.\figuras\modelos_negocio_actual-Page-1.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0020">
-<rem:name> [PNA-0011] Base de datos de los niños</rem:name>
+<rem:name> [PNA-0011] Actualizar datos de los niños</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1213,7 +1367,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se pone a cargo de los niños que tienen problemas en su centro educativo.<br/>    &lt;/li&gt;<br/><br/>    &lt;li&gt;<br/>    Se inscribe al niño como destinatario del proyecto Oberti y para ello el coordinador tendrá un formulario dentro de su programa y los datos se almacenan en la base datos.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
+<rem:text>&lt;ol&gt;<br/>    &lt;li&gt;<br/>        El coordinador se pone a cargo de los niños que tienen problemas en su centro educativo.<br/>    &lt;/li&gt;<br/><br/>    &lt;li&gt;<br/>    Se inscribe al niño como <rem:ref oid="GLO-0049">destinatario</rem:ref> del proyecto Oberti y para ello el coordinador tendrá un formulario dentro de su programa y los datos se almacenan en la base datos.<br/>    &lt;/li&gt;<br/>&lt;/ol&gt;</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0013">
 <rem:name>Base de datos de los niños</rem:name>
@@ -1230,7 +1384,7 @@
 <rem:fileName><![CDATA[.\figuras\bd_niños_4.2.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0021">
-<rem:name> [PNA-0012] Control de gastos</rem:name>
+<rem:name> [PNA-0012] Controlar gastos</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1297,7 +1451,7 @@
 </rem:time>
 <rem:place>Teléfonica</rem:place>
 <rem:results>Primer contacto telefónico con el director de Oberti.<br/>Nos dio la información suficiente para poder presentar esta <rem:ref oid="GLO-0025">Asociación</rem:ref> como futuro cliente de nuestro proyecto.</rem:results>
-	<rem:attenders stakeholders = "STK-0001 "/>
+	<rem:attenders stakeholders = "STK-0005 STK-0001 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0003">
 <rem:name>Primera visita a Oberti</rem:name>
@@ -1322,7 +1476,7 @@
 </rem:time>
 <rem:place>Oberti</rem:place>
 <rem:results>Conocí al director de Oberti en persona y me enseñó las instalaciones y pudimos afianzar el compromiso para la realización de nuestro proyecto.</rem:results>
-	<rem:attenders stakeholders = "STK-0001 "/>
+	<rem:attenders stakeholders = "STK-0005 STK-0001 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0002">
 <rem:name>Discusión general de la idea</rem:name>
@@ -1347,7 +1501,7 @@
 </rem:time>
 <rem:place>Organización Oberti, Utrera, Sevilla</rem:place>
 <rem:results>Primer contacto en persona con el cliente.<br/>Tras revisar el documento de requisitos, preguntamos cuestiones generales sobre la jerarquía de la empresa, las actividades realizadas, cómo se realizan las gestiones de la organización, la informatización de ésta, posibles mejoras y las donaciones.<br/>Como resultado, empezamos a trabajar en la elicitación de requisitos.</rem:results>
-	<rem:attenders stakeholders = "STK-0001 STK-0002 STK-0005 STK-0004 "/>
+	<rem:attenders stakeholders = "STK-0004 STK-0005 STK-0001 STK-0002 "/>
 </rem:meeting>
 <rem:graphicFile oid="GRF-0027">
 <rem:name>Reunión</rem:name>
@@ -1590,7 +1744,7 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>D </rem:number>
-<rem:paragraph oid="PRG-0038">
+<rem:glossaryItem oid="GLO-0038">
 <rem:name>Bibliografía</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
@@ -1603,7 +1757,7 @@
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
 <rem:text>Para la definición de términos del glosario se han usado las siguientes páginas:<br/><br/>&lt;ul&gt;<br/>    &lt;li&gt;Definiciones de Google&lt;/li&gt;<br/>    &lt;li&gt;&lt;a<br/>            href=&quot;https://www.iadb.org/es/noticias/articulos/2003-05-29/exclusion-social-causas-y-remedios%2C2004.html&quot;&gt;https://www.iadb.org/es/noticias/articulos/2003-05-29/exclusion-social-causas-y-remedios%2C2004.html&lt;/a&gt;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;https://www.significados.com/asociacion/&quot;&gt;https://www.significados.com/asociacion/&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;a<br/>            href=&quot;https://www.esan.edu.pe/conexion/actualidad/2014/04/10/comunicacion-instituciones-publicas-balance-perspectivas/&quot;&gt;https://www.esan.edu.pe/conexion/actualidad/2014/04/10/comunicacion-instituciones-publicas-balance-perspectivas/&lt;/a&gt;&quot;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;&lt;a<br/>            href=&quot;https://jlcauditors.com/que-es-empresa-privada-ejemplos/&quot;&gt;https://jlcauditors.com/que-es-empresa-privada-ejemplos/&lt;/a&gt;<br/>    &lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;shorturl.at/fhsJS&quot;&gt;https://definicion.de/volunt_ario/&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;https://definicion.de/situacion-social/&quot;&gt;https://definicion.de/situacion-social/&lt;/a&gt;&lt;/li&gt;<br/>&lt;/ul&gt;<br/></rem:text>
-</rem:paragraph>
+</rem:glossaryItem>
 </rem:appendix>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
@@ -1646,6 +1800,21 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
+<rem:predefinedValueType oid="PVT-0003">
+<rem:name>Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Integer numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0007">
 <rem:name>Time</rem:name>
 <rem:version>
@@ -1676,36 +1845,6 @@
 <rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0005">
-<rem:name>String</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Alphanumeric strings</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0003">
-<rem:name>Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Integer numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0001">
 <rem:name>Enum Literal</rem:name>
 <rem:version>
@@ -1719,6 +1858,21 @@
 </rem:version>
 <rem:comments>Predefined OCL type (non-standard)</rem:comments>
 <rem:description>Enumeration literals</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0004">
+<rem:name>Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Natural numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0002">
@@ -1736,8 +1890,8 @@
 <rem:description>Real numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0004">
-<rem:name>Natural</rem:name>
+<rem:predefinedValueType oid="PVT-0005">
+<rem:name>String</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1748,7 +1902,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Natural numbers</rem:description>
+<rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
@@ -1771,94 +1925,40 @@
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
 <rem:name>Organización incorrecta</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
@@ -1867,10 +1967,10 @@
 <![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
 <rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0015">
@@ -1879,22 +1979,16 @@
 <![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
 <rem:name>Prioridad no establecida</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0008">
@@ -1903,9 +1997,66 @@
 <![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
-</rem:importanceValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
@@ -1915,23 +2066,29 @@
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
-</rem:stabilityValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
-</rem:statusValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
+</rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
@@ -1939,26 +2096,17 @@
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
-</rem:statusValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
-</rem:terminationValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
+</rem:terminationValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
@@ -1966,35 +2114,41 @@
 <rem:timeUnitValue oid = "TUV-0011">
 <rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
 <rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
+</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
