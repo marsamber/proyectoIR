@@ -1,0 +1,91 @@
+@startuml
+
+hide circle
+hide methods
+
+title Diagrama de clases - Organizacion
+
+
+class Organizacion {
+    String nombre
+    String direccion
+    Integer telefono
+    String comentarios
+}
+
+class Director{
+    String nombre
+    Date fechaEntrada
+    Double salario
+    Double horasContratadas
+}
+
+class Especialista{
+    String nombre
+    String especialidad
+    Date fechaEntrada
+    Date fechaSalida
+    Double salario
+    Double horasContratadas
+}
+
+class Voluntarios{
+    String nombre
+    String disponibilidad
+    String propuestaPlanificacion
+}
+
+class MiembroFamiliar{
+    String nombre
+    String parentesco
+    Date fechaNacimiento
+    String sexo
+    Integer edad
+    String nacionalidad
+}
+
+class Niño{
+    String nombre
+    String apellidos
+    String centroEstudios
+    String cursoEscolar
+    Integer telefono
+    String correo
+    String direccion
+    Integer dni
+    Date fechaNacimiento
+    String lugarNacimiento
+    String comentarios
+}
+
+class SituacionEconomica{
+    Double sueldo
+    Double ayudas
+    Double economiaSumergida
+}
+
+class HistorialClinico{
+    String miembroFamiliar
+    String enfermedad
+    String discapacidad
+    String intervenciones
+    String medicamentos
+    String seguimientoPsicologico
+    String saludFisica
+}
+
+class SituacionFamiliar{
+    String historiaFamiliar
+    String dinamicaFamiliar
+}
+
+
+Organizacion "1"--"1" Director
+Organizacion "0..1"-- "*" Especialista
+Organizacion "0..1"--"*" Voluntarios
+
+Niño "1"--"*" MiembroFamiliar
+Niño "1"--"*" SituacionEconomica
+Niño "1"--"*" HistorialClinico
+Niño "1"--"1" SituacionFamiliar
+@enduml
