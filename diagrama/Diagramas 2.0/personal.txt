@@ -1,0 +1,36 @@
+@startuml
+
+title Diagrama de Clases - Personal
+
+
+class Persona
+
+class Rol{
+    String nombre
+    Date fechaEntrada
+    Date fechaSalida
+}
+
+class Director{
+    Double salario
+    Double horasContratadas
+}
+
+class Especialista{
+    String especialidad
+    Double salario  
+    Double horasContratadas
+}
+
+class Voluntario{
+    Boolean disponibilidad
+    String propuestaPlanificacion
+}
+
+Rol <|-down- Director
+Rol <|-down- Especialista
+Rol <|-down- Voluntario
+
+Persona *-right- Rol
+
+@enduml
