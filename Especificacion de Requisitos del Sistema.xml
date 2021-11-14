@@ -1853,7 +1853,7 @@
 </rem:time>
 <rem:place>Teléfonica</rem:place>
 <rem:results>Primer contacto telefónico con el director de Oberti.<br/>Nos dio la información suficiente para poder presentar esta <rem:ref oid="GLO-0025">Asociación</rem:ref> como futuro cliente de nuestro proyecto.</rem:results>
-	<rem:attenders stakeholders = "STK-0005 STK-0001 "/>
+	<rem:attenders stakeholders = "STK-0001 STK-0005 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0003">
 <rem:name>Primera visita a Oberti</rem:name>
@@ -1878,7 +1878,7 @@
 </rem:time>
 <rem:place>Oberti</rem:place>
 <rem:results>Conocí al director de Oberti en persona y me enseñó las instalaciones y pudimos afianzar el compromiso para la realización de nuestro proyecto.</rem:results>
-	<rem:attenders stakeholders = "STK-0005 STK-0001 "/>
+	<rem:attenders stakeholders = "STK-0001 STK-0005 "/>
 </rem:meeting>
 <rem:meeting oid="MET-0002">
 <rem:name>Discusión general de la idea</rem:name>
@@ -1903,7 +1903,7 @@
 </rem:time>
 <rem:place>Organización Oberti, Utrera, Sevilla</rem:place>
 <rem:results>Primer contacto en persona con el cliente.<br/>Tras revisar el documento de requisitos, preguntamos cuestiones generales sobre la jerarquía de la empresa, las actividades realizadas, cómo se realizan las gestiones de la organización, la informatización de ésta, posibles mejoras y las donaciones.<br/>Como resultado, empezamos a trabajar en la elicitación de requisitos.</rem:results>
-	<rem:attenders stakeholders = "STK-0002 STK-0005 STK-0004 STK-0001 "/>
+	<rem:attenders stakeholders = "STK-0001 STK-0004 STK-0002 STK-0005 "/>
 </rem:meeting>
 <rem:graphicFile oid="GRF-0027">
 <rem:name>Reunión</rem:name>
@@ -2610,6 +2610,779 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>5.2 </rem:number>
+<rem:graphicFile oid="GRF-0040">
+<rem:name>Inicio de sesión / Registro</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Registro.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0054">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El personal de la organización ya registrado podrá iniciar sesión desde aquí. Si aún no está registrado, podrá hacerlo también desde esta vista.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0041">
+<rem:name>Selección de rol</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Selección Rol.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0055">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;Una vez dentro de la plataforma, si el usuario tiene varios roles en la organización, podrá elegir uno de ellos para tener distintos privilegios dentro de la página.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:section oid="SEC-0083">
+<rem:name>Asociados al coordinador</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>5.2.1 </rem:number>
+<rem:graphicFile oid="GRF-0042">
+<rem:name>Vista familias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Familias Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0056">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El coordinador podrá ver una lista con todas las familias que están en la organización. Para más detalles sobre alguna de ellas, deberá clickar sobre el nombre de la familia.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0043">
+<rem:name>Información familia parte 1</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Familia Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0044">
+<rem:name>Información familia parte 2</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Familia pt2 Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0058">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;div style=&quot;text-align:center;&quot;&gt;El coordinador podrá ver más información sobre las familias:&lt;br&gt;<br/>&lt;ul&gt;<br/>&lt;li&gt;Situación familiar&lt;/li&gt;<br/>&lt;li&gt;Situación económica&lt;/li&gt;<br/>&lt;li&gt;Miembros familiares&lt;/li&gt;<br/>&lt;/ul&gt;<br/>A su vez, podrá visualizar más información de los miembros de la familia pulsando en la &quot;i&quot; de información.&lt;/div&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0045">
+<rem:name>Editar información familia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Familia editable Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0059">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El coordinador podrá editar la información registrada de la familia.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0046">
+<rem:name>Más información de un miembro familiar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Abuelo Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0060">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;div style=&quot;text-align:center;&quot;&gt;El coordinador podrá visualizar más información sobre los miembros familiares como:<br/>&lt;ul&gt;<br/>&lt;li&gt;Enfermedades&lt;/li&gt;<br/>&lt;li&gt;Discapacidades&lt;/li&gt;<br/>&lt;li&gt;Intervenciones&lt;/li&gt;<br/>&lt;li&gt;Medicamentos&lt;/li&gt;<br/>&lt;li&gt;Seguimiento psicológico&lt;/li&gt;<br/>&lt;li&gt;Salud física&lt;/li&gt;<br/>&lt;/ul&gt;<br/>&lt;/div&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0047">
+<rem:name>Información editable de un miembro familiar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Abuelo editable Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0061">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El coordinador podrá editar la información registrada del miembro familiar.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0048">
+<rem:name>Más información del niñ@</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Niña Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0062">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;div style=&quot;text-align:center;&quot;&gt;El coordinador podrá visualizar más información sobre los niños como:<br/>&lt;ul&gt;<br/>&lt;li&gt;Colegio al que asiste&lt;/li&gt;<br/>&lt;li&gt;Curso escolar&lt;/li&gt;<br/>&lt;li&gt;Comentarios (información a tener en cuenta con este niñ@)&lt;/li&gt;<br/>&lt;li&gt;Enfermedades&lt;/li&gt;<br/>&lt;li&gt;Discapacidades&lt;/li&gt;<br/>&lt;li&gt;Intervenciones&lt;/li&gt;<br/>&lt;li&gt;Medicamentos&lt;/li&gt;<br/>&lt;li&gt;Seguimiento psicológico&lt;/li&gt;<br/>&lt;li&gt;Salud física&lt;/li&gt;<br/>&lt;/ul&gt;<br/>&lt;/div&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0049">
+<rem:name>Información editable de un niñ@</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Niña editable Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0063">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El coordinador podrá editar la información registrada del niñ@.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0050">
+<rem:name>Vista personal</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Personal.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0064">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El coordinador podrá ver una lista con el personal que está en la organización. Para más detalles sobre alguno de ellos, deberá clickar sobre el nombre de la personal.&lt;br&gt;En esta vista el coordinador también podrá otorgar roles al personal.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0051">
+<rem:name>Perfil <rem:ref oid="GLO-0030">voluntario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Perfil voluntario Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0065">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El coordinador podrá ver más información sobre el <rem:ref oid="GLO-0030">voluntario</rem:ref>. También podrá saber si éste está disponible para contar con él.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0052">
+<rem:name>Perfil especialista</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Perfil especialista Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0066">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El coordinador podrá ver más información sobre el especialista.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0053">
+<rem:name>Perfil editable especialista</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Perfil editable especialista Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0067">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El coordinador podrá editar información no personal del especialista.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0054">
+<rem:name>Perfil especialista/<rem:ref oid="GLO-0030">voluntario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Perfil especialista-voluntario Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0055">
+<rem:name>Perfil editable especialista/<rem:ref oid="GLO-0030">voluntario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Perfil editable especialista-voluntario Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0068">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El coordinador podrá ver más información sobre un miembro del personal que sea especialista y además esté de <rem:ref oid="GLO-0030">voluntario</rem:ref> y editar información no personal asociada a su rol de especialista.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0056">
+<rem:name>Perfil coordinador</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Perfil coordinador Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0057">
+<rem:name>Perfil editable coordinador</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Perfil editable coordinador Coordinador.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0069">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El coordinador podrá visualizar su perfil con sus datos de la organización y personales y podrá editarlos.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section oid="SEC-0084">
+<rem:name>Asociados al especialista</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>5.2.2 </rem:number>
+<rem:graphicFile oid="GRF-0058">
+<rem:name>Vista familias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Familias Especialista.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0070">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El especialista podrá ver una lista con todas las familias que están en la organización. Para más detalles sobre alguna de ellas, deberá clickar sobre el nombre de la familia.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0059">
+<rem:name>Información familia parte 1</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Familia Especialista.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0060">
+<rem:name>Información familia parte 2</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Familia pt2 Especialista.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0071">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;div style=&quot;text-align:center;&quot;&gt;El especialista podrá ver más información sobre las familias:&lt;br&gt;<br/>&lt;ul&gt;<br/>&lt;li&gt;Situación familiar&lt;/li&gt;<br/>&lt;li&gt;Situación económica&lt;/li&gt;<br/>&lt;li&gt;Miembros familiares&lt;/li&gt;<br/>&lt;/ul&gt;<br/>A su vez, podrá visualizar más información de los miembros de la familia pulsando en la &quot;i&quot; de información.&lt;/div&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0061">
+<rem:name>Más información de un miembro familiar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Abuelo Especialista.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0072">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;div style=&quot;text-align:center;&quot;&gt;El especialista podrá visualizar más información sobre los miembros familiares como:<br/>&lt;ul&gt;<br/>&lt;li&gt;Enfermedades&lt;/li&gt;<br/>&lt;li&gt;Discapacidades&lt;/li&gt;<br/>&lt;li&gt;Intervenciones&lt;/li&gt;<br/>&lt;li&gt;Medicamentos&lt;/li&gt;<br/>&lt;li&gt;Seguimiento psicológico&lt;/li&gt;<br/>&lt;li&gt;Salud física&lt;/li&gt;<br/>&lt;/ul&gt;<br/>&lt;/div&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0062">
+<rem:name>Más información del niñ@</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Niña Especialista.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0073">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;div style=&quot;text-align:center;&quot;&gt;El especialista podrá visualizar más información sobre los niños como:<br/>&lt;ul&gt;<br/>&lt;li&gt;Colegio al que asiste&lt;/li&gt;<br/>&lt;li&gt;Curso escolar&lt;/li&gt;<br/>&lt;li&gt;Comentarios (información a tener en cuenta con este niñ@)&lt;/li&gt;<br/>&lt;li&gt;Enfermedades&lt;/li&gt;<br/>&lt;li&gt;Discapacidades&lt;/li&gt;<br/>&lt;li&gt;Intervenciones&lt;/li&gt;<br/>&lt;li&gt;Medicamentos&lt;/li&gt;<br/>&lt;li&gt;Seguimiento psicológico&lt;/li&gt;<br/>&lt;li&gt;Salud física&lt;/li&gt;<br/>&lt;/ul&gt;<br/>&lt;/div&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0063">
+<rem:name>Perfil especialista</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Perfil especialista Especialista.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0064">
+<rem:name>Perfil editable especialista</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Perfil editable especialista Especialista.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0074">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El especialista podrá visualizar su perfil con sus datos de la organización y personales y podrá editar los personales.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section oid="SEC-0085">
+<rem:name>Asociados al voluntario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>5.2.3 </rem:number>
+<rem:graphicFile oid="GRF-0065">
+<rem:name>Vista familias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Familias Voluntario.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0075">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El <rem:ref oid="GLO-0030">voluntario</rem:ref> podrá ver una lista con todas las familias que están en la organización. Para más detalles sobre alguna de ellas, deberá clickar sobre el nombre de la familia.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0066">
+<rem:name>Información familia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Familia Voluntario.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0076">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El <rem:ref oid="GLO-0030">voluntario</rem:ref> podrá ver más información sobre los niños de la familia.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0067">
+<rem:name>Perfil <rem:ref oid="GLO-0030">voluntario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Perfil voluntario Voluntario.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0068">
+<rem:name>Perfil editable <rem:ref oid="GLO-0030">voluntario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\mockups\Perfil editable voluntario Voluntario.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0077">
+<rem:name>Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El <rem:ref oid="GLO-0030">voluntario</rem:ref> podrá visualizar su perfil con sus datos de la organización y personales y podrá editarlos. Entre ellos podrá cambiar su disponibilidad para que el coordinador sepa cuándo puede contar con él.&lt;/p&gt;</rem:text>
+</rem:paragraph>
+</rem:section>
 </rem:section>
 <rem:section oid="SEC-0070">
 <rem:name>Descripción de la interfaz de usuario del sistema</rem:name>
@@ -2625,6 +3398,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>5.3 </rem:number>
+<rem:paragraph oid="PRG-0057">
+<rem:name>VACÍO</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>La descripción está con cada diagrama.</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 </rem:d_requirementsSpecification>
@@ -2655,6 +3442,36 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
+<rem:predefinedValueType oid="PVT-0007">
+<rem:name>Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Hour:minutes:seconds</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0002">
+<rem:name>Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Real numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0003">
 <rem:name>Integer</rem:name>
 <rem:version>
@@ -2685,36 +3502,6 @@
 <rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0002">
-<rem:name>Real</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Real numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0004">
-<rem:name>Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Natural numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0006">
 <rem:name>Date</rem:name>
 <rem:version>
@@ -2730,8 +3517,8 @@
 <rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0007">
-<rem:name>Time</rem:name>
+<rem:predefinedValueType oid="PVT-0004">
+<rem:name>Natural</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2741,8 +3528,8 @@
 <rem:day>30</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Hour:minutes:seconds</rem:description>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Natural numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0001">
@@ -2762,48 +3549,54 @@
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>eliminado</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociación</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
 </rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
 <rem:name>No rastreabilidad</rem:name>
 <rem:description>
@@ -2816,28 +3609,10 @@
 <![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0010">
@@ -2846,16 +3621,10 @@
 <![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
@@ -2864,34 +3633,10 @@
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0012">
@@ -2900,50 +3645,86 @@
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
 <rem:name>No necesidad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
-</rem:importanceValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0001">
+<rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>baja</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
@@ -2951,29 +3732,26 @@
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
-</rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
@@ -2981,21 +3759,27 @@
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
 </rem:urgencyValue>
@@ -3004,6 +3788,9 @@
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
