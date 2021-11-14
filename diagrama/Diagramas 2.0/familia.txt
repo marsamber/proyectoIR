@@ -1,0 +1,95 @@
+@startuml
+hide methods
+
+title Diagrama de clases - Familia
+
+class MiembroFamiliar{
+    String nombre
+    Parentesco parentesco
+    Date fechaNacimiento
+    Sexo sexo
+    Integer edad
+    String nacionalidad
+}
+
+class Niño{
+    String nombre
+    String apellidos
+    Sexo sexo
+    String cursoEscolar
+    Integer dni
+    Date fechaNacimiento
+    String lugarNacimiento
+    String comentarios
+}
+
+class SituacionEconomica{
+    Double sueldo
+    Double ayudas
+    Double economiaSumergida
+}
+
+class HistorialClinico{
+    String enfermedad
+    String discapacidad
+    String seguimientoPsicologico
+    String saludFisica
+}
+
+class SituacionFamiliar{
+    String historiaFamiliar
+    String dinamicaFamiliar
+}
+class Familia{
+    String nombre
+    Integer telefono   
+    String correo
+    String direccion
+}
+
+class Colegio{
+    String nombreCentro
+    String localidad
+}
+
+enum Sexo{
+    Masculino
+    Femenino
+}
+
+enum Parentesco{
+    Madre
+    Padre
+    Abuela
+    Abuelo
+    Tutora legal
+    Tutor legal
+    Hermana
+    Hermano
+    Prima
+    Primo
+    Tia
+    Tio
+}
+
+class Intervencion{
+    Date fecha
+    String descripcion
+}
+
+class Medicamento{
+    String nombreMedicamento
+    String descripcion
+}
+
+Familia "1"--"*" MiembroFamiliar:compuesto por
+Familia "1"--"*" Niño:compuesto por
+Familia"1"--"1" SituacionEconomica:tiene
+MiembroFamiliar "1"--"*" HistorialClinico:tiene
+Familia "1"--"1" SituacionFamiliar:tiene
+Niño "*"-left-"*"MiembroFamiliar:tiene relacion
+Niño "*"-down-"1"Colegio:está en 
+HistorialClinico "1"-down-"*"Medicamento
+HistorialClinico "1"-down-"*"Intervencion
+
+@enduml
