@@ -1,9 +1,8 @@
 @startuml
-
 hide circle
 hide methods
 
-title Diagrama de clases - Organizacion
+title Diagrama de clases - Oberti
 
 
 class Organizacion {
@@ -29,7 +28,7 @@ class Especialista{
     Double horasContratadas
 }
 
-class Voluntarios{
+class Voluntario{
     String nombre
     String disponibilidad
     String propuestaPlanificacion
@@ -78,14 +77,24 @@ class SituacionFamiliar{
     String historiaFamiliar
     String dinamicaFamiliar
 }
+class Familia{
+String nombre
+
+}
 
 
-Organizacion "1"--"1" Director
-Organizacion "0..1"-- "*" Especialista
-Organizacion "0..1"--"*" Voluntarios
 
-Niño "1"--"*" MiembroFamiliar
-Niño "1"--"*" SituacionEconomica
-Niño "1"--"*" HistorialClinico
-Niño "1"--"1" SituacionFamiliar
+Organizacion "0..1"-- "*" Especialista:formada
+Organizacion "1"--"1" Director:formada
+Organizacion "0..1"--"*" Voluntario:formada
+Organizacion "1"-right-"*" Familia:pertenece
+
+Familia "1"--"*" MiembroFamiliar:compuesto por
+Familia "1"--"*" Niño:compuesto por
+Familia"1"--"1" SituacionEconomica:tiene
+MiembroFamiliar "1"--"*" HistorialClinico:tiene
+Familia "1"--"1" SituacionFamiliar:tiene
+Director "1"-right-"*" Especialista:contrata
+Director "1"-left-"*"Voluntario:gestiona
+Niño "*"-left-"*"MiembroFamiliar:tiene relacion
 @enduml
