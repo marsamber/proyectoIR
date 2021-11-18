@@ -1996,6 +1996,522 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:specificData>
 </rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0003">
+<rem:name>Información de director</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>El director, como los especialistas y voluntarios, tendrán también los atributos contenidos en <rem:ref oid="GLO-0079">rol</rem:ref>, y por lo tanto, también los de persona.</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>una persona con el <rem:ref oid="GLO-0079">rol</rem:ref> de director</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0007">
+<rem:description>Salario</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0008">
+<rem:description>Horas contratadas</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0004">
+<rem:name>Información de especialista</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>una persona con el <rem:ref oid="GLO-0079">rol</rem:ref> de <rem:ref oid="GLO-0081">especialista</rem:ref></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0009">
+<rem:description>Especialidad</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0010">
+<rem:description>Salario</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0011">
+<rem:description>Horas contratadas</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0005">
+<rem:name>Información de voluntarios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>los voluntarios</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0012">
+<rem:description>Disponibilidad</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0013">
+<rem:description>Propuesta de planificación</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0006">
+<rem:name>Información de familias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Cada familia está compuesta por miembro familiar y niño, y además tiene una situación económica y una situación familiar</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>las familias</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0014">
+<rem:description>Nombre</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0015">
+<rem:description>Teléfono principal</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0016">
+<rem:description>Correo principal</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0017">
+<rem:description>Domicilio familiar</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0007">
+<rem:name>Información de miembro familiar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>cada miembro familiar</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0018">
+<rem:description>Nombre</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0019">
+<rem:description>Parentesco</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0020">
+<rem:description>Fecha de nacimiento</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0021">
+<rem:description>Lugar de nacimiento</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0022">
+<rem:description>Sexo</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0023">
+<rem:description>Edad</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0024">
+<rem:description>Nacionalidad</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0025">
+<rem:description>NIF</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0026">
+<rem:description>Teléfono</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0027">
+<rem:description>Correo electrónico</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0028">
+<rem:description>Dirección</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0008">
+<rem:name>Información de niños</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>La clase niño hereda de miembro familiar, por lo que tendrá además todos sus atributos.</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>cada niño de la organización</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0029">
+<rem:description>Curso escolar</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0030">
+<rem:description>Comentarios</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0009">
+<rem:name>Información de situación económica de una familia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>la situación económica de cada familia</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0031">
+<rem:description>Sueldo</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0032">
+<rem:description>Ayudas</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0033">
+<rem:description>Economía sumergida</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0010">
+<rem:name>Información de situación familiar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>la situación familiar de cada familia</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0034">
+<rem:description>Historia familiar</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0035">
+<rem:description>Dinámica familiar</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0011">
+<rem:name>Información de historial clínico</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>El historial clínico está asociado a cada miembro familiar.</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>el historial clínico de cada miembro familiar</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0037">
+<rem:description>Enfermedad</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0038">
+<rem:description>Discapacidad</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0039">
+<rem:description>Seguimiento psicológico</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0040">
+<rem:description>Salud física</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0012">
+<rem:name>Información de colegio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>El colegio va asociado al niño</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>el centro escolar de cada niño</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0041">
+<rem:description>Nombre del centro</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0042">
+<rem:description>Localidad</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0013">
+<rem:name>Información de intervención</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Las intervenciones están asociadas al historial clinico de cada miembro familiar.</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>las intervenciones de cada miembro familiar</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0043">
+<rem:description>Fecha de la intervención</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0044">
+<rem:description>Descripción</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement oid="IRQ-0014">
+<rem:name>Información de medicamentos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Los medicamentos están asociados al historial clínico de cada miembro familiar.</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:relevantConcept>los medicamentos de cada miembro familiar</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences>
+<rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences>
+<rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0045">
+<rem:description>Nombre del medicamento</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0046">
+<rem:description>Descripción</rem:description>
+<rem:comments>Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
 </rem:section>
 <rem:section oid="SEC-0038">
 <rem:name>Requisitos de reglas de negocio del sistema</rem:name>
@@ -2497,7 +3013,7 @@
 </rem:time>
 <rem:place>Organización Oberti, Utrera, Sevilla</rem:place>
 <rem:results>Primer contacto en persona con el cliente.<br/>Tras revisar el documento de requisitos, preguntamos cuestiones generales sobre la jerarquía de la empresa, las actividades realizadas, cómo se realizan las gestiones de la organización, la informatización de ésta, posibles mejoras y las donaciones.<br/>Como resultado, empezamos a trabajar en la elicitación de requisitos.</rem:results>
-	<rem:attenders stakeholders = "STK-0004 STK-0005 STK-0002 STK-0001 "/>
+	<rem:attenders stakeholders = "STK-0005 STK-0004 STK-0002 STK-0001 "/>
 </rem:meeting>
 <rem:graphicFile oid="GRF-0027">
 <rem:name>Reunión</rem:name>
@@ -4106,21 +4622,6 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType oid="PVT-0002">
-<rem:name>Real</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Real numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0004">
 <rem:name>Natural</rem:name>
 <rem:version>
@@ -4134,51 +4635,6 @@
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
 <rem:description>Natural numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0005">
-<rem:name>String</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Alphanumeric strings</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0001">
-<rem:name>Enum Literal</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Enumeration literals</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0003">
-<rem:name>Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Integer numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0006">
@@ -4196,6 +4652,36 @@
 <rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Enum Literal</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Enumeration literals</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0002">
+<rem:name>Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Real numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0007">
 <rem:name>Time</rem:name>
 <rem:version>
@@ -4211,43 +4697,73 @@
 <rem:description>Hour:minutes:seconds</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0003">
+<rem:name>Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Integer numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0005">
+<rem:name>String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Alphanumeric strings</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
-</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociación</rem:name>
-</rem:defectStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
@@ -4255,10 +4771,10 @@
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
@@ -4267,22 +4783,16 @@
 <![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
@@ -4297,46 +4807,10 @@
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
@@ -4345,10 +4819,22 @@
 <![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
@@ -4357,38 +4843,71 @@
 <![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
 <rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
-</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
-</rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
@@ -4399,44 +4918,35 @@
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
-</rem:statusValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
-</rem:terminationValue>
-<rem:terminationValue oid = "TEV-0001">
-<rem:name>PD</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
-</rem:timeUnitValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
+</rem:terminationValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
 <rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0011">
 <rem:name>segundo(s)</rem:name>
@@ -4444,8 +4954,14 @@
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
@@ -4453,8 +4969,8 @@
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
