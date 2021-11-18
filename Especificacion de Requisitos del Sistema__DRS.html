@@ -343,6 +343,773 @@ La instalaciones con las que cuenta esta <a href='#GLO-0025' class="rem_ref">aso
 </p>
 </div>
 <h2 id="SEC-0062" class="section">3.2 Descripción de las clases del sistema</h2>
+<div id="TYP-0001" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0001</th>
+<th class="name_column" colspan="1">Persona</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0001-description-html" class="code_comment code_description"><p>Representa a las personas que trabajan para la organiacion</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Persona</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0047" class="property">
+<br /><span class="keyword">var </span>dni : Integer</li>
+<li id="ATT-0048" class="property">
+<br /><span class="keyword">var </span>telefono : Integer</li>
+<li id="ATT-0049" class="property">
+<br /><span class="keyword">var </span>correo : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0002" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0002</th>
+<th class="name_column" colspan="1">Rol</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0002-description-html" class="code_comment code_description"><p>Representa si una persona tiene algun <a href='#GLO-0079' class="rem_ref">rol</a></p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword abstract">abstract class </span>
+<span class="class_name abstract">Rol</span>
+<span class="keyword abstract">generalizes
+            disjoint </span>
+<span class="class_name abstract"><a href="#TYP-0003" class="rem_ref">Director</a></span>, <span class="class_name abstract"><a href="#TYP-0004" class="rem_ref">Especialista</a></span>, <span class="class_name abstract"><a href="#TYP-0005" class="rem_ref">Voluntario</a></span><br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0050" class="property">
+<br /><span class="keyword">var </span>nombre : String</li>
+<li id="ATT-0051" class="property">
+<br /><span class="keyword">var </span>fechaEntrada : Date</li>
+<li id="ATT-0052" class="property">
+<br /><span class="keyword">var </span>fechaSalida : Date</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0003" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0003</th>
+<th class="name_column" colspan="1">Director</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0003-description-html" class="code_comment code_description"><p>Representa si una persona tiene un <a href='#GLO-0079' class="rem_ref">rol</a> de director</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Director</span>
+<span class="keyword ">specializes </span>
+<span class="class_name ">
+<a href="#TYP-0002" class="rem_ref">Rol</a>
+</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0054" class="property">
+<br /><span class="keyword">var </span>salario : Real</li>
+<li id="ATT-0055" class="property">
+<br /><span class="keyword">var </span>horasContratadas : Real</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0004" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0004</th>
+<th class="name_column" colspan="1">Especialista</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0004-description-html" class="code_comment code_description"><p>Representa si una persona tiene un <a href='#GLO-0079' class="rem_ref">rol</a> de <a href='#GLO-0081' class="rem_ref">especialista</a></p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Especialista</span>
+<span class="keyword ">specializes </span>
+<span class="class_name ">
+<a href="#TYP-0002" class="rem_ref">Rol</a>
+</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0056" class="property">
+<br /><span class="keyword">var </span>especialidad : String</li>
+<li id="ATT-0057" class="property">
+<br /><span class="keyword">var </span>salario : Real</li>
+<li id="ATT-0059" class="property">
+<br /><span class="keyword">var </span>horasContratadas : Real</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0005" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0005</th>
+<th class="name_column" colspan="1">Voluntario</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0005-description-html" class="code_comment code_description"><p>Representa si una persona tiene un <a href='#GLO-0079' class="rem_ref">rol</a> de <a href='#GLO-0030' class="rem_ref">voluntario</a></p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Voluntario</span>
+<span class="keyword ">specializes </span>
+<span class="class_name ">
+<a href="#TYP-0002" class="rem_ref">Rol</a>
+</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0058" class="property">
+<div id="ATT-0058-description-html" class="code_comment"><p>/** Realmente sería un boolean */</p></div>
+<span class="keyword">var </span>disponibilidad : String</li>
+<li id="ATT-0060" class="property">
+<br /><span class="keyword">var </span>propuestaPlanificacion : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0006" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0006</th>
+<th class="name_column" colspan="1">Familia</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0006-description-html" class="code_comment code_description"><p>Representa la descripcion general de una familia</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Familia</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0062" class="property">
+<br /><span class="keyword">var </span>nombre : String</li>
+<li id="ATT-0063" class="property">
+<br /><span class="keyword">var </span>telefonoPrincipal : Integer</li>
+<li id="ATT-0064" class="property">
+<br /><span class="keyword">var </span>correoPrincipal : String</li>
+<li id="ATT-0065" class="property">
+<br /><span class="keyword">var </span>domicilioFamiliar : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0007" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0007</th>
+<th class="name_column" colspan="1">MiembroFamiliar</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0007-description-html" class="code_comment code_description"><p>Representa cada miembro de una familia</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword abstract">abstract class </span>
+<span class="class_name abstract">MiembroFamiliar</span>
+<span class="keyword abstract">generalizes
+            disjoint </span>
+<span class="class_name abstract"><a href="#TYP-0008" class="rem_ref">Niño</a></span><br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0066" class="property">
+<br /><span class="keyword">var </span>nombre : String</li>
+<li id="ATT-0067" class="property">
+<br /><span class="keyword">var </span>parentesco : Parentesco</li>
+<li id="ATT-0068" class="property">
+<br /><span class="keyword">var </span>fechaNacimiento : Date</li>
+<li id="ATT-0069" class="property">
+<br /><span class="keyword">var </span>lugarNacimiento : String</li>
+<li id="ATT-0070" class="property">
+<br /><span class="keyword">var </span>sexo : Sexo</li>
+<li id="ATT-0071" class="property">
+<br /><span class="keyword">var </span>edad : Integer</li>
+<li id="ATT-0072" class="property">
+<br /><span class="keyword">var </span>nacionalidad : String</li>
+<li id="ATT-0073" class="property">
+<br /><span class="keyword">var </span>nif : String</li>
+<li id="ATT-0074" class="property">
+<br /><span class="keyword">var </span>telefono : Integer</li>
+<li id="ATT-0075" class="property">
+<br /><span class="keyword">var </span>correo : String</li>
+<li id="ATT-0076" class="property">
+<br /><span class="keyword">var </span>direccion : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0008" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0008</th>
+<th class="name_column" colspan="1">Niño</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0008-description-html" class="code_comment code_description"><p>Representa cada niño que está en la organización</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Niño</span>
+<span class="keyword ">specializes </span>
+<span class="class_name ">
+<a href="#TYP-0007" class="rem_ref">MiembroFamiliar</a>
+</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0077" class="property">
+<br /><span class="keyword">var </span>cursoEscolar : String</li>
+<li id="ATT-0078" class="property">
+<br /><span class="keyword">var </span>comentarios : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0008-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0009" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0009</th>
+<th class="name_column" colspan="1">SituacionEconomica</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0009-description-html" class="code_comment code_description"><p>Representa la situación económica de una familia</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">SituacionEconomica</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0079" class="property">
+<br /><span class="keyword">var </span>sueldo : Real</li>
+<li id="ATT-0080" class="property">
+<br /><span class="keyword">var </span>ayudas : Real</li>
+<li id="ATT-0081" class="property">
+<br /><span class="keyword">var </span>economiaSumergida : Real</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0009-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0010" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0010</th>
+<th class="name_column" colspan="1">SituacionFamiliar</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0010-description-html" class="code_comment code_description"><p>Representa la situación familiar de una familia</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">SituacionFamiliar</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0082" class="property">
+<br /><span class="keyword">var </span>historiaFamiliar : String</li>
+<li id="ATT-0083" class="property">
+<br /><span class="keyword">var </span>dinamicaFamiliar : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0010-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0011" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0011</th>
+<th class="name_column" colspan="1">Colegio</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0011-description-html" class="code_comment code_description"><p>Representa el colegio donde estudia un niño</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Colegio</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0084" class="property">
+<br /><span class="keyword">var </span>nombreCentro : String</li>
+<li id="ATT-0085" class="property">
+<br /><span class="keyword">var </span>localidad : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0011-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0012" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0012</th>
+<th class="name_column" colspan="1">HistorialClinico</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0012-description-html" class="code_comment code_description"><p>Representa el historial medico de un miembro familiar</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">HistorialClinico</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0086" class="property">
+<br /><span class="keyword">var </span>enfermedad : String</li>
+<li id="ATT-0087" class="property">
+<br /><span class="keyword">var </span>discapacidad : String</li>
+<li id="ATT-0088" class="property">
+<br /><span class="keyword">var </span>seguimientoPsicologico : String</li>
+<li id="ATT-0089" class="property">
+<br /><span class="keyword">var </span>saludFisica : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0012-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0013" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0013</th>
+<th class="name_column" colspan="1">Intervencion</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0013-description-html" class="code_comment code_description"><p>Representa una intervención de un miembro familiar</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Intervencion</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0090" class="property">
+<br /><span class="keyword">var </span>fecha : Date</li>
+<li id="ATT-0091" class="property">
+<br /><span class="keyword">var </span>descripcion : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0013-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0014" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0014</th>
+<th class="name_column" colspan="1">Medicamento</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0014-description-html" class="code_comment code_description"><p>Representa la medicación de un miembro familiar</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Medicamento</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0092" class="property">
+<br /><span class="keyword">var </span>nombreMedicamento : String</li>
+<li id="ATT-0093" class="property">
+<br /><span class="keyword">var </span>descripcion : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0014-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="VAL-0001" class="value_type">
+<table class="value_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/userDefinedValueType.png" /> VAL-0001</th>
+<th class="name_column" colspan="1">Sexo</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<span class="keyword">value type </span>
+<span class="class_name">Sexo</span>
+<br />
+            {<br />
+<div id="VAL-0001-definition-html" class="code_ocl"><p>Maculino, Femenino</p></div>
+            }
+        </div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="VAL-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="VAL-0002" class="value_type">
+<table class="value_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/userDefinedValueType.png" /> VAL-0002</th>
+<th class="name_column" colspan="1">Parentesco</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (18/11/2021)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<span class="keyword">value type </span>
+<span class="class_name">Parentesco</span>
+<br />
+            {<br />
+<div id="VAL-0002-definition-html" class="code_ocl"><p>Madre, Padre, Abuela, Abuelo, TutoraLegal, TutorLegal, Hermana, Hermano, Prima, Primo, Tia, Tio</p></div>
+            }
+        </div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="VAL-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h2 id="SEC-0063" class="section">3.3 Diagramas de estado de las clases del sistema</h2>
 <h1 id="SEC-0064" class="section">4 Modelo de casos de uso del sistema</h1>
 <h2 id="SEC-0065" class="section">4.1 Diagramas de secuencia del sistema</h2>
