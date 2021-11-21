@@ -1,0 +1,30 @@
+TODOS:
+iniciar sesion
+Registrarme
+
+coordinador:
+Editar mi propio perfil
+REGISTRAR FAMILIA Y MIEMBROS
+ver listado de familias
+añadir nuevas familias
+Editar Y VER  el perfil de una familia (Situación familiar y economica )
+editar  Y VER el perfil de cada miembro de la familia
+ELIMINAR UNA FAMILIA 
+
+ver listado de personal(voluntariosy especialistas)
+REGISTRAR A UN ESPECIALISTA O VOLUNTARIO
+AÑADIR A UN NUEVO ESPECIALISTA O VOLUNTARIO
+editar el perfil de un especialista
+editar el perfil de un volutario
+
+Especialista:
+1.-ver listado de familias
+1.1.-ver el perfil de una familia 
+1.2.-ver el perfil de cada miembro de la familia
+¿¿¿¿ELIMINAR UN ESPECIALISTA?????
+
+voluntario
+ver listado de familias
+ver el perfil de cada niño
+¿¿¿¿ELIMINAR UN VOLNTARIO???????
+
