@@ -2854,7 +2854,7 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que registrarse po
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0001</th>
-<th class="name_column" colspan="1">Regla de prueba</th>
+<th class="name_column" colspan="1">Elegir rol</th>
 </tr>
 </thead>
 <tr>
@@ -2865,13 +2865,265 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que registrarse po
 <tr>
 <th>Descripción</th>
 <td colspan="1">
-<div id="CRQ-0001-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: <span class="tbd" title='Por determinar'>PD</span>.</p></div>
+<div id="CRQ-0001-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: permitir al adminsitrador asignarle un <a href='#GLO-0079' class="rem_ref">rol</a> a una persona de la organización.</p></div>
 </td>
 </tr>
 <tr>
 <th>Comentarios</th>
 <td colspan="1">
 <div id="CRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0002">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0002</th>
+<th class="name_column" colspan="1">Familia - Situación familiar</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0002-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: cada familia tiene una situación familiar, que solo puede estar asociada a esa familia.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0003">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0003</th>
+<th class="name_column" colspan="1">Familia - Situación económica</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0003-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: cada familia tiene una situación económica, que solo puede estar asociada a esa familia.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0004">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0004</th>
+<th class="name_column" colspan="1">Familia - Niño</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0004-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: cada niño tiene una familia, que puede estar formada por varios <a href='#GLO-0082' class="rem_ref">niños</a>.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0005">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0005</th>
+<th class="name_column" colspan="1">Familia - Miembro Familiar</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0005-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: cada miembro familiar pertenece a una sola familia, que puede estar formada por varios miembros.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0006">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0006</th>
+<th class="name_column" colspan="1">Niño - Colegio</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0006-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: cada niño pertenece a un colegio, que puede tener varios <a href='#GLO-0082' class="rem_ref">niños</a>.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0007">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0007</th>
+<th class="name_column" colspan="1">Miembro familiar - Historial clínico</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0007-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: cada miembro familiar puede tener varios historiales clínicos, pero estos solo pueden pertenecer a un solo miembro de la familia.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0008">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0008</th>
+<th class="name_column" colspan="1">Historial clínico - Intervención</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0008-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: cada historial clínico puede tener varias intervenciones, pero las intervenciones solo pueden pertenecer a un único historial.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0008-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0009">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0009</th>
+<th class="name_column" colspan="1">Historial clínico - Medicamento</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0009-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: cada historial clínico puede tener varios medicamentos, pero los medicamentos solo pueden pertenecer a un único historial.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0009-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0010">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0010</th>
+<th class="name_column" colspan="1">Niño - Voluntario</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0010-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: cada niño puede estar asociado a varios voluntarios y cada <a href='#GLO-0030' class="rem_ref">voluntario</a> puede estar asociado a varios <a href='#GLO-0082' class="rem_ref">niños</a>.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0010-comments-html" class="remus_comments"><p>Ninguno</p></div>
 </td>
 </tr>
 </table>
@@ -3251,6 +3503,9 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que registrarse po
 <h3 id="SEC-0047" class="section">6.4.7 Otros requisitos no funcionales del sistema</h3>
 <h2 id="SEC-0048" class="section">6.5 Restricciones técnicas del sistema</h2>
 <h2 id="SEC-0049" class="section">6.6 Requisitos de integración del sistema</h2>
+<div id="PRG-0101">
+<div id="PRG-0101-text-html" class=""><p>Intencionadamente en blanco</p></div>
+</div>
 <h2 id="SEC-0050" class="section">6.7 Información sobre trazabilidad</h2>
 <div id="TRM-0001" class="traceability_matrix">
 <table class="traceability_matrix remus_table">
@@ -3504,7 +3759,97 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que registrarse po
 <tbody>
 <tr>
 <th>
-<a href="#CRQ-0001" title="CRQ-0001 - Regla de prueba">CRQ-0001</a>
+<a href="#CRQ-0001" title="CRQ-0001 - Elegir rol">CRQ-0001</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#CRQ-0002" title="CRQ-0002 - Familia - Situación familiar">CRQ-0002</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#CRQ-0003" title="CRQ-0003 - Familia - Situación económica">CRQ-0003</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#CRQ-0004" title="CRQ-0004 - Familia - Niño">CRQ-0004</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#CRQ-0005" title="CRQ-0005 - Familia - Miembro Familiar">CRQ-0005</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#CRQ-0006" title="CRQ-0006 - Niño - Colegio">CRQ-0006</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#CRQ-0007" title="CRQ-0007 - Miembro familiar - Historial clínico">CRQ-0007</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#CRQ-0008" title="CRQ-0008 - Historial clínico - Intervención">CRQ-0008</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#CRQ-0009" title="CRQ-0009 - Historial clínico - Medicamento">CRQ-0009</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#CRQ-0010" title="CRQ-0010 - Niño - Voluntario">CRQ-0010</a>
 </th>
 <td>-</td>
 <td>-</td>
