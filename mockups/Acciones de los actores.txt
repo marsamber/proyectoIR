@@ -21,10 +21,10 @@ Especialista:
 1.-ver listado de familias
 1.1.-ver el perfil de una familia 
 1.2.-ver el perfil de cada miembro de la familia
-¿¿¿¿ELIMINAR UN ESPECIALISTA?????
+
 
 voluntario
 ver listado de familias
 ver el perfil de cada niño
-¿¿¿¿ELIMINAR UN VOLNTARIO???????
+
 
