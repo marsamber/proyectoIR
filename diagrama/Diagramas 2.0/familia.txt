@@ -82,6 +82,8 @@ class Medicamento{
     String descripcion
 }
 
+class Voluntario
+
 Familia "1"--"*" MiembroFamiliar:compuesto por
 Familia "1"--"*" Niño:compuesto por
 Familia"1"--"1" SituacionEconomica:tiene
@@ -91,5 +93,6 @@ Niño -left-|> MiembroFamiliar
 Niño "*"-down-"1"Colegio:esta en 
 HistorialClinico "1"-down-"*"Medicamento
 HistorialClinico "1"-down-"*"Intervencion
+Niño "*"--"*"Voluntario
 
 @enduml
