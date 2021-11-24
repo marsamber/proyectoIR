@@ -6,31 +6,36 @@ title Diagrama de Clases - Personal
 class Persona
 
 class Rol{
-    String nombre
-    Date fechaEntrada
-    Date fechaSalida
+    nombre
 }
 
 class Director{
-    Double salario
-    Double horasContratadas
+    salario
+    horasContratadas
 }
 
 class Especialista{
-    String especialidad
-    Double salario  
-    Double horasContratadas
+    especialidad
+    salario  
+    horasContratadas
 }
 
 class Voluntario{
-    Boolean disponibilidad
-    String propuestaPlanificacion
+    disponibilidad
+    propuestaPlanificacion
+}
+
+class Fecha{
+    fechaEntrada
+    fechaSalida
 }
 
 Rol <|-down- Director
 Rol <|-down- Especialista
 Rol <|-down- Voluntario
 
-Persona *-right- Rol
+
+Persona *-right-"*" Rol
+Rol *-right-"*" Fecha
 
 @enduml

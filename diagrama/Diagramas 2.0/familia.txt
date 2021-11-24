@@ -84,15 +84,15 @@ class Medicamento{
 
 class Voluntario
 
-Familia "1"--"*" MiembroFamiliar:compuesto por
-Familia "1"--"*" Niño:compuesto por
-Familia"1"--"1" SituacionEconomica:tiene
-MiembroFamiliar "1"--"*" HistorialClinico:tiene
-Familia "1"--"1" SituacionFamiliar:tiene
+Familia *--"*" MiembroFamiliar:compuesto por
+Familia *--"*" Niño:compuesto por
+Familia *--"1" SituacionEconomica:tiene
+MiembroFamiliar *--"*" HistorialClinico:tiene
+Familia *--"1" SituacionFamiliar:tiene
 Niño -left-|> MiembroFamiliar
 Niño "*"-down-"1"Colegio:esta en 
-HistorialClinico "1"-down-"*"Medicamento
-HistorialClinico "1"-down-"*"Intervencion
-Niño "*"--"*"Voluntario
+HistorialClinico *-down-"*"Medicamento
+HistorialClinico *-down-"*"Intervencion
+Niño "*"--"*"Voluntario:corresponde a
 
 @enduml
