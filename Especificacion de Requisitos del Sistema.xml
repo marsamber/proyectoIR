@@ -1692,7 +1692,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>La principal idea de nuestro proyecto es la creación de un programa que recoja las distintas tareas que realizan los diferentes roles de la <rem:ref oid="GLO-0025">asociación</rem:ref>, almacenar todos los datos necesarios para posibles consultas futuras, ahorrando espacio y tiempo.<br/>Más que en subsistemas, nuestro programa estará dividido distintas vistas según el <rem:ref oid="GLO-0079">rol</rem:ref>.<br/>Los distintos roles(<rem:ref oid="GLO-0080">Coordinador</rem:ref>, <rem:ref oid="GLO-0081">Especialista</rem:ref> y <rem:ref oid="GLO-0030">Voluntario</rem:ref>) podrán acceder a nuestro programa a través de sus credenciales, en función de esto tendrán distintas vistas y accesos. <br/><br/>El <rem:ref oid="GLO-0080">Coordinador</rem:ref>, tendrá que registrarse por primera vez y cada vez que quiera acceder al programa tendrá que iniciar sesión y elegir el <rem:ref oid="GLO-0079">rol</rem:ref> de <rem:ref oid="GLO-0080">coordinador</rem:ref>, desde el que podra:<br/>&lt;ul&gt;<br/>&lt;li&gt; Tener acceso a toda la información con la que cuente el programa.&lt;/li&gt; <br/>&lt;li&gt;Asignar el <rem:ref oid="GLO-0079">rol</rem:ref> al <rem:ref oid="GLO-0083">personal</rem:ref> que se inscriban. &lt;/li&gt;<br/>&lt;li&gt;Visualizar un listado de los especialistas y voluntarios.&lt;/li&gt;<br/>&lt;li&gt;Visualizar y editar el perfil de un <rem:ref oid="GLO-0081">especialista</rem:ref>.&lt;/li&gt;<br/>&lt;li&gt;Visualizar y Editar el perfil de <rem:ref oid="GLO-0030">voluntario</rem:ref>.&lt;/li&gt;<br/>&lt;li&gt;Visualizar y Editar su propio perfil.&lt;/li&gt;<br/>&lt;li&gt;Visualizar un listado de las familias.&lt;/li&gt;<br/>&lt;li&gt;Crear, visualizar y editar cada familia, sus miembros  y los <rem:ref oid="GLO-0082">niños</rem:ref>.&lt;/li&gt;<br/>&lt;/ul&gt;<br/>El <rem:ref oid="GLO-0081">Especialista</rem:ref>, tendrá que registrarse por primera vez y cada vez que quiera acceder al programa tendrá que iniciar sesión y elegir el <rem:ref oid="GLO-0079">rol</rem:ref> de <rem:ref oid="GLO-0081">especialista</rem:ref>, desde el que podra:<br/>&lt;ul&gt;<br/>&lt;li&gt;Visualizar y Editar su propio perfil. &lt;/li&gt;<br/>&lt;li&gt;Visualizar un listado de las familias. &lt;/li&gt;<br/>&lt;li&gt;Visualizar cada familia, sus miembros de estos y los <rem:ref oid="GLO-0082">niños</rem:ref>. &lt;/li&gt;<br/>&lt;/ul&gt;<br/>El <rem:ref oid="GLO-0030">Voluntario</rem:ref>, tendrá que registrarse por primera vez y cada vez que quiera acceder al programa tendrá que iniciar sesión y elegir el <rem:ref oid="GLO-0079">rol</rem:ref> de <rem:ref oid="GLO-0030">voluntario</rem:ref>, desde el que podra:<br/>&lt;ul&gt;<br/>&lt;li&gt;Visualizar y Editar su propio perfil. &lt;/li&gt;<br/>&lt;li&gt;Visualizar un listado de las familias. &lt;/li&gt;<br/>&lt;/ul&gt;<br/><br/>Este programa ayudara al <rem:ref oid="GLO-0083">personal</rem:ref> de la <rem:ref oid="GLO-0025">asociación</rem:ref> a guardar y conservar los datos de todas las familias y a tener de forma rapida información sobre las mismas.</rem:text>
+<rem:text>La principal idea de nuestro proyecto es la creación de un programa que recoja las distintas tareas que realizan los diferentes roles de la <rem:ref oid="GLO-0025">asociación</rem:ref>, almacenar todos los datos necesarios para posibles consultas futuras, ahorrando espacio y tiempo.<br/>Más que en subsistemas, nuestro programa estará dividido distintas vistas según el <rem:ref oid="GLO-0079">rol</rem:ref>.<br/>Los distintos roles(<rem:ref oid="GLO-0080">Coordinador</rem:ref>, <rem:ref oid="GLO-0081">Especialista</rem:ref> y <rem:ref oid="GLO-0030">Voluntario</rem:ref>) podrán acceder a nuestro programa a través de sus credenciales, en función de esto tendrán distintas vistas y accesos. <br/><br/>El <rem:ref oid="GLO-0080">Coordinador</rem:ref>, tendrá que <rem:ref oid="GLO-0108">registrarse</rem:ref> por primera vez y cada vez que quiera acceder al programa tendrá que iniciar sesión y elegir el <rem:ref oid="GLO-0079">rol</rem:ref> de <rem:ref oid="GLO-0080">coordinador</rem:ref>, desde el que podra:<br/>&lt;ul&gt;<br/>&lt;li&gt; Tener acceso a toda la información con la que cuente el programa.&lt;/li&gt; <br/>&lt;li&gt;Asignar el <rem:ref oid="GLO-0079">rol</rem:ref> al <rem:ref oid="GLO-0083">personal</rem:ref> que se inscriban. &lt;/li&gt;<br/>&lt;li&gt;Visualizar un listado de los especialistas y voluntarios.&lt;/li&gt;<br/>&lt;li&gt;Visualizar y editar el perfil de un <rem:ref oid="GLO-0081">especialista</rem:ref>.&lt;/li&gt;<br/>&lt;li&gt;Visualizar y Editar el perfil de <rem:ref oid="GLO-0030">voluntario</rem:ref>.&lt;/li&gt;<br/>&lt;li&gt;Visualizar y Editar su propio perfil.&lt;/li&gt;<br/>&lt;li&gt;Visualizar un listado de las familias.&lt;/li&gt;<br/>&lt;li&gt;Crear, visualizar y editar cada familia, sus miembros  y los <rem:ref oid="GLO-0082">niños</rem:ref>.&lt;/li&gt;<br/>&lt;/ul&gt;<br/>El <rem:ref oid="GLO-0081">Especialista</rem:ref>, tendrá que <rem:ref oid="GLO-0108">registrarse</rem:ref> por primera vez y cada vez que quiera acceder al programa tendrá que iniciar sesión y elegir el <rem:ref oid="GLO-0079">rol</rem:ref> de <rem:ref oid="GLO-0081">especialista</rem:ref>, desde el que podra:<br/>&lt;ul&gt;<br/>&lt;li&gt;Visualizar y Editar su propio perfil. &lt;/li&gt;<br/>&lt;li&gt;Visualizar un listado de las familias. &lt;/li&gt;<br/>&lt;li&gt;Visualizar cada familia, sus miembros de estos y los <rem:ref oid="GLO-0082">niños</rem:ref>. &lt;/li&gt;<br/>&lt;/ul&gt;<br/>El <rem:ref oid="GLO-0030">Voluntario</rem:ref>, tendrá que <rem:ref oid="GLO-0108">registrarse</rem:ref> por primera vez y cada vez que quiera acceder al programa tendrá que iniciar sesión y elegir el <rem:ref oid="GLO-0079">rol</rem:ref> de <rem:ref oid="GLO-0030">voluntario</rem:ref>, desde el que podra:<br/>&lt;ul&gt;<br/>&lt;li&gt;Visualizar y Editar su propio perfil. &lt;/li&gt;<br/>&lt;li&gt;Visualizar un listado de las familias. &lt;/li&gt;<br/>&lt;/ul&gt;<br/><br/>Este programa ayudara al <rem:ref oid="GLO-0083">personal</rem:ref> de la <rem:ref oid="GLO-0025">asociación</rem:ref> a guardar y conservar los datos de todas las familias y a tener de forma rapida información sobre las mismas.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0030">
@@ -3329,7 +3329,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>permitir registrarse a un <rem:ref oid="GLO-0102">Persona</rem:ref></rem:description>
+<rem:description>permitir <rem:ref oid="GLO-0108">registrarse</rem:ref> a un <rem:ref oid="GLO-0102">Persona</rem:ref></rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement oid="FRQ-0002">
 <rem:name>Coordinador</rem:name>
@@ -3383,7 +3383,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>permitir ver el listado de familias que están en el programa y añadir familias nuevas</rem:description>
+<rem:description>permitir ver el <rem:ref oid="GLO-0109">listado de familias</rem:ref> que están en el programa y añadir familias nuevas</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement oid="FRQ-0005">
 <rem:name>Coordinador</rem:name>
@@ -3509,7 +3509,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>permitir al <rem:ref oid="GLO-0081">especialista</rem:ref> ver el listado de familias</rem:description>
+<rem:description>permitir al <rem:ref oid="GLO-0081">especialista</rem:ref> ver el <rem:ref oid="GLO-0109">listado de familias</rem:ref></rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement oid="FRQ-0012">
 <rem:name>Especialista</rem:name>
@@ -3563,7 +3563,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>permitirle como <rem:ref oid="GLO-0030">voluntario</rem:ref> ver el listado de familias</rem:description>
+<rem:description>permitirle como <rem:ref oid="GLO-0030">voluntario</rem:ref> ver el <rem:ref oid="GLO-0109">listado de familias</rem:ref></rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement oid="FRQ-0015">
 <rem:name>Voluntario</rem:name>
@@ -4761,7 +4761,7 @@
 </rem:time>
 <rem:place>Organización Oberti, Utrera, Sevilla</rem:place>
 <rem:results>Primer contacto en <rem:ref oid="GLO-0102">persona</rem:ref> con el cliente.<br/>Tras revisar el documento de requisitos, preguntamos cuestiones generales sobre la jerarquía de la empresa, las actividades realizadas, cómo se realizan las gestiones de la organización, la informatización de ésta, posibles mejoras y las donaciones.<br/>Como resultado, empezamos a trabajar en la elicitación de requisitos.</rem:results>
-	<rem:attenders stakeholders = "STK-0005 STK-0004 STK-0001 STK-0002 "/>
+	<rem:attenders stakeholders = "STK-0005 STK-0001 STK-0004 STK-0002 "/>
 </rem:meeting>
 <rem:graphicFile oid="GRF-0027">
 <rem:name>Reunión</rem:name>
@@ -5991,7 +5991,7 @@
 <rem:level>2</rem:level>
 <rem:number>4.1 </rem:number>
 <rem:graphicFile oid="GRF-0088">
-<rem:name>registrarse</rem:name>
+<rem:name><rem:ref oid="GLO-0108">registrarse</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6145,8 +6145,8 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>4.2 </rem:number>
-<rem:paragraph oid="PRG-0108">
-<rem:name>sadfasdf</rem:name>
+<rem:glossaryItem oid="GLO-0108">
+<rem:name>Registrarse</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6157,8 +6157,134 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>adfasdfasdf</rem:text>
-</rem:paragraph>
+<rem:text>La <rem:ref oid="GLO-0102">persona</rem:ref> que quiera formar parte del sistema de la organización irá a la página de inicio de un registro, y mandará una petición para <rem:ref oid="GLO-0108">registrarse</rem:ref> en el sistema. El <rem:ref oid="GLO-0080">coordinador</rem:ref> validará la petición, y se le notificará al usuario que su registro ha sido confirmado, permitiéndole iniciar sesión con el <rem:ref oid="GLO-0079">rol</rem:ref> que le haya sido asignado.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0109">
+<rem:name>Listado de familias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Asumimos que cualquier miembro del <rem:ref oid="GLO-0083">personal</rem:ref> ha iniciado sesión en el sistema. Para obtener un <rem:ref oid="GLO-0109">listado de familias</rem:ref>, el sistema obtiene los datos de cada uno de ellos y finalmente se puede ver el listado deseado.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0110">
+<rem:name>Crear familia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Asumimos que el <rem:ref oid="GLO-0080">coordinador</rem:ref> ha iniciado sesión en el sistema. Para crear una familia, irá a la página de la lista de las familias, y allí creará una nueva mediante el editor de familias. Cuando rellene este formulario, lo enviará, será validado, y se añadirá esa familia a la lista de las ya existentes.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0111">
+<rem:name>Editar familia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Asumimos que el <rem:ref oid="GLO-0080">coordinador</rem:ref>  iniciado sesión en el sistema. Este quiere editar el perfil de una familia. En primer lugar,  el <rem:ref oid="GLO-0080">coordinador</rem:ref> se dirige a la página del perfil de la familia, se carga la información de esta y realiza los cambos en el editor. Finalmente, se envía el formulario modificado, quedando editada la familia y pudiendo ser visualizada por el <rem:ref oid="GLO-0080">coordinador</rem:ref>.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0112">
+<rem:name>Borrar familia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Asumimos que el <rem:ref oid="GLO-0080">coordinador</rem:ref> ha iniciado sesión en el sistema. Para borrar una familia, irá a la página donde se encuentran, obteniendo un listado de todas ellas. Allí, seleccionará la que quiera borrar, y recibirá tanto un mensaje de confirmación, como la eliminación de la familia de la lista obtenida.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0113">
+<rem:name>Lista personal</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Asumimos que un usuario ha iniciado sesión el sistema. Para obtener el <rem:ref oid="GLO-0083">personal</rem:ref> que trabaja para la organización, obtendrá una lista con las personas a través de la página. <br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0114">
+<rem:name>Visualizar o editar perfil propio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Asumimos que un usuario ha iniciado sesión en el sistema. En primer lugar, para visualizar su perfil, obtendrá sus datos personales en la página de su perfil <rem:ref oid="GLO-0083">personal</rem:ref>. Para editarlo, tras pulsar en el botón de editar, y se le enviará un formulario. Una vez haya realizado los cambios, enviará dicho formulario, se validará, y se le mostrará ya su perfil con los datos recientemente cambiados.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0117">
+<rem:name>Asignar un rol</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Asumimos que el <rem:ref oid="GLO-0080">coordinador</rem:ref> ha iniciado sesión en el sistema. Este quiere <rem:ref oid="GLO-0117">asignar un rol</rem:ref> a cada miembro del <rem:ref oid="GLO-0083">personal</rem:ref>. En primer lugar, el <rem:ref oid="GLO-0080">coordinador</rem:ref> se dirige a la página de solicitudes de registros y se carga la información de esta. Finalmente, se asigna el <rem:ref oid="GLO-0079">rol</rem:ref> al miembro y ya puede ser visualizado por el <rem:ref oid="GLO-0080">coordinador</rem:ref></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0115">
+<rem:name>Visualizar perfil de un niño</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Asumimos que un <rem:ref oid="GLO-0030">voluntario</rem:ref> ha iniciado sesión en el sistema. Para ver la información de un niño, irá a la página del perfil que quiera ver. Allí, el sistema obtendrá los datos de ese niño y los mostrará en esa página.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0116">
+<rem:name>Visualizar perfil de una familia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Asumimos que el <rem:ref oid="GLO-0080">coordinador</rem:ref> o <rem:ref oid="GLO-0081">especialista</rem:ref>  han iniciado sesión en el sistema. Este quiere visualizar el perfil de una familia. En primer lugar el <rem:ref oid="GLO-0080">coordinador</rem:ref> se dirige a la pagina de una familia del <rem:ref oid="GLO-0109">listado de familias</rem:ref>,obteniendo la informacion de esta y finalmente es visualizada por el <rem:ref oid="GLO-0080">coordinador</rem:ref> o <rem:ref oid="GLO-0081">especialista</rem:ref>.</rem:text>
+</rem:glossaryItem>
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0067">
@@ -6288,7 +6414,7 @@
 <rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El <rem:ref oid="GLO-0080">coordinador</rem:ref> podrá ver una lista con todas las familias que están en la organización y añadir nuevas. Para más detalles sobre alguna de ellas, deberá clickar sobre el nombre de la familia.&lt;/p&gt;</rem:text>
 </rem:paragraph>
 <rem:graphicFile oid="GRF-0075">
-<rem:name>Crear familia parte 1</rem:name>
+<rem:name><rem:ref oid="GLO-0110">Crear familia</rem:ref> parte 1</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6316,7 +6442,7 @@
 <rem:text>&lt;p style=&quot;text-align:center;&quot;&gt;El <rem:ref oid="GLO-0080">coordinador</rem:ref> podrá crear una nueva familia añadiendo todos los datos principales de ésta y posteriormente añadiendo miembros familiares con su información propia.&lt;/p&gt;</rem:text>
 </rem:paragraph>
 <rem:graphicFile oid="GRF-0076">
-<rem:name>Crear familia parte 2</rem:name>
+<rem:name><rem:ref oid="GLO-0110">Crear familia</rem:ref> parte 2</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6330,7 +6456,7 @@
 <rem:fileName><![CDATA[.\mockups\Crear familia pt.2 Coordinador.png]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0077">
-<rem:name>Crear familia parte 3</rem:name>
+<rem:name><rem:ref oid="GLO-0110">Crear familia</rem:ref> parte 3</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -7106,6 +7232,338 @@
 </rem:paragraph>
 </rem:section>
 </rem:section>
+<rem:section oid="SEC-0086">
+<rem:name>Interfaz de servicios del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>6 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0087">
+<rem:name>Trazabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>7 </rem:number>
+<rem:traceabilityMatrix oid="TRM-0006">
+<rem:name>Informe de trazabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="IRQ-0001"/>
+<rem:th oid ="IRQ-0002"/>
+<rem:th oid ="IRQ-0003"/>
+<rem:th oid ="IRQ-0004"/>
+<rem:th oid ="IRQ-0005"/>
+<rem:th oid ="IRQ-0006"/>
+<rem:th oid ="IRQ-0007"/>
+<rem:th oid ="IRQ-0008"/>
+<rem:th oid ="IRQ-0009"/>
+<rem:th oid ="IRQ-0010"/>
+<rem:th oid ="IRQ-0011"/>
+<rem:th oid ="IRQ-0012"/>
+<rem:th oid ="IRQ-0013"/>
+<rem:th oid ="IRQ-0014"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0001"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0002"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0003"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0004"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0006"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0007"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0008"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0009"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0010"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0011"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0012"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0013"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0014"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="VAL-0001"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="VAL-0002"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+</rem:traceabilityMatrix>
+</rem:section>
 </rem:d_requirementsSpecification>
 <rem:defectsSpecification oid = "DFS-0003">
 <rem:name>Registro de Defectos</rem:name>
@@ -7136,70 +7594,154 @@
 <rem:trace source="IRQ-0006"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0013"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0008"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0002"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0007"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0014"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0011"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0010"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source="IRQ-0007"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0001"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0005"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0001"  target="OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0012"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source="IRQ-0001"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0010"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source="IRQ-0005"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0005"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0008"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0006"  target="OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0002"  target="OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0009"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source="IRQ-0008"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0013"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source="IRQ-0003"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0005"  target="OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0011"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0014"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0002"  target="OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0001"  target="OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0004"  target="OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source="IRQ-0007"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0006"  target="OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0008"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0005"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0002"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0004"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0005"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0006"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0008"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0018"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0003"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source="UC-0004"  target="OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source="FRQ-0003"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0007"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0001"  target="OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0012"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0009"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0016"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0006"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source="UC-0010"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="CRQ-0010"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0001"  target="OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0001"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0013"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="CRQ-0001"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="NFR-0010"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0001"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0001"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0011"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0017"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0007"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0017"  target="OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0005"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0015"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="UC-0019"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="FRQ-0016"  target="OBJ-0002" >
@@ -7208,112 +7750,106 @@
 <rem:trace source="FRQ-0002"  target="OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="UC-0016"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0001"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="CRQ-0001"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0001"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0006"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0008"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="NFR-0010"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0005"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0009"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0011"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0013"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0017"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0001"  target="OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0018"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0019"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0012"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0003"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0001"  target="OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="CRQ-0010"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0003"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0007"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0015"  target="OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0017"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="UC-0001"  target="OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0004"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0006"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0005"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0007"  target="OBJ-0001" >
+<rem:trace source="FRQ-0010"  target="OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="FRQ-0014"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0008"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0012"  target="OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source="FRQ-0009"  target="OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0008"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="FRQ-0015"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0010"  target="OBJ-0002" >
+<rem:trace source="FRQ-0011"  target="OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="FRQ-0012"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="FRQ-0013"  target="OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0011"  target="OBJ-0001" >
+<rem:trace source="TYP-0001"  target="IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0007"  target="IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0001"  target="IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0001"  target="IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0001"  target="IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0007"  target="IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0001"  target="CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0009"  target="IRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0005"  target="IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0012"  target="IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0004"  target="IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0001"  target="IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="VAL-0001"  target="IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0006"  target="IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0006"  target="IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0011"  target="IRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0003"  target="IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0010"  target="IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0008"  target="IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0014"  target="IRQ-0014" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0002"  target="IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0002"  target="IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0002"  target="IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0002"  target="IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="VAL-0002"  target="IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="TYP-0013"  target="IRQ-0013" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
@@ -7332,6 +7868,21 @@
 <rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0004">
+<rem:name>Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Natural numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0002">
 <rem:name>Real</rem:name>
 <rem:version>
@@ -7345,6 +7896,36 @@
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
 <rem:description>Real numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0007">
+<rem:name>Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Hour:minutes:seconds</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0006">
+<rem:name>Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0003">
@@ -7377,61 +7958,16 @@
 <rem:description>Enumeration literals</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0004">
-<rem:name>Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Natural numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0006">
-<rem:name>Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Dates</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0007">
-<rem:name>Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Hour:minutes:seconds</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>pendiente de realización</rem:name>
@@ -7439,8 +7975,8 @@
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
@@ -7460,34 +7996,16 @@
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociación</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
@@ -7496,10 +8014,22 @@
 <![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
@@ -7514,22 +8044,16 @@
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0008">
 <rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
@@ -7538,16 +8062,16 @@
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
@@ -7556,16 +8080,28 @@
 <![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
@@ -7574,65 +8110,77 @@
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
-</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
-</rem:stabilityValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
-</rem:statusValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
+</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>queda sin efecto</rem:name>
-</rem:terminationValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
@@ -7643,29 +8191,17 @@
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>

@@ -79,6 +79,8 @@
 </ul>
 <li>5.2 <a href="#SEC-0070">Descripción de la interfaz de usuario del sistema</a></li>
 </ul>
+<li>6 <a href="#SEC-0086">Interfaz de servicios del sistema</a></li>
+<li>7 <a href="#SEC-0087">Trazabilidad</a></li>
 </ul>
 </nav>
 <div class="pagebreak"></div>
@@ -1121,7 +1123,7 @@ La instalaciones con las que cuenta esta <a href='#GLO-0025' class="rem_ref">aso
 <p class="figure_caption">
 <span class="figure_caption_label">Figura 5:
                  </span>
-<span id="GRF-0088-name-html" class="">registrarse</span>
+<span id="GRF-0088-name-html" class=""><a href='#GLO-0108' class="rem_ref">registrarse</a></span>
 </p>
 </div>
 <div id="GRF-0090" class="figure">
@@ -1197,8 +1199,35 @@ La instalaciones con las que cuenta esta <a href='#GLO-0025' class="rem_ref">aso
 </p>
 </div>
 <h2 id="SEC-0066" class="section">4.2 Descripción de los diagramas de secuencia del sistema</h2>
-<div id="PRG-0108">
-<div id="PRG-0108-text-html" class=""><p>adfasdfasdf</p></div>
+<div id="GLO-0108" class="glo">
+<div id="GLO-0108-text-html" class=""><p><strong>Registrarse</strong>: La <a href='#GLO-0102' class="rem_ref">persona</a> que quiera formar parte del sistema de la organización irá a la página de inicio de un registro, y mandará una petición para <a href='#GLO-0108' class="rem_ref">registrarse</a> en el sistema. El <a href='#GLO-0080' class="rem_ref">coordinador</a> validará la petición, y se le notificará al usuario que su registro ha sido confirmado, permitiéndole iniciar sesión con el <a href='#GLO-0079' class="rem_ref">rol</a> que le haya sido asignado.   </p></div>
+</div>
+<div id="GLO-0109" class="glo">
+<div id="GLO-0109-text-html" class=""><p><strong>Listado de familias</strong>: Asumimos que cualquier miembro del <a href='#GLO-0083' class="rem_ref">personal</a> ha iniciado sesión en el sistema. Para obtener un <a href='#GLO-0109' class="rem_ref">listado de familias</a>, el sistema obtiene los datos de cada uno de ellos y finalmente se puede ver el listado deseado.</p></div>
+</div>
+<div id="GLO-0110" class="glo">
+<div id="GLO-0110-text-html" class=""><p><strong>Crear familia</strong>: Asumimos que el <a href='#GLO-0080' class="rem_ref">coordinador</a> ha iniciado sesión en el sistema. Para crear una familia, irá a la página de la lista de las familias, y allí creará una nueva mediante el editor de familias. Cuando rellene este formulario, lo enviará, será validado, y se añadirá esa familia a la lista de las ya existentes.</p></div>
+</div>
+<div id="GLO-0111" class="glo">
+<div id="GLO-0111-text-html" class=""><p><strong>Editar familia</strong>: Asumimos que el <a href='#GLO-0080' class="rem_ref">coordinador</a>  iniciado sesión en el sistema. Este quiere editar el perfil de una familia. En primer lugar,  el <a href='#GLO-0080' class="rem_ref">coordinador</a> se dirige a la página del perfil de la familia, se carga la información de esta y realiza los cambos en el editor. Finalmente, se envía el formulario modificado, quedando editada la familia y pudiendo ser visualizada por el <a href='#GLO-0080' class="rem_ref">coordinador</a>.</p></div>
+</div>
+<div id="GLO-0112" class="glo">
+<div id="GLO-0112-text-html" class=""><p><strong>Borrar familia</strong>: Asumimos que el <a href='#GLO-0080' class="rem_ref">coordinador</a> ha iniciado sesión en el sistema. Para borrar una familia, irá a la página donde se encuentran, obteniendo un listado de todas ellas. Allí, seleccionará la que quiera borrar, y recibirá tanto un mensaje de confirmación, como la eliminación de la familia de la lista obtenida.   </p></div>
+</div>
+<div id="GLO-0113" class="glo">
+<div id="GLO-0113-text-html" class=""><p><strong>Lista personal</strong>: Asumimos que un usuario ha iniciado sesión el sistema. Para obtener el <a href='#GLO-0083' class="rem_ref">personal</a> que trabaja para la organización, obtendrá una lista con las personas a través de la página.    </p></div>
+</div>
+<div id="GLO-0114" class="glo">
+<div id="GLO-0114-text-html" class=""><p><strong>Visualizar o editar perfil propio</strong>: Asumimos que un usuario ha iniciado sesión en el sistema. En primer lugar, para visualizar su perfil, obtendrá sus datos personales en la página de su perfil <a href='#GLO-0083' class="rem_ref">personal</a>. Para editarlo, tras pulsar en el botón de editar, y se le enviará un formulario. Una vez haya realizado los cambios, enviará dicho formulario, se validará, y se le mostrará ya su perfil con los datos recientemente cambiados.   </p></div>
+</div>
+<div id="GLO-0117" class="glo">
+<div id="GLO-0117-text-html" class=""><p><strong>Asignar un rol</strong>: Asumimos que el <a href='#GLO-0080' class="rem_ref">coordinador</a> ha iniciado sesión en el sistema. Este quiere <a href='#GLO-0117' class="rem_ref">asignar un rol</a> a cada miembro del <a href='#GLO-0083' class="rem_ref">personal</a>. En primer lugar, el <a href='#GLO-0080' class="rem_ref">coordinador</a> se dirige a la página de solicitudes de registros y se carga la información de esta. Finalmente, se asigna el <a href='#GLO-0079' class="rem_ref">rol</a> al miembro y ya puede ser visualizado por el <a href='#GLO-0080' class="rem_ref">coordinador</a></p></div>
+</div>
+<div id="GLO-0115" class="glo">
+<div id="GLO-0115-text-html" class=""><p><strong>Visualizar perfil de un niño</strong>: Asumimos que un <a href='#GLO-0030' class="rem_ref">voluntario</a> ha iniciado sesión en el sistema. Para ver la información de un niño, irá a la página del perfil que quiera ver. Allí, el sistema obtendrá los datos de ese niño y los mostrará en esa página.   </p></div>
+</div>
+<div id="GLO-0116" class="glo">
+<div id="GLO-0116-text-html" class=""><p><strong>Visualizar perfil de una familia</strong>: Asumimos que el <a href='#GLO-0080' class="rem_ref">coordinador</a> o <a href='#GLO-0081' class="rem_ref">especialista</a>  han iniciado sesión en el sistema. Este quiere visualizar el perfil de una familia. En primer lugar el <a href='#GLO-0080' class="rem_ref">coordinador</a> se dirige a la pagina de una familia del <a href='#GLO-0109' class="rem_ref">listado de familias</a>,obteniendo la informacion de esta y finalmente es visualizada por el <a href='#GLO-0080' class="rem_ref">coordinador</a> o <a href='#GLO-0081' class="rem_ref">especialista</a>.</p></div>
 </div>
 <h1 id="SEC-0067" class="section">5 Interfaz de usuario del sistema</h1>
 <h2 id="SEC-0069" class="section">5.1 Esquemas de la interfaz de usuario del sistema</h2>
@@ -1241,7 +1270,7 @@ La instalaciones con las que cuenta esta <a href='#GLO-0025' class="rem_ref">aso
 <p class="figure_caption">
 <span class="figure_caption_label">Figura 18:
                  </span>
-<span id="GRF-0075-name-html" class="">Crear familia parte 1</span>
+<span id="GRF-0075-name-html" class=""><a href='#GLO-0110' class="rem_ref">Crear familia</a> parte 1</span>
 </p>
 </div>
 <div id="PRG-0100">
@@ -1252,7 +1281,7 @@ La instalaciones con las que cuenta esta <a href='#GLO-0025' class="rem_ref">aso
 <p class="figure_caption">
 <span class="figure_caption_label">Figura 19:
                  </span>
-<span id="GRF-0076-name-html" class="">Crear familia parte 2</span>
+<span id="GRF-0076-name-html" class=""><a href='#GLO-0110' class="rem_ref">Crear familia</a> parte 2</span>
 </p>
 </div>
 <div id="GRF-0077" class="figure">
@@ -1260,7 +1289,7 @@ La instalaciones con las que cuenta esta <a href='#GLO-0025' class="rem_ref">aso
 <p class="figure_caption">
 <span class="figure_caption_label">Figura 20:
                  </span>
-<span id="GRF-0077-name-html" class="">Crear familia parte 3</span>
+<span id="GRF-0077-name-html" class=""><a href='#GLO-0110' class="rem_ref">Crear familia</a> parte 3</span>
 </p>
 </div>
 <div id="PRG-0099">
@@ -1610,6 +1639,425 @@ A su vez, podrá visualizar más información de los miembros de la familia pulsand
 <h2 id="SEC-0070" class="section">5.2 Descripción de la interfaz de usuario del sistema</h2>
 <div id="PRG-0057">
 <div id="PRG-0057-text-html" class=""><p>La descripción está con cada diagrama.</p></div>
+</div>
+<h1 id="SEC-0086" class="section">6 Interfaz de servicios del sistema</h1>
+<h1 id="SEC-0087" class="section">7 Trazabilidad</h1>
+<div id="TRM-0006" class="traceability_matrix">
+<table class="traceability_matrix remus_table">
+<thead>
+<tr>
+<th class="matrix_oid">
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/traceabilityMatrix.png" /> <span class="matriz_oid">TRM-0006</span>
+<br />
+<button class="reduce_font">A-</button>
+<button class="increase_font">A+</button>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0001" title="IRQ-0001 - Información de personas">IRQ-0001</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0002" title="IRQ-0002 - Información de roles">IRQ-0002</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0003" title="IRQ-0003 - Información de director">IRQ-0003</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0004" title="IRQ-0004 - Información de especialista">IRQ-0004</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0005" title="IRQ-0005 - Información de voluntarios">IRQ-0005</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0006" title="IRQ-0006 - Información de familias">IRQ-0006</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0007" title="IRQ-0007 - Información de miembro familiar">IRQ-0007</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0008" title="IRQ-0008 - Información de niños">IRQ-0008</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0009" title="IRQ-0009 - Información de situación económica de una familia">IRQ-0009</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0010" title="IRQ-0010 - Información de situación familiar">IRQ-0010</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0011" title="IRQ-0011 - Información de historial clínico">IRQ-0011</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0012" title="IRQ-0012 - Información de colegio">IRQ-0012</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0013" title="IRQ-0013 - Información de intervención">IRQ-0013</a>
+</th>
+<th class="matrix_column">
+<a href="#IRQ-0014" title="IRQ-0014 - Información de medicamentos">IRQ-0014</a>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>
+<a href="#TYP-0001" title="TYP-0001 - Persona">TYP-0001</a>
+</th>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0002" title="TYP-0002 - Rol">TYP-0002</a>
+</th>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0003" title="TYP-0003 - Director">TYP-0003</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0004" title="TYP-0004 - Especialista">TYP-0004</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0005" title="TYP-0005 - Voluntario">TYP-0005</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0006" title="TYP-0006 - Familia">TYP-0006</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0007" title="TYP-0007 - MiembroFamiliar">TYP-0007</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0008" title="TYP-0008 - Niño">TYP-0008</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0009" title="TYP-0009 - SituacionEconomica">TYP-0009</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0010" title="TYP-0010 - SituacionFamiliar">TYP-0010</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0011" title="TYP-0011 - Colegio">TYP-0011</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0012" title="TYP-0012 - HistorialClinico">TYP-0012</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0013" title="TYP-0013 - Intervencion">TYP-0013</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#TYP-0014" title="TYP-0014 - Medicamento">TYP-0014</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+</tr>
+<tr>
+<th>
+<a href="#VAL-0001" title="VAL-0001 - Sexo">VAL-0001</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>
+<a href="#VAL-0002" title="VAL-0002 - Parentesco">VAL-0002</a>
+</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td class="trace">
+<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
+</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<p class="matrix_caption">
+<span class="matrix_caption_label">Matriz de rastreabilidad 1:
+                 </span>
+<span id="TRM-0006-name-html" class="">Informe de trazabilidad</span>
+</p>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
