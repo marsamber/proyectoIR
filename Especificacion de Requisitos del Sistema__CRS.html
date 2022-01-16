@@ -93,9 +93,6 @@
 <li>6.2.1 <a href="#SEC-0033">Diagramas de casos de uso del sistema</a></li>
 <li>6.2.2 <a href="#SEC-0034">Especificación de actores del sistema</a></li>
 <li>6.2.3 <a href="#SEC-0035">Especificación de casos de uso del sistema</a></li>
-<ul class="toc_list">
-<li>6.2.3.1 <a href="#SEC-0088">pp</a></li>
-</ul>
 </ul>
 <li>6.3 <a href="#SEC-0036">Requisitos funcionales del sistema</a></li>
 <ul class="toc_list">
@@ -2289,14 +2286,130 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 </tr>
 </table>
 </div>
-<h4 id="SEC-0088" class="section">6.2.3.1 pp</h4>
+<div id="UC-0008">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0008</th>
+<th class="name_column" colspan="2">Crear Familia </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (23/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0008--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> rellene el formulario con todos los datos de cada familia, este se compone de distintas partes como son: situación familia, miembros de la familia, situacion economica e historial clinico. Estos datos se quedarán guardado para su correspondiente uso.. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0008-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a></p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0008-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá crear una nueva familia </p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0008-comments-html" class="remus_comments"><p>Hace referencia al  CU-004</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0009">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0009</th>
+<th class="name_column" colspan="2">Editar perfil Familia </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (23/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0009--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> necesite realizar modificaciones en el perfil de una familia en cualquiera de los distintas partes o campos que abarca este. Quedando actualizado para próximas consultas.. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0009-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a> y que la familia ya exista</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0009-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá editar el perfil de una familia ya existente</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0009-comments-html" class="remus_comments"><p>Hace referencia al  CU-004</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0005">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0005</th>
+<th class="name_column" colspan="2">Visualizar listado Familias </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (23/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0005--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando la <a href='#GLO-0083' class="rem_ref">personal</a> con cualquiera de los roles acceda al listado Familia . </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0005-precondition-html" class=""><p>Estar iniciado sesión con cualquier  <a href='#GLO-0079' class="rem_ref">rol</a></p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0005-postcondition-html" class=""><p>La <a href='#GLO-0102' class="rem_ref">persona</a> podrá ver todas las familias que componen la <a href='#GLO-0025' class="rem_ref">asociación</a> Oberti</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0005-comments-html" class="remus_comments"><p>Hace referencia al  CU-003</p></div>
+</td>
+</tr>
+</table>
+</div>
 <div id="UC-0006">
 <table class="use_case remus_table">
 <thead>
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0006</th>
-<th class="name_column" colspan="2">Visualizar listado Personal </th>
+<th class="name_column" colspan="2">Visualizar perfil Personal </th>
 </tr>
 </thead>
 <tr>
@@ -2325,6 +2438,45 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 <th>Comentarios</th>
 <td colspan="2">
 <div id="UC-0006-comments-html" class="remus_comments"><p>Hace referencia al  CU-003</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0012">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0012</th>
+<th class="name_column" colspan="2">Editar perfil Personal </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (23/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0012--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> necesite actualizar/modificar cualquier información de un miembro del <a href='#GLO-0083' class="rem_ref">personal</a>. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0012-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a> y que el miembro del <a href='#GLO-0083' class="rem_ref">personal</a> ya exista</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0012-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá editar el perfil de un miembro del <a href='#GLO-0083' class="rem_ref">personal</a> ya existente</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0012-comments-html" class="remus_comments"><p>Hace referencia al  CU-005</p></div>
 </td>
 </tr>
 </table>
@@ -2403,162 +2555,6 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 <th>Comentarios</th>
 <td colspan="2">
 <div id="UC-0019-comments-html" class="remus_comments"><p>Hace referencia al  CU-008</p></div>
-</td>
-</tr>
-</table>
-</div>
-<div id="UC-0009">
-<table class="use_case remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0009</th>
-<th class="name_column" colspan="2">Editar perfil Familia </th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (23/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2"><div id="UC-0009--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> necesite realizar modificaciones en el perfl de una familia en cualquiera de los distintas partes o campos que abarca este. Quedando actualizado para próximas consultas.. </p></div>
-</td>
-</tr>
-<tr>
-<th>Precondición</th>
-<td colspan="2">
-<div id="UC-0009-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a> y que la familia ya exista</p></div>
-</td>
-</tr>
-<tr>
-<th>Postcondición</th>
-<td colspan="2">
-<div id="UC-0009-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá editar el perfil de una familia ya existente</p></div>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="UC-0009-comments-html" class="remus_comments"><p>Hace referencia al  CU-004</p></div>
-</td>
-</tr>
-</table>
-</div>
-<div id="UC-0012">
-<table class="use_case remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0012</th>
-<th class="name_column" colspan="2">Editar perfil Personal </th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (23/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2"><div id="UC-0012--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> necesite actualizar/modificar cualquier información de un miembro del <a href='#GLO-0083' class="rem_ref">personal</a>. </p></div>
-</td>
-</tr>
-<tr>
-<th>Precondición</th>
-<td colspan="2">
-<div id="UC-0012-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a> y que el miembro del <a href='#GLO-0083' class="rem_ref">personal</a> ya exista</p></div>
-</td>
-</tr>
-<tr>
-<th>Postcondición</th>
-<td colspan="2">
-<div id="UC-0012-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá editar el perfil de un miembro del <a href='#GLO-0083' class="rem_ref">personal</a> ya existente</p></div>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="UC-0012-comments-html" class="remus_comments"><p>Hace referencia al  CU-005</p></div>
-</td>
-</tr>
-</table>
-</div>
-<div id="UC-0008">
-<table class="use_case remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0008</th>
-<th class="name_column" colspan="2">Crear Familia </th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (23/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2"><div id="UC-0008--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> rellene el formulario con todos los datos de cada familia, este se compone de distintas partes como son: situación familia, miembros de la familia, situacion economica e historial clinico. Estos datos se quedarán guardado para su correspondiente uso.. </p></div>
-</td>
-</tr>
-<tr>
-<th>Precondición</th>
-<td colspan="2">
-<div id="UC-0008-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a></p></div>
-</td>
-</tr>
-<tr>
-<th>Postcondición</th>
-<td colspan="2">
-<div id="UC-0008-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá crear una nueva familia </p></div>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="UC-0008-comments-html" class="remus_comments"><p>Hace referencia al  CU-004</p></div>
-</td>
-</tr>
-</table>
-</div>
-<div id="UC-0005">
-<table class="use_case remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0005</th>
-<th class="name_column" colspan="2">Visualizar listado Familias </th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (23/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2"><div id="UC-0005--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando la <a href='#GLO-0083' class="rem_ref">personal</a> con cualquiera de los roles acceda al listado Familia . </p></div>
-</td>
-</tr>
-<tr>
-<th>Precondición</th>
-<td colspan="2">
-<div id="UC-0005-precondition-html" class=""><p>Estar iniciado sesión con cualquier  <a href='#GLO-0079' class="rem_ref">rol</a></p></div>
-</td>
-</tr>
-<tr>
-<th>Postcondición</th>
-<td colspan="2">
-<div id="UC-0005-postcondition-html" class=""><p>La <a href='#GLO-0102' class="rem_ref">persona</a> podrá ver todas las familias que componen la <a href='#GLO-0025' class="rem_ref">asociación</a> Oberti</p></div>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="UC-0005-comments-html" class="remus_comments"><p>Hace referencia al  CU-003</p></div>
 </td>
 </tr>
 </table>
@@ -4233,7 +4229,7 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 </tr>
 <tr>
 <th>
-<a href="#UC-0006" title="UC-0006 - Visualizar listado Personal">UC-0006</a>
+<a href="#UC-0006" title="UC-0006 - Visualizar perfil Personal">UC-0006</a>
 </th>
 <td>-</td>
 <td class="trace">
