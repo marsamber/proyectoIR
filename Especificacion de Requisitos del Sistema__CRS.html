@@ -93,6 +93,9 @@
 <li>6.2.1 <a href="#SEC-0033">Diagramas de casos de uso del sistema</a></li>
 <li>6.2.2 <a href="#SEC-0034">Especificación de actores del sistema</a></li>
 <li>6.2.3 <a href="#SEC-0035">Especificación de casos de uso del sistema</a></li>
+<ul class="toc_list">
+<li>6.2.3.1 <a href="#SEC-0088">pp</a></li>
+</ul>
 </ul>
 <li>6.3 <a href="#SEC-0036">Requisitos funcionales del sistema</a></li>
 <ul class="toc_list">
@@ -425,6 +428,9 @@ Así se podrían regular los datos que se recogen mensualmente de la situación gen
 <div id="GLO-0049" class="glo">
 <div id="GLO-0049-text-html" class=""><p><strong>Destinatario</strong>: <a href='#GLO-0102' class="rem_ref">persona</a> a quien se dirige algo.</p></div>
 </div>
+<div id="GLO-0120" class="glo">
+<div id="GLO-0120-text-html" class=""><p><strong>Dinámica familiar</strong>: información sobre las actividades diarias de los miembros de la familia</p></div>
+</div>
 <div id="GLO-0027" class="glo">
 <div id="GLO-0027-text-html" class=""><p><strong>Donación</strong>: cosa que se da a una <a href='#GLO-0102' class="rem_ref">persona</a> de forma voluntaria y sin esperar premio ni recompensa alguna, especialmente cuando se trata de algo de valor.</p></div>
 </div>
@@ -439,6 +445,9 @@ Así se podrían regular los datos que se recogen mensualmente de la situación gen
 </div>
 <div id="GLO-0024" class="glo">
 <div id="GLO-0024-text-html" class=""><p><strong>Exclusión social</strong>: escasez crónica de oportunidades y de acceso a servicios básicos de calidad, a los mercados laborales y de crédito, a una infraestructura adecuada y al sistema de justicia.</p></div>
+</div>
+<div id="GLO-0119" class="glo">
+<div id="GLO-0119-text-html" class=""><p><strong>Historia familiar</strong>: breve resumen sobre la situación de la familia, antecedentes de los miembros de la familia y la relación entre ellos y el niño.</p></div>
 </div>
 <div id="GLO-0082" class="glo">
 <div id="GLO-0082-text-html" class=""><p><strong>Niños</strong>: <a href='#GLO-0102' class="rem_ref">Persona</a> de corta edad que es beneficiaria del apoyo educativo de la asociaón Oberti.</p></div>
@@ -2286,130 +2295,14 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 </tr>
 </table>
 </div>
-<div id="UC-0008">
-<table class="use_case remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0008</th>
-<th class="name_column" colspan="2">Crear Familia </th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (23/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2"><div id="UC-0008--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> rellene el formulario con todos los datos de cada familia, este se compone de distintas partes como son: situación familia, miembros de la familia, situacion economica e historial clinico. Estos datos se quedarán guardado para su correspondiente uso.. </p></div>
-</td>
-</tr>
-<tr>
-<th>Precondición</th>
-<td colspan="2">
-<div id="UC-0008-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a></p></div>
-</td>
-</tr>
-<tr>
-<th>Postcondición</th>
-<td colspan="2">
-<div id="UC-0008-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá crear una nueva familia </p></div>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="UC-0008-comments-html" class="remus_comments"><p>Hace referencia al  CU-004</p></div>
-</td>
-</tr>
-</table>
-</div>
-<div id="UC-0009">
-<table class="use_case remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0009</th>
-<th class="name_column" colspan="2">Editar perfil Familia </th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (23/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2"><div id="UC-0009--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> necesite realizar modificaciones en el perfil de una familia en cualquiera de los distintas partes o campos que abarca este. Quedando actualizado para próximas consultas.. </p></div>
-</td>
-</tr>
-<tr>
-<th>Precondición</th>
-<td colspan="2">
-<div id="UC-0009-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a> y que la familia ya exista</p></div>
-</td>
-</tr>
-<tr>
-<th>Postcondición</th>
-<td colspan="2">
-<div id="UC-0009-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá editar el perfil de una familia ya existente</p></div>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="UC-0009-comments-html" class="remus_comments"><p>Hace referencia al  CU-004</p></div>
-</td>
-</tr>
-</table>
-</div>
-<div id="UC-0005">
-<table class="use_case remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0005</th>
-<th class="name_column" colspan="2">Visualizar listado Familias </th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (23/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2"><div id="UC-0005--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando la <a href='#GLO-0083' class="rem_ref">personal</a> con cualquiera de los roles acceda al listado Familia . </p></div>
-</td>
-</tr>
-<tr>
-<th>Precondición</th>
-<td colspan="2">
-<div id="UC-0005-precondition-html" class=""><p>Estar iniciado sesión con cualquier  <a href='#GLO-0079' class="rem_ref">rol</a></p></div>
-</td>
-</tr>
-<tr>
-<th>Postcondición</th>
-<td colspan="2">
-<div id="UC-0005-postcondition-html" class=""><p>La <a href='#GLO-0102' class="rem_ref">persona</a> podrá ver todas las familias que componen la <a href='#GLO-0025' class="rem_ref">asociación</a> Oberti</p></div>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="UC-0005-comments-html" class="remus_comments"><p>Hace referencia al  CU-003</p></div>
-</td>
-</tr>
-</table>
-</div>
+<h4 id="SEC-0088" class="section">6.2.3.1 pp</h4>
 <div id="UC-0006">
 <table class="use_case remus_table">
 <thead>
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0006</th>
-<th class="name_column" colspan="2">Visualizar perfil Personal </th>
+<th class="name_column" colspan="2">Visualizar listado Personal </th>
 </tr>
 </thead>
 <tr>
@@ -2438,45 +2331,6 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 <th>Comentarios</th>
 <td colspan="2">
 <div id="UC-0006-comments-html" class="remus_comments"><p>Hace referencia al  CU-003</p></div>
-</td>
-</tr>
-</table>
-</div>
-<div id="UC-0012">
-<table class="use_case remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0012</th>
-<th class="name_column" colspan="2">Editar perfil Personal </th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (23/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2"><div id="UC-0012--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> necesite actualizar/modificar cualquier información de un miembro del <a href='#GLO-0083' class="rem_ref">personal</a>. </p></div>
-</td>
-</tr>
-<tr>
-<th>Precondición</th>
-<td colspan="2">
-<div id="UC-0012-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a> y que el miembro del <a href='#GLO-0083' class="rem_ref">personal</a> ya exista</p></div>
-</td>
-</tr>
-<tr>
-<th>Postcondición</th>
-<td colspan="2">
-<div id="UC-0012-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá editar el perfil de un miembro del <a href='#GLO-0083' class="rem_ref">personal</a> ya existente</p></div>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="UC-0012-comments-html" class="remus_comments"><p>Hace referencia al  CU-005</p></div>
 </td>
 </tr>
 </table>
@@ -2559,6 +2413,162 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 </tr>
 </table>
 </div>
+<div id="UC-0009">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0009</th>
+<th class="name_column" colspan="2">Editar perfil Familia </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (23/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0009--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> necesite realizar modificaciones en el perfl de una familia en cualquiera de los distintas partes o campos que abarca este. Quedando actualizado para próximas consultas.. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0009-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a> y que la familia ya exista</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0009-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá editar el perfil de una familia ya existente</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0009-comments-html" class="remus_comments"><p>Hace referencia al  CU-004</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0012">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0012</th>
+<th class="name_column" colspan="2">Editar perfil Personal </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (23/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0012--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> necesite actualizar/modificar cualquier información de un miembro del <a href='#GLO-0083' class="rem_ref">personal</a>. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0012-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a> y que el miembro del <a href='#GLO-0083' class="rem_ref">personal</a> ya exista</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0012-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá editar el perfil de un miembro del <a href='#GLO-0083' class="rem_ref">personal</a> ya existente</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0012-comments-html" class="remus_comments"><p>Hace referencia al  CU-005</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0008">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0008</th>
+<th class="name_column" colspan="2">Crear Familia </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (23/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0008--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el <a href='#GLO-0080' class="rem_ref">coordinador</a> rellene el formulario con todos los datos de cada familia, este se compone de distintas partes como son: situación familia, miembros de la familia, situacion economica e historial clinico. Estos datos se quedarán guardado para su correspondiente uso.. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0008-precondition-html" class=""><p>Estar iniciado sesión como <a href='#GLO-0080' class="rem_ref">coordinador</a></p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0008-postcondition-html" class=""><p>El <a href='#GLO-0080' class="rem_ref">coordinador</a> podrá crear una nueva familia </p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0008-comments-html" class="remus_comments"><p>Hace referencia al  CU-004</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0005">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0005</th>
+<th class="name_column" colspan="2">Visualizar listado Familias </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (23/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0005--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando la <a href='#GLO-0083' class="rem_ref">personal</a> con cualquiera de los roles acceda al listado Familia . </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0005-precondition-html" class=""><p>Estar iniciado sesión con cualquier  <a href='#GLO-0079' class="rem_ref">rol</a></p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0005-postcondition-html" class=""><p>La <a href='#GLO-0102' class="rem_ref">persona</a> podrá ver todas las familias que componen la <a href='#GLO-0025' class="rem_ref">asociación</a> Oberti</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0005-comments-html" class="remus_comments"><p>Hace referencia al  CU-003</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h2 id="SEC-0036" class="section">6.3 Requisitos funcionales del sistema</h2>
 <h3 id="SEC-0037" class="section">6.3.1 Requisitos de información del sistema</h3>
 <div id="IRQ-0001">
@@ -2594,6 +2604,15 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 <li id="DAT-0003">
 <span id="DAT-0003-description-html" class="">Correo</span>
 </li>
+<li id="DAT-0094">
+<span id="DAT-0094-description-html" class="">Nombre </span>
+</li>
+<li id="DAT-0095">
+<span id="DAT-0095-description-html" class="">Apellidos </span>
+</li>
+<li id="DAT-0096">
+<span id="DAT-0096-description-html" class="">Dirección</span>
+</li>
 </ul>
 </td>
 </tr>
@@ -2622,7 +2641,7 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 <tr>
 <th>Descripción</th>
 <td colspan="2">
-<div id="IRQ-0002-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a una <a href='#GLO-0102' class="rem_ref">persona</a> con <a href='#GLO-0079' class="rem_ref">rol</a>. En concreto:</p></div>
+<div id="IRQ-0002-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los roles que puede jugar una <a href='#GLO-0102' class="rem_ref">persona</a>. En concreto:</p></div>
 </td>
 </tr>
 <tr>
@@ -2800,7 +2819,7 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 <td colspan="2">
 <ul class="specific_data">
 <li id="DAT-0014">
-<span id="DAT-0014-description-html" class="">Nombre</span>
+<span id="DAT-0014-description-html" class="">Nombre (apellidos del padre y de la madre)</span>
 </li>
 <li id="DAT-0015">
 <span id="DAT-0015-description-html" class="">Teléfono principal</span>
@@ -2810,6 +2829,12 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 </li>
 <li id="DAT-0017">
 <span id="DAT-0017-description-html" class="">Domicilio familiar</span>
+</li>
+<li id="DAT-0097">
+<span id="DAT-0097-description-html" class="">Situación económica del la familia (sueldo, ayudas, economía sumergida)</span>
+</li>
+<li id="DAT-0098">
+<span id="DAT-0098-description-html" class="">Situación familiar (<a href='#GLO-0119' class="rem_ref">historia familiar</a>, <a href='#GLO-0120' class="rem_ref">dinámica familiar</a>)</span>
 </li>
 </ul>
 </td>
@@ -2847,10 +2872,10 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 <td colspan="2">
 <ul class="specific_data">
 <li id="DAT-0018">
-<span id="DAT-0018-description-html" class="">Nombre</span>
+<span id="DAT-0018-description-html" class="">Nombre y apellidos </span>
 </li>
 <li id="DAT-0019">
-<span id="DAT-0019-description-html" class="">Parentesco</span>
+<span id="DAT-0019-description-html" class="">Parentesco con respecto al niño </span>
 </li>
 <li id="DAT-0020">
 <span id="DAT-0020-description-html" class="">Fecha de nacimiento</span>
@@ -2860,9 +2885,6 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 </li>
 <li id="DAT-0022">
 <span id="DAT-0022-description-html" class="">Sexo</span>
-</li>
-<li id="DAT-0023">
-<span id="DAT-0023-description-html" class="">Edad</span>
 </li>
 <li id="DAT-0024">
 <span id="DAT-0024-description-html" class="">Nacionalidad</span>
@@ -2931,98 +2953,13 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 </tr>
 </table>
 </div>
-<div id="IRQ-0009">
-<table class="information_requirement remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0009</th>
-<th class="name_column" colspan="2">Información de situación económica de una familia</th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (18/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2">
-<div id="IRQ-0009-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a la situación económica de cada familia. En concreto:</p></div>
-</td>
-</tr>
-<tr>
-<th>Datos específicos</th>
-<td colspan="2">
-<ul class="specific_data">
-<li id="DAT-0031">
-<span id="DAT-0031-description-html" class="">Sueldo</span>
-</li>
-<li id="DAT-0032">
-<span id="DAT-0032-description-html" class="">Ayudas</span>
-</li>
-<li id="DAT-0033">
-<span id="DAT-0033-description-html" class="">Economía sumergida</span>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="IRQ-0009-comments-html" class="remus_comments"><p>Ninguno</p></div>
-</td>
-</tr>
-</table>
-</div>
-<div id="IRQ-0010">
-<table class="information_requirement remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0010</th>
-<th class="name_column" colspan="2">Información de situación familiar</th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (18/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2">
-<div id="IRQ-0010-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a la situación familiar de cada familia. En concreto:</p></div>
-</td>
-</tr>
-<tr>
-<th>Datos específicos</th>
-<td colspan="2">
-<ul class="specific_data">
-<li id="DAT-0034">
-<span id="DAT-0034-description-html" class="">Historia familiar</span>
-</li>
-<li id="DAT-0035">
-<span id="DAT-0035-description-html" class="">Dinámica familiar</span>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="IRQ-0010-comments-html" class="remus_comments"><p>Ninguno</p></div>
-</td>
-</tr>
-</table>
-</div>
 <div id="IRQ-0011">
 <table class="information_requirement remus_table">
 <thead>
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0011</th>
-<th class="name_column" colspan="2">Información de historial clínico</th>
+<th class="name_column" colspan="2">Información de historial clínico de cada miembro familiar</th>
 </tr>
 </thead>
 <tr>
@@ -3059,129 +2996,6 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 <th>Comentarios</th>
 <td colspan="2">
 <div id="IRQ-0011-comments-html" class="remus_comments"><p>El historial clínico está asociado a cada miembro familiar.</p></div>
-</td>
-</tr>
-</table>
-</div>
-<div id="IRQ-0012">
-<table class="information_requirement remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0012</th>
-<th class="name_column" colspan="2">Información de colegio</th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (18/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2">
-<div id="IRQ-0012-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a el centro escolar de cada niño. En concreto:</p></div>
-</td>
-</tr>
-<tr>
-<th>Datos específicos</th>
-<td colspan="2">
-<ul class="specific_data">
-<li id="DAT-0041">
-<span id="DAT-0041-description-html" class="">Nombre del centro</span>
-</li>
-<li id="DAT-0042">
-<span id="DAT-0042-description-html" class="">Localidad</span>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="IRQ-0012-comments-html" class="remus_comments"><p>El colegio va asociado al niño</p></div>
-</td>
-</tr>
-</table>
-</div>
-<div id="IRQ-0013">
-<table class="information_requirement remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0013</th>
-<th class="name_column" colspan="2">Información de intervención</th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (18/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2">
-<div id="IRQ-0013-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a las intervenciones de cada miembro familiar. En concreto:</p></div>
-</td>
-</tr>
-<tr>
-<th>Datos específicos</th>
-<td colspan="2">
-<ul class="specific_data">
-<li id="DAT-0043">
-<span id="DAT-0043-description-html" class="">Fecha de la intervención</span>
-</li>
-<li id="DAT-0044">
-<span id="DAT-0044-description-html" class="">Descripción</span>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="IRQ-0013-comments-html" class="remus_comments"><p>Las intervenciones están asociadas al historial clinico de cada miembro familiar.</p></div>
-</td>
-</tr>
-</table>
-</div>
-<div id="IRQ-0014">
-<table class="information_requirement remus_table">
-<thead>
-<tr>
-<th>
-<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0014</th>
-<th class="name_column" colspan="2">Información de medicamentos</th>
-</tr>
-</thead>
-<tr>
-<th>Versión</th>
-<td colspan="2">1.0 (18/11/2021)
-</td>
-</tr>
-<tr>
-<th>Descripción</th>
-<td colspan="2">
-<div id="IRQ-0014-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los medicamentos de cada miembro familiar. En concreto:</p></div>
-</td>
-</tr>
-<tr>
-<th>Datos específicos</th>
-<td colspan="2">
-<ul class="specific_data">
-<li id="DAT-0045">
-<span id="DAT-0045-description-html" class="">Nombre del medicamento</span>
-</li>
-<li id="DAT-0046">
-<span id="DAT-0046-description-html" class="">Descripción</span>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th>Comentarios</th>
-<td colspan="2">
-<div id="IRQ-0014-comments-html" class="remus_comments"><p>Los medicamentos están asociados al historial clínico de cada miembro familiar.</p></div>
 </td>
 </tr>
 </table>
@@ -4229,7 +4043,7 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 </tr>
 <tr>
 <th>
-<a href="#UC-0006" title="UC-0006 - Visualizar perfil Personal">UC-0006</a>
+<a href="#UC-0006" title="UC-0006 - Visualizar listado Personal">UC-0006</a>
 </th>
 <td>-</td>
 <td class="trace">
@@ -4447,67 +4261,7 @@ El <a href='#GLO-0030' class="rem_ref">Voluntario</a>, tendrá que <a href='#GLO-
 </tr>
 <tr>
 <th>
-<a href="#IRQ-0009" title="IRQ-0009 - Información de situación económica de una familia">IRQ-0009</a>
-</th>
-<td class="trace">
-<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<th>
-<a href="#IRQ-0010" title="IRQ-0010 - Información de situación familiar">IRQ-0010</a>
-</th>
-<td class="trace">
-<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<th>
-<a href="#IRQ-0011" title="IRQ-0011 - Información de historial clínico">IRQ-0011</a>
-</th>
-<td class="trace">
-<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<th>
-<a href="#IRQ-0012" title="IRQ-0012 - Información de colegio">IRQ-0012</a>
-</th>
-<td class="trace">
-<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<th>
-<a href="#IRQ-0013" title="IRQ-0013 - Información de intervención">IRQ-0013</a>
-</th>
-<td class="trace">
-<img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<th>
-<a href="#IRQ-0014" title="IRQ-0014 - Información de medicamentos">IRQ-0014</a>
+<a href="#IRQ-0011" title="IRQ-0011 - Información de historial clínico de cada miembro familiar">IRQ-0011</a>
 </th>
 <td class="trace">
 <img class="trace" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKTI8AQEBAgICAwMDBERERYWFhwcHCIiIikpKVVVVU1NTUJCQjk5OYGBgYEAAACBAIGBAAAAgYEAgQCBgTMAAGYAAJkAAMwAAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAGb/AJn/AMz/AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZgCZZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZpnMZszMZv/MZgD/ZjP/Zpn/Zsz/Zv8AzMwA/wCZmZkzmZkAmcwAmQAAmTMzmWYAmcwzmf8AmQBmmTNmmWYzmZlmmcxmmf8zmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMZpnMmczMmf/MmQD/mTP/mWbMmZn/mcz/mf//mQAAzDMAmWYAzJkAzMwAzAAzmTMzzGYzzJkzzMwzzP8zzABmzDNmzGZmmZlmzMxmzP9mmQCZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/mZn/zMz/zP//zDMAzGYA/5kA/wAzzDMz/2Yz/5kz/8wz//8z/wBm/zNm/2ZmzJlm/8xm//9mzACZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/zP//2b/zJn//8z///9mZmb/Zv//ZmZm//9m/2b//8HBwV9fX3d3d4aGhpaWlsvLy7KystfX193d3ePj4+rq6vHx8fj4+P/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAEAAAAALAAAAAAQABAABwhDAP8JHEiwoMGBhg4eNGcuoUKCDB0+/Mcw4sSKFSUWxIhRo0BrIEOKtPbQ4kSBJk+mvNhQoaGXL1dC5Njy4EiQJ3MGBAA7" />
